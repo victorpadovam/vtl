@@ -1,0 +1,656 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Privacy Policy | ATX Family Dental</title>
+    <meta name="description"
+        content="Privacy Policy and Notice of Privacy Practices for ATX Family Dental in Austin, Texas.">
+    <link rel="canonical" href="https://www.atxfamilydental.com/privacy-policy/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --cream: #f7f6f1;
+            --paper: #fff;
+            --ink: #18201e;
+            --muted: #68716d;
+            --sage: #5d786b;
+            --sage-dark: #30463e;
+            --line: #e1e4df;
+            --sand: #ece8dc;
+            --max: 1180px
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        html {
+            scroll-behavior: smooth
+        }
+
+        body {
+            margin: 0;
+            background: var(--cream);
+            color: var(--ink);
+            font-family: 'DM Sans', sans-serif;
+            line-height: 1.75
+        }
+
+        a {
+            color: inherit
+        }
+
+        .container {
+            width: min(calc(100% - 40px), var(--max));
+            margin: auto
+        }
+
+        .header {
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            background: rgba(255, 255, 255, .92);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid rgba(225, 228, 223, .85)
+        }
+
+        .nav {
+            height: 82px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 30px
+        }
+
+        .logo {
+            width: 170px;
+            height: auto;
+            display: block
+        }
+
+        .navlinks {
+            display: flex;
+            align-items: center;
+            gap: 26px;
+            font-size: 14px;
+            font-weight: 600
+        }
+
+        .navlinks a {
+            text-decoration: none;
+            color: #3c4642
+        }
+
+        .navlinks a:hover {
+            color: var(--sage)
+        }
+
+        .book {
+            background: var(--sage-dark);
+            color: #fff !important;
+            padding: 12px 18px;
+            border-radius: 999px
+        }
+
+        .menu {
+            display: none;
+            border: 0;
+            background: none;
+            font-size: 27px;
+            color: var(--ink)
+        }
+
+        .hero {
+            padding: 92px 0 68px;
+            background: linear-gradient(135deg, #f8f7f2 0%, #eef2ed 100%);
+            border-bottom: 1px solid var(--line)
+        }
+
+        .eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 9px;
+            color: var(--sage);
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: .14em;
+            text-transform: uppercase
+        }
+
+        .eyebrow:before {
+            content: '';
+            width: 28px;
+            height: 1px;
+            background: var(--sage)
+        }
+
+        h1,
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 500;
+            line-height: 1.08
+        }
+
+        h1 {
+            font-size: clamp(44px, 6vw, 76px);
+            max-width: 850px;
+            margin: 18px 0 22px;
+            letter-spacing: -.035em
+        }
+
+        .hero p {
+            max-width: 720px;
+            color: var(--muted);
+            font-size: 18px;
+            margin: 0
+        }
+
+        .effective {
+            margin-top: 28px;
+            display: inline-flex;
+            background: #fff;
+            border: 1px solid var(--line);
+            padding: 11px 15px;
+            border-radius: 999px;
+            font-size: 13px;
+            font-weight: 600;
+            color: #53605b
+        }
+
+        .layout {
+            display: grid;
+            grid-template-columns: 240px minmax(0, 760px);
+            gap: 70px;
+            align-items: start;
+            padding: 76px 0 100px
+        }
+
+        .toc {
+            position: sticky;
+            top: 112px;
+            background: #fff;
+            border: 1px solid var(--line);
+            border-radius: 18px;
+            padding: 22px
+        }
+
+        .toc strong {
+            display: block;
+            font-size: 13px;
+            margin-bottom: 12px
+        }
+
+        .toc a {
+            display: block;
+            text-decoration: none;
+            color: var(--muted);
+            font-size: 13px;
+            padding: 7px 0
+        }
+
+        .toc a:hover {
+            color: var(--sage)
+        }
+
+        .legal {
+            background: var(--paper);
+            border: 1px solid var(--line);
+            border-radius: 24px;
+            padding: clamp(28px, 5vw, 58px);
+            box-shadow: 0 18px 55px rgba(24, 32, 30, .045)
+        }
+
+        .legal p {
+            font-size: 16px;
+            color: #46504c;
+            margin: 0 0 22px
+        }
+
+        .legal h2 {
+            font-family: 'DM Sans', sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 1.3;
+            letter-spacing: .01em;
+            margin: 42px 0 16px;
+            color: var(--ink)
+        }
+
+        .legal h2:first-child {
+            margin-top: 0
+        }
+
+        .legal strong {
+            color: var(--ink)
+        }
+
+        .notice {
+            margin: 0 0 34px;
+            padding: 20px 22px;
+            background: #eef3ef;
+            border-left: 3px solid var(--sage);
+            border-radius: 12px;
+            color: #40504a
+        }
+
+        .notice p {
+            margin: 0 !important
+        }
+
+        .contact-card {
+            margin-top: 38px;
+            background: var(--sage-dark);
+            color: #fff;
+            border-radius: 20px;
+            padding: 28px
+        }
+
+        .contact-card h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 26px;
+            font-weight: 500;
+            margin: 0 0 10px
+        }
+
+        .contact-card p {
+            color: #dce5e0;
+            margin: 0 0 5px
+        }
+
+        .contact-card a {
+            color: #fff
+        }
+
+        .footer {
+            background: #17221f;
+            color: #dbe2de;
+            padding: 58px 0 24px
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1.5fr 1fr 1fr;
+            gap: 45px
+        }
+
+        .footer-logo {
+            width: 180px;
+            filter: brightness(0) invert(1);
+            margin-bottom: 18px
+        }
+
+        .footer h4 {
+            color: #fff;
+            margin: 0 0 16px;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: .1em
+        }
+
+        .footer p,
+        .footer a {
+            font-size: 14px;
+            color: #b9c4bf;
+            text-decoration: none
+        }
+
+        .footer a:hover {
+            color: #fff
+        }
+
+        .hours {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 8px;
+            font-size: 14px;
+            color: #b9c4bf
+        }
+
+        .hours strong {
+            color: #fff;
+            font-weight: 500
+        }
+
+        .bottom {
+            border-top: 1px solid rgba(255, 255, 255, .12);
+            margin-top: 42px;
+            padding-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            font-size: 13px;
+            color: #899791
+        }
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(18px);
+            transition: opacity .7s ease, transform .7s ease
+        }
+
+        .reveal.visible {
+            opacity: 1;
+            transform: none
+        }
+
+        @media(max-width:900px) {
+            .navlinks {
+                display: none
+            }
+
+            .menu {
+                display: block
+            }
+
+            .layout {
+                grid-template-columns: 1fr;
+                padding-top: 48px
+            }
+
+            .toc {
+                position: static;
+                display: none
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr 1fr
+            }
+        }
+
+        @media(max-width:620px) {
+            .container {
+                width: min(calc(100% - 28px), var(--max))
+            }
+
+            .nav {
+                height: 72px
+            }
+
+            .logo {
+                width: 145px
+            }
+
+            .hero {
+                padding: 64px 0 50px
+            }
+
+            h1 {
+                font-size: 45px
+            }
+
+            .hero p {
+                font-size: 16px
+            }
+
+            .layout {
+                padding: 35px 0 65px
+            }
+
+            .legal {
+                padding: 24px 20px;
+                border-radius: 18px
+            }
+
+            .legal p {
+                font-size: 15px
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr
+            }
+
+            .bottom {
+                display: block
+            }
+
+            .bottom span {
+                display: block;
+                margin-bottom: 10px
+            }
+        }
+
+        @media(prefers-reduced-motion:reduce) {
+            html {
+                scroll-behavior: auto
+            }
+
+            .reveal {
+                opacity: 1;
+                transform: none;
+                transition: none
+            }
+        }
+
+        .back-home {
+            justify-self: start;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--ink);
+            font-size: 14px;
+            font-weight: 700;
+            white-space: nowrap;
+            text-decoration: none;
+            transition: color .2s ease;
+        }
+
+        .back-arrow {
+            font-size: 25px;
+            line-height: 1;
+            font-weight: 400;
+            text-decoration: none;
+            transition: transform .2s ease;
+        }
+
+        .back-home:hover {
+            color: var(--sage-dark);
+        }
+
+        .back-home:hover .back-arrow {
+            transform: translateX(-4px);
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container nav">
+            <a class="back-home" href="index.html" aria-label="Back to home">
+                <span class="back-arrow" aria-hidden="true">←</span>
+                <span>Back to Home</span>
+            </a>
+            <button class="menu" id="menu" aria-label="Open menu">☰</button>
+        </div>
+        <div id="mobile" style="display:none;background:#fff;border-top:1px solid var(--line);padding:16px 20px">
+            <div class="container" style="display:grid;gap:14px;font-weight:600"><a href="meet-us.html">Meet Us</a><a
+                    href="services.html">Services</a><a href="contact.html">Contact</a><a
+                    href="finance-insurance.html">Patient Info</a><a href="https://patient.moolah.cc/atxfamilydental"
+                    target="_blank" rel="noopener">Make Payment</a><a href="https://flexbook.me/atxfd/website"
+                    target="_blank" rel="noopener">Book Online</a></div>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container reveal"><span class="eyebrow">Patient privacy</span>
+            <h1>Privacy Policy</h1>
+            <p>Your privacy matters. This page explains ATX Family Dental's Notice of Privacy Practices and how
+                protected health information may be used, disclosed, and accessed.</p><span class="effective">Effective
+                Date: February 16, 2026</span>
+        </div>
+    </section>
+    <main>
+        <div class="container layout">
+            <aside class="toc"><strong>On this page</strong><a href="#notice">Notice of Privacy Practices</a><a
+                    href="#uses">Permitted Uses &amp; Disclosures</a><a href="#rights">Your Rights</a><a
+                    href="#complaint">Questions &amp; Complaints</a></aside>
+            <article class="legal reveal">
+                <div id="notice" class="notice">
+                    <p><strong>PLEASE REVIEW THIS NOTICE CAREFULLY.</strong> It describes how medical information about
+                        you may be used and disclosed and how you can get access to this information.</p>
+                </div>
+                <div class="finance-content-container">
+                    <p class="wp-block-paragraph">Privacy Policy | Terms &amp; Conditions</p>
+                    <p class="wp-block-paragraph">Acknowledgement of Receipt of Notice of Privacy Practices</p>
+                    <p class="wp-block-paragraph">Effective Date: February 16, 2026</p>
+                    <p class="wp-block-paragraph">THIS NOTICE DESCRIBES HOW MEDICAL INFORMATION ABOUT YOU MAY BE USED
+                        AND DISCLOSED AND HOW YOU CAN GET ACCESS TO THIS <br />INFORMATION. PLEASE REVIEW IT CAREFULLY.
+                    </p>
+                    <p class="wp-block-paragraph">The Health Insurance Portability &amp; Accountability Act (HIPAA) and
+                        the Confidentiality of Substance Use Disorder Patient Records (42 CFR Part 2) require all health
+                        care<br />records and other individually identifiable health information (protected health
+                        information) used or disclosed to us in any form, whether electronically, on paper,
+                        or<br />orally, be kept confidential. This federal law gives you, the patient, significant new
+                        rights to understand and control how your health information is used. HIPAA provides penalties
+                        for covered entities that misuse personal health information. As required by HIPAA, we have
+                        prepared this explanation of how we are required to maintain the privacy of your health
+                        information and how we may use and disclose your health information.</p>
+                    <p class="wp-block-paragraph">Without specific written authorization, we are permitted to use and
+                        disclose your health care records for the purposes of treatment, payment and health care
+                        operations.<br />Treatment means providing, coordinating, or managing health care and related
+                        services by one or more health care providers. Examples of treatment would include crowns,
+                        fillings, teeth cleaning services, or AI-assisted diagnostic tools, etc.<br />Payment means such
+                        activities as obtaining reimbursement for services, confirming coverage, billing or collection
+                        activities, and utilization review. An example of this would be billing your dental plan for
+                        your dental services.<br />Health Care Operations include the business aspects of running our
+                        practice, such as conducting quality assessment and improvement activities, auditing functions,
+                        cost­-management analysis, and customer service. An example would include a periodic assessment
+                        of our documentation protocols, etc.<br />Special Note on Substance Use Disorder (SUD) Records:
+                        Per 2026 updates, you may provide a single consent for all future uses and disclosures of SUD
+                        records for treatment, payment, and operations.<br />TEXAS STATE LAW DISCLOSURES (EFFECTIVE
+                        JANUARY 1, 2026)</p>
+                    <p class="wp-block-paragraph">Artificial Intelligence (AI): We may use AI-based technology to assist
+                        in clinical decision-making or diagnosis. We will notify you if an AI system is being used to
+                        make a material clinical decision regarding your care.</p>
+                    <p class="wp-block-paragraph">Data Localization: Your electronic health records are physically
+                        stored and maintained within the United States. We do not offshore your electronic PHI.</p>
+                    <p class="wp-block-paragraph">Parental Access: In accordance with Texas law, parents/legal guardians
+                        have the right to access a child’s electronic health records unless restricted by law or court
+                        order.</p>
+                    <h2>OTHER PERMITTED USES AND DISCLOSURES</h2>
+                    <p class="wp-block-paragraph">In addition, your confidential information may be used to remind you
+                        of an appointment, account updates, and patient feedback requests (by phone, text, email or
+                        mail) or provide you with information about treatment options or other health- related services
+                        including release of information to friends and family members that are directly involved in
+                        your care or who assist in taking care of you. We will use and disclose your protected when we
+                        are required to do so by federal, state or local law. We may disclose your protected health
+                        information to public health authorities that are authorized by law to collect information, to a
+                        health oversight agency for activities authorized by law included but not limited to: response
+                        to a court or administrative order, if you are involved in a lawsuit or similar proceeding,
+                        response to a discovery request, subpoena, or other lawful process by another party involved in
+                        the dispute, but only if we have made an effort to inform you of the request or to obtain an
+                        order protecting the information the party has requested. However, per 2026 Federal Rules (42
+                        CFR Part 2), SUD records cannot be used in civil, criminal, or legislative proceedings against
+                        you without your specific consent or a special court order.</p>
+                    <p class="wp-block-paragraph">Reproductive Health Care: We will not disclose PHI to investigate or
+                        impose liability for the act of seeking or providing lawful reproductive health care.</p>
+                    <p class="wp-block-paragraph">We will release your protected health information if requested by a
+                        law enforcement official for any circumstance required by law. We may release your protected
+                        health information to a medical examiner or coroner to identify a deceased individual or to
+                        identify the cause of death. If necessary, we also may release information in order for funeral
+                        directors to perform their jobs. We may release protected health information to organizations
+                        that handle organ, eye or tissue procurement or transplantation, including organ donation banks,
+                        as necessary to facilitate organ or tissue donation and transplantation if you are an organ
+                        donor. We may use and disclose your protected health information when necessary to reduce or
+                        prevent a serious threat to your health and safety or the health and safety of another
+                        individual or the public. Under these circumstances, we will only make disclosures to a person
+                        or organization able to help prevent the threat.</p>
+                    <p class="wp-block-paragraph">We may disclose your protected health information if you are a member
+                        of U.S. or foreign military forces (including veterans) and if required by the appropriate
+                        authorities. We may disclose your protected health information to federal officials for
+                        intelligence and national security activities authorized by law.</p>
+                    <p class="wp-block-paragraph">We may disclose your protected health information to correctional
+                        institutions or law enforcement HIPAA officials if you are an inmate or under the custody of a
+                        law enforcement official. Disclosure for these purposes would be necessary: (a) for the
+                        institution to provide health care services to you, (b) for the safety and security of the
+                        institution, and/or (c) to protect your health and safety or the health and safety of other
+                        individuals or the public.</p>
+                    <p class="wp-block-paragraph">We may release your protected health information for workers’
+                        compensation and similar programs.</p>
+                    <p class="wp-block-paragraph">Any other uses and disclosures will be made only with your written
+                        authorization. You may revoke such authorization in writing and we are required to honor and
+                        abide by that written request, except to the extent that we have already taken actions relying
+                        on your authorization.</p>
+                    <p class="wp-block-paragraph">You have certain rights in regards to your protected health
+                        information, which you can exercise by presenting a written request:</p>
+                    <p class="wp-block-paragraph">The right to request restrictions on certain uses and disclosures of
+                        protected health information, including those related to disclosures to family members, other
+                        relatives, close personal friends, or any other person identified by you. We are, however, not
+                        required to agree to a requested restriction. If we do agree to a restriction, we must abide by
+                        it unless you agree in writing to remove it.<br />The right to request to receive confidential
+                        communications of protected health information from us by alternative means or at alternative
+                        locations.<br />The right to access, inspect and copy your protected health
+                        information.<br />The right to request an amendment to your protected health
+                        information.<br />The right to receive an accounting of disclosures of protected health
+                        information outside of treatment, payment and health care operations.<br />The right to obtain a
+                        paper copy of this notice from us upon request.<br />Right to Opt-Out of Fundraising: If we use
+                        your information for fundraising, you have a clear right to opt out.<br />We are required by law
+                        to maintain the privacy of your protected health information and to provide you with notice of
+                        our legal duties and privacy practices.</p>
+
+                    <p class="wp-block-paragraph">We are required to abide by the terms of the Notice of Privacy
+                        Practices currently in effect. We reserve the right to change the terms of our Notice of Privacy
+                        Practices and to make the new notice provisions effective for all protected health information
+                        that we maintain. Revisions to our Notice of Privacy Practices will be posted on the effective
+                        date and you may request a written copy of the Revised Notice from this office. You have the
+                        right to file a formal, written complaint with us at the address below, or with the Department
+                        of Health &amp; Human Services, Office of Civil Rights, in the event you feel your privacy
+                        rights have been violated. We will not retaliate against you for filing a complaint.</p>
+                    <p class="wp-block-paragraph">For more information about HIPAA or to file a complaint:</p>
+
+                    <p class="wp-block-paragraph">The U.S. Department of Health &amp; Human Services<br />Office of
+                        Civil Rights<br />200 Independence Avenue, S.W.<br />Washington, D.C. 20201<br />877­-696-­6775
+                        (toll­free)</p>
+
+
+                </div>
+                <div id="complaint" class="contact-card">
+                    <h3>Questions about your privacy?</h3>
+                    <p>ATX Family Dental</p>
+                    <p>1700 S. 1st Street, Austin, Texas 78704</p>
+                    <p><a href="tel:+15127173147">(512) 717-3147</a> · <a
+                            href="mailto:info@atxfamilydental.com">info@atxfamilydental.com</a></p>
+                </div>
+            </article>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div><img class="footer-logo" src="images/Header-logo-3.png" alt="ATX Family Dental">
+                    <p>Thoughtful dental care in Austin, Texas, with clear communication from appointment to treatment.
+                    </p>
+                    <p>1700 S. 1st Street<br>Austin, Texas 78704</p>
+                </div>
+                <div>
+                    <h4>Contact</h4>
+                    <p><a href="tel:+15127173147">(512) 717-3147</a></p>
+                    <p><a href="mailto:info@atxfamilydental.com">info@atxfamilydental.com</a></p>
+                    <p><a href="https://www.instagram.com/atxfamilydental/" target="_blank" rel="noopener">Instagram</a>
+                    </p>
+                    <p><a href="https://patient.moolah.cc/atxfamilydental" target="_blank" rel="noopener">Make a
+                            Payment</a></p>
+                </div>
+                <div>
+                    <h4>Office Hours</h4>
+                    <div class="hours">
+                        <span>Monday</span><strong>8am–5pm</strong><span>Tuesday</span><strong>8am–5pm</strong><span>Wednesday</span><strong>8am–5pm</strong><span>Thursday</span><strong>8am–5pm</strong><span>Friday</span><strong>8am–4pm</strong>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom"><span>© 2026 ATX Family Dental. All Rights Reserved.</span><span><a
+                        href="privacy-policy.html">Privacy Policy</a> · <a href="terms-and-conditions.html">Terms and
+                        Conditions</a></span></div>
+        </div>
+    </footer>
+    <script>
+        const menu = document.getElementById('menu'), mobile = document.getElementById('mobile'); menu.addEventListener('click', () => { mobile.style.display = mobile.style.display === 'none' ? 'block' : 'none'; menu.textContent = mobile.style.display === 'none' ? '☰' : '×' });
+        const observer = new IntersectionObserver(entries => entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible') }), { threshold: .08 }); document.querySelectorAll('.reveal').forEach(e => observer.observe(e));
+    </script>
+</body>
+
+</html>

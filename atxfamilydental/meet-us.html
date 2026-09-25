@@ -1,0 +1,936 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Meet Our Team | ATX Family Dental</title>
+    <meta name="description"
+        content="Meet the doctors at ATX Family Dental in Austin, Texas. Patient-first dental care, advanced education, and a thoughtful approach to your oral health.">
+    <link rel="canonical" href="https://www.atxfamilydental.com/meet-us/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --cream: #f7f6f1;
+            --paper: #fff;
+            --ink: #18201e;
+            --muted: #66716d;
+            --sage: #7f978d;
+            --sage-dark: #30483f;
+            --sage-soft: #e7eee9;
+            --sand: #e9e1d3;
+            --line: #dfe4df;
+            --max: 1180px;
+            --shadow: 0 24px 70px rgba(25, 40, 35, .10)
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        html {
+            scroll-behavior: smooth
+        }
+
+        body {
+            margin: 0;
+            background: var(--cream);
+            color: var(--ink);
+            font-family: "DM Sans", sans-serif;
+            line-height: 1.65
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none
+        }
+
+        img {
+            display: block;
+            max-width: 100%
+        }
+
+        .container {
+            width: min(calc(100% - 48px), var(--max));
+            margin: auto
+        }
+
+        .serif {
+            font-family: "Playfair Display", serif;
+            font-weight: 500;
+            letter-spacing: -.025em
+        }
+
+        .eyebrow {
+            text-transform: uppercase;
+            letter-spacing: .15em;
+            font-size: 12px;
+            font-weight: 700;
+            color: var(--sage-dark)
+        }
+
+        .header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(247, 246, 241, .90);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid rgba(24, 32, 30, .08);
+            transition: .25s
+        }
+
+        .header.scrolled {
+            box-shadow: 0 10px 30px rgba(20, 35, 30, .08)
+        }
+
+        .nav {
+            height: 82px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 30px
+        }
+
+        .logo {
+            width: 205px
+        }
+
+        .navlinks {
+            display: flex;
+            align-items: center;
+            gap: 26px;
+            font-size: 14px;
+            font-weight: 600
+        }
+
+        .navlinks a {
+            position: relative;
+            padding: 31px 0
+        }
+
+        .navlinks a:hover {
+            color: var(--sage-dark)
+        }
+
+        .actions {
+            display: flex;
+            gap: 10px;
+            align-items: center
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 45px;
+            padding: 0 20px;
+            border-radius: 999px;
+            border: 1px solid transparent;
+            font-weight: 700;
+            font-size: 13px;
+            transition: transform .25s, box-shadow .25s, background .25s
+        }
+
+        .btn:hover {
+            transform: translateY(-2px)
+        }
+
+        .btn-primary {
+            background: var(--sage-dark);
+            color: #fff;
+            box-shadow: 0 12px 25px rgba(48, 72, 63, .18)
+        }
+
+        .btn-secondary {
+            border-color: var(--line);
+            background: #fff
+        }
+
+        .mobile-toggle {
+            display: none;
+            border: 0;
+            background: none;
+            font-size: 27px;
+            color: var(--ink)
+        }
+
+        .hero {
+            position: relative;
+            overflow: hidden;
+            padding: 90px 0 80px;
+            background: linear-gradient(135deg, #eef2ed 0%, #f7f6f1 56%, #ebe4d8 100%)
+        }
+
+        .hero:before {
+            content: "";
+            position: absolute;
+            width: 480px;
+            height: 480px;
+            border-radius: 50%;
+            right: -170px;
+            top: -230px;
+            background: rgba(127, 151, 141, .14)
+        }
+
+        .hero-grid {
+            position: relative;
+            display: grid;
+            grid-template-columns: 1.02fr .98fr;
+            align-items: center;
+            gap: 70px
+        }
+
+        .hero h1 {
+            font-size: clamp(48px, 6vw, 78px);
+            line-height: 1.02;
+            margin: 15px 0 24px;
+            max-width: 720px
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: var(--muted);
+            max-width: 610px;
+            margin: 0 0 30px
+        }
+
+        .hero-actions {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap
+        }
+
+        .hero-visual {
+            position: relative
+        }
+
+        .hero-image {
+            aspect-ratio: 4/5;
+            border-radius: 28px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            background: var(--sage-soft)
+        }
+
+        .hero-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center 25%
+        }
+
+        .hero-card {
+            position: absolute;
+            left: -34px;
+            bottom: 32px;
+            background: rgba(255, 255, 255, .95);
+            border: 1px solid rgba(255, 255, 255, .8);
+            border-radius: 18px;
+            padding: 19px 22px;
+            box-shadow: 0 20px 50px rgba(24, 32, 30, .15);
+            max-width: 250px
+        }
+
+        .hero-card strong {
+            display: block;
+            font-size: 18px
+        }
+
+        .hero-card span {
+            font-size: 13px;
+            color: var(--muted)
+        }
+
+        .trust {
+            background: #fff;
+            border-bottom: 1px solid var(--line)
+        }
+
+        .trust-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1px;
+            background: var(--line)
+        }
+
+        .trust-item {
+            background: #fff;
+            padding: 24px 22px;
+            text-align: center
+        }
+
+        .trust-item strong {
+            display: block;
+            font-size: 14px
+        }
+
+        .trust-item span {
+            display: block;
+            margin-top: 4px;
+            color: var(--muted);
+            font-size: 13px
+        }
+
+        .section {
+            padding: 105px 0
+        }
+
+        .section-head {
+            max-width: 760px;
+            margin-bottom: 52px
+        }
+
+        .section-head h2 {
+            font-size: clamp(38px, 4.5vw, 58px);
+            line-height: 1.08;
+            margin: 12px 0 18px
+        }
+
+        .section-head p {
+            color: var(--muted);
+            font-size: 17px
+        }
+
+        .story {
+            display: grid;
+            grid-template-columns: .65fr 1.35fr;
+            gap: 90px;
+            align-items: start
+        }
+
+        .story-aside {
+            position: sticky;
+            top: 115px
+        }
+
+        .story-mark {
+            font-size: 110px;
+            line-height: .8;
+            color: var(--sage);
+            font-family: "Playfair Display", serif
+        }
+
+        .story-label {
+            margin-top: 28px;
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--sage-dark)
+        }
+
+        .story-copy p {
+            font-size: 18px;
+            color: #4f5c57;
+            margin: 0 0 24px
+        }
+
+        .story-copy p:first-child {
+            font-size: 25px;
+            line-height: 1.5;
+            color: var(--ink)
+        }
+
+        .team {
+            background: #fff
+        }
+
+        .team-head {
+            display: flex;
+            justify-content: space-between;
+            gap: 40px;
+            align-items: end
+        }
+
+        .team-head .section-head {
+            margin-bottom: 0
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+            margin-top: 52px
+        }
+
+        .doctor {
+            border: 1px solid var(--line);
+            border-radius: 22px;
+            overflow: hidden;
+            background: var(--paper);
+            transition: transform .3s, box-shadow .3s
+        }
+
+        .doctor:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow)
+        }
+
+        .doctor-image {
+            aspect-ratio: 4/5;
+            overflow: hidden;
+            background: var(--sage-soft)
+        }
+
+        .doctor-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center top;
+            transition: transform .5s
+        }
+
+        .doctor:hover .doctor-image img {
+            transform: scale(1.025)
+        }
+
+        .doctor-body {
+            padding: 25px
+        }
+
+        .doctor-role {
+            display: block;
+            text-transform: uppercase;
+            letter-spacing: .12em;
+            font-size: 11px;
+            font-weight: 700;
+            color: var(--sage-dark);
+            margin-bottom: 9px
+        }
+
+        .doctor h3 {
+            font-size: 27px;
+            line-height: 1.15;
+            margin: 0 0 13px
+        }
+
+        .doctor p {
+            color: var(--muted);
+            font-size: 14px;
+            margin: 0 0 20px
+        }
+
+        .learn {
+            font-weight: 700;
+            font-size: 14px;
+            color: var(--sage-dark)
+        }
+
+        .learn:after {
+            content: "  →";
+            transition: margin .2s
+        }
+
+        .learn:hover:after {
+            margin-left: 5px
+        }
+
+        .approach {
+            background: var(--sage-dark);
+            color: #fff
+        }
+
+        .approach-grid {
+            display: grid;
+            grid-template-columns: .9fr 1.1fr;
+            gap: 90px
+        }
+
+        .approach h2 {
+            font-size: clamp(40px, 4.5vw, 60px);
+            line-height: 1.05;
+            margin: 15px 0 20px
+        }
+
+        .approach-intro {
+            color: #d6e0db;
+            font-size: 17px;
+            max-width: 530px
+        }
+
+        .principles {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1px;
+            background: rgba(255, 255, 255, .16);
+            border: 1px solid rgba(255, 255, 255, .16)
+        }
+
+        .principle {
+            padding: 28px;
+            background: rgba(255, 255, 255, .035);
+            min-height: 165px
+        }
+
+        .principle h3 {
+            margin: 0 0 10px;
+            font-size: 18px
+        }
+
+        .principle p {
+            margin: 0;
+            color: #c6d3ce;
+            font-size: 14px
+        }
+
+        .cta {
+            padding: 90px 0
+        }
+
+        .cta-card {
+            background: var(--sand);
+            border-radius: 28px;
+            padding: 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 40px
+        }
+
+        .cta-card h2 {
+            font-size: clamp(34px, 4vw, 52px);
+            line-height: 1.05;
+            margin: 12px 0
+        }
+
+        .cta-card p {
+            color: #5f655f;
+            margin: 0;
+            max-width: 650px
+        }
+
+        .footer {
+            background: #17211e;
+            color: #dce4e0;
+            padding: 65px 0 25px
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1.2fr .9fr .8fr;
+            gap: 60px
+        }
+
+        .footer-logo {
+            width: 230px;
+            opacity: .92;
+            margin-bottom: 20px
+        }
+
+        .footer h4 {
+            margin: 0 0 16px;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: .13em;
+            font-size: 11px
+        }
+
+        .footer p,
+        .footer a {
+            font-size: 14px;
+            color: #aebbb5
+        }
+
+        .footer a:hover {
+            color: #fff
+        }
+
+        .hours {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 7px 25px
+        }
+
+        .hours span:nth-child(even) {
+            text-align: right
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, .12);
+            margin-top: 48px;
+            padding-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            font-size: 12px;
+            color: #8f9c96
+        }
+
+        .footer-bottom a {
+            font-size: 12px
+        }
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(18px);
+            transition: opacity .7s ease, transform .7s ease
+        }
+
+        .reveal.visible {
+            opacity: 1;
+            transform: none
+        }
+
+        @media(max-width:980px) {
+
+            .navlinks,
+            .actions {
+                display: none
+            }
+
+            .mobile-toggle {
+                display: block
+            }
+
+            .hero-grid,
+            .story,
+            .approach-grid {
+                grid-template-columns: 1fr;
+                gap: 42px
+            }
+
+            .hero {
+                padding: 65px 0
+            }
+
+            .hero-card {
+                left: 18px
+            }
+
+            .story-aside {
+                position: static
+            }
+
+            .team-grid {
+                grid-template-columns: 1fr 1fr
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr 1fr
+            }
+
+            .cta-card {
+                display: block
+            }
+
+            .cta-card .btn {
+                margin-top: 25px
+            }
+        }
+
+        @media(max-width:650px) {
+            .container {
+                width: min(calc(100% - 32px), var(--max))
+            }
+
+            .nav {
+                height: 70px
+            }
+
+            .logo {
+                width: 175px
+            }
+
+            .hero h1 {
+                font-size: 47px
+            }
+
+            .hero p {
+                font-size: 16px
+            }
+
+            .hero-image {
+                aspect-ratio: 1/1.12
+            }
+
+            .hero-card {
+                position: relative;
+                left: auto;
+                bottom: auto;
+                margin: -28px 18px 0;
+                z-index: 2
+            }
+
+            .trust-grid {
+                grid-template-columns: 1fr
+            }
+
+            .section {
+                padding: 75px 0
+            }
+
+            .team-grid {
+                grid-template-columns: 1fr
+            }
+
+            .principles {
+                grid-template-columns: 1fr
+            }
+
+            .cta {
+                padding: 65px 0
+            }
+
+            .cta-card {
+                padding: 35px 26px
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 35px
+            }
+
+            .footer-bottom {
+                display: block
+            }
+
+            .footer-bottom a {
+                display: block;
+                margin-top: 8px
+            }
+        }
+
+        @media(prefers-reduced-motion:reduce) {
+            html {
+                scroll-behavior: auto
+            }
+
+            .reveal {
+                opacity: 1;
+                transform: none;
+                transition: none
+            }
+
+            .btn,
+            .doctor,
+            .doctor-image img {
+                transition: none
+            }
+        }
+
+        .back-home {
+            justify-self: start;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--ink);
+            font-size: 14px;
+            font-weight: 700;
+            white-space: nowrap;
+            text-decoration: none;
+            transition: color .2s ease;
+        }
+
+        .back-arrow {
+            font-size: 25px;
+            line-height: 1;
+            font-weight: 400;
+            text-decoration: none;
+            transition: transform .2s ease;
+        }
+
+        .back-home:hover {
+            color: var(--sage-dark);
+        }
+
+        .back-home:hover .back-arrow {
+            transform: translateX(-4px);
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header" id="site-header">
+        <div class="container nav">
+            <a class="back-home" href="index.html" aria-label="Back to home">
+                <span class="back-arrow" aria-hidden="true">←</span>
+                <span>Back to Home</span>
+            </a>
+
+            <div class="actions"><a class="btn btn-secondary" href="https://patient.moolah.cc/atxfamilydental"
+                    target="_blank" rel="noopener">Make Payment</a><a class="btn btn-primary"
+                    href="https://flexbook.me/atxfd/website" target="_blank" rel="noopener">Book Online</a></div>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+        </div>
+        <div id="mobileMenu" style="display:none;background:#fff;border-top:1px solid var(--line)">
+            <div class="container" style="padding:18px 0 24px;display:grid;gap:12px;font-weight:600"><a
+                    href="meet-us.html">Meet Us</a><a href="services.html">Services</a><a
+                    href="finance-insurance.html">Patient Info</a><a href="contact.html">Contact</a><a
+                    class="btn btn-primary" href="https://flexbook.me/atxfd/website" target="_blank" rel="noopener">Book
+                    Online</a></div>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="reveal"><span class="eyebrow">Meet the team</span>
+                    <h1 class="serif">Dentistry with a human side.</h1>
+                    <p>Meet the doctors behind ATX Family Dental — a team focused on clear communication, thoughtful
+                        treatment, and helping you feel confident about your dental care.</p>
+                    <div class="hero-actions"><a class="btn btn-primary" href="https://flexbook.me/atxfd/website"
+                            target="_blank" rel="noopener">Book an Appointment</a><a class="btn btn-secondary"
+                            href="#doctors">Meet our doctors</a></div>
+                </div>
+                <div class="hero-visual reveal">
+                    <div class="hero-image"><img src="images/Meet_Us_Banner.png" alt="ATX Family Dental team"></div>
+                    <div class="hero-card"><strong>Since 2016</strong><span>Serving the Austin community with
+                            patient-centered dental care.</span></div>
+                </div>
+            </div>
+        </section>
+        <section class="trust">
+            <div class="container trust-grid">
+                <div class="trust-item"><strong>Patient-first care</strong><span>Clear, thoughtful communication</span>
+                </div>
+                <div class="trust-item"><strong>Advanced education</strong><span>Continued professional learning</span>
+                </div>
+                <div class="trust-item"><strong>78704 community</strong><span>Rooted in South Austin</span></div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container story">
+                <aside class="story-aside reveal"><span class="eyebrow">Our story</span>
+                    <div class="story-mark">ATX</div>
+                    <div class="story-label">Local roots.<br>Thoughtful care.</div>
+                </aside>
+                <div class="story-copy reveal">
+                    <p>Welcome to ATX Family Dental, a staple in the Austin dental community since 2016.</p>
+                    <p>We’ve put a lot of thought into your visit so you feel informed, comfortable, and cared for.</p>
+                    <p>We believe educated patients make the best decisions, so we’re focused on giving you the full
+                        picture — how your oral health connects to your overall well-being and why addressing small
+                        issues now can help prevent bigger problems later.</p>
+                    <p>With advanced technology and personalized care, we focus on results that look great and last.
+                        More than that, we see you as part of our community, not just a patient. We’re invested in your
+                        health, your confidence, and your experience.</p>
+                    <p>Since 2016, we’ve been living, working, and growing right here in 78704. This is our home, and
+                        we’re proud to be part of the neighborhood.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section team" id="doctors">
+            <div class="container">
+                <div class="team-head">
+                    <div class="section-head reveal"><span class="eyebrow">The people behind your care</span>
+                        <h2 class="serif">Meet our doctors.</h2>
+                        <p>Different backgrounds, one shared goal: making dental care clear, comfortable, and centered
+                            around you.</p>
+                    </div>
+                </div>
+                <div class="team-grid">
+                    <article class="doctor reveal">
+                        <div class="doctor-image"><img src="images/Dr.-Adam-Gutwein-scaled.jpeg"
+                                alt="Dr. Adam Gutwein, DMD"></div>
+                        <div class="doctor-body"><span class="doctor-role">Practice Owner &amp; General Dentist</span>
+                            <h3 class="serif">Dr. Adam Gutwein, DMD</h3>
+                            <p>Dr. Adam is passionate about helping patients of all ages achieve their oral health
+                                goals. He dedicates over 100 hours annually to advanced education, focusing on the
+                                connection between oral health, overall wellness, and longevity.</p><a class="learn"
+                                href="dr-adam-gutwein-dmd.html">Learn more</a>
+                        </div>
+                    </article>
+                    <article class="doctor reveal">
+                        <div class="doctor-image"><img src="images/Dr.-Amanda-Vinh-scaled.jpeg"
+                                alt="Dr. Amanda Vinh, DDS"></div>
+                        <div class="doctor-body"><span class="doctor-role">Associate Dentist</span>
+                            <h3 class="serif">Dr. Amanda Vinh, DDS</h3>
+                            <p>Dr. Amanda blends the art and science of dentistry to provide exceptional care. A proud
+                                Austin native, she is committed to giving back to the community that raised her and
+                                takes a patient-first approach to treatment.</p><a class="learn"
+                                href="dr-amanda.html">Learn more</a>
+                        </div>
+                    </article>
+                    <article class="doctor reveal">
+                        <div class="doctor-image"><img src="images/IMG_0087-1-1-scaled.webp"
+                                alt="Dr. Nadia Najafi, DDS"></div>
+                        <div class="doctor-body"><span class="doctor-role">Associate Dentist</span>
+                            <h3 class="serif">Dr. Nadia Najafi, DDS</h3>
+                            <p>Dr. Nadia brings advanced surgical training and a calm, reassuring presence to patient
+                                care, with a thoughtful approach for patients who need complex treatment or extra
+                                comfort.</p><a class="learn" href="dr-nadia-najafi.html">Learn more</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="section approach">
+            <div class="container approach-grid">
+                <div class="reveal"><span class="eyebrow" style="color:#b9c9c1">Our approach</span>
+                    <h2 class="serif">You should never feel like a number.</h2>
+                    <p class="approach-intro">Dental care is easier when you understand what is happening and why. Our
+                        team puts communication, comfort, and informed decisions at the center of the experience.</p>
+                </div>
+                <div class="principles reveal">
+                    <article class="principle">
+                        <h3>Clear communication</h3>
+                        <p>Understand your options and what each step means before moving forward.</p>
+                    </article>
+                    <article class="principle">
+                        <h3>Personalized care</h3>
+                        <p>Treatment is shaped around your needs, goals, and overall oral health.</p>
+                    </article>
+                    <article class="principle">
+                        <h3>Comfort matters</h3>
+                        <p>A thoughtful environment designed to help you feel more at ease.</p>
+                    </article>
+                    <article class="principle">
+                        <h3>Keep learning</h3>
+                        <p>Continued education supports informed clinical care and better conversations with patients.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="cta">
+            <div class="container">
+                <div class="cta-card reveal">
+                    <div><span class="eyebrow">Ready when you are</span>
+                        <h2 class="serif">Let’s make your next visit feel different.</h2>
+                        <p>Have questions or ready to schedule? Choose a time online or get in touch with our Austin
+                            office.</p>
+                    </div><a class="btn btn-primary" href="https://flexbook.me/atxfd/website" target="_blank"
+                        rel="noopener">Book Online</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div><img class="footer-logo" src="images/Header-logo-3.png" alt="ATX Family Dental">
+                    <p>1700 S. 1st Street<br>Austin, Texas 78704</p>
+                    <p><a href="tel:+15127173147">(512) 717-3147</a><br><a
+                            href="mailto:info@atxfamilydental.com">info@atxfamilydental.com</a></p>
+                </div>
+                <div>
+                    <h4>Visit</h4>
+                    <p><a href="https://flexbook.me/atxfd/website" target="_blank" rel="noopener">Book Online</a></p>
+                    <p><a href="https://patient.moolah.cc/atxfamilydental" target="_blank" rel="noopener">Make
+                            Payment</a></p>
+                    <p><a href="https://www.instagram.com/atxfamilydental/" target="_blank" rel="noopener">Instagram</a>
+                    </p>
+                </div>
+                <div>
+                    <h4>Office Hours</h4>
+                    <div class="hours">
+                        <span>Monday</span><span>8am–5pm</span><span>Tuesday</span><span>8am–5pm</span><span>Wednesday</span><span>8am–5pm</span><span>Thursday</span><span>8am–5pm</span><span>Friday</span><span>8am–4pm</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom"><span>© 2026 ATX Family Dental. All Rights Reserved.</span><a
+                    href="privacy-policy.html">Privacy Policy | Terms and Conditions</a></div>
+        </div>
+    </footer>
+    <script>
+        const header = document.getElementById('site-header');
+        const toggle = document.getElementById('mobileToggle');
+        const menu = document.getElementById('mobileMenu');
+        window.addEventListener('scroll', () => header.classList.toggle('scrolled', window.scrollY > 10), { passive: true });
+        toggle.addEventListener('click', () => { const open = menu.style.display === 'block'; menu.style.display = open ? 'none' : 'block'; toggle.setAttribute('aria-expanded', String(!open)); toggle.textContent = open ? '☰' : '×' });
+        const items = document.querySelectorAll('.reveal');
+        if (!('IntersectionObserver' in window)) { items.forEach(el => el.classList.add('visible')) } else { const io = new IntersectionObserver(entries => entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target) } }), { threshold: .12 }); items.forEach(el => io.observe(el)) }
+    </script>
+</body>
+
+</html>

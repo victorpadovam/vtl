@@ -1,0 +1,1281 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dental Crowns in Austin, TX | ATX Family Dental</title>
+    <meta name="description"
+        content="Learn what to expect from dental crown treatment at ATX Family Dental in South Austin, including the two-appointment process and when a crown may be recommended.">
+    <link rel="canonical" href="https://www.atxfamilydental.com/service/dental-crowns/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --cream: #f7f5f0;
+            --white: #fff;
+            --ink: #1d2522;
+            --muted: #68716d;
+            --sage: #70877a;
+            --dark: #50675b;
+            --light: #e4ebe6;
+            --border: rgba(29, 37, 34, .11);
+            --shadow: 0 20px 60px rgba(29, 37, 34, .10);
+            --radius: 24px;
+            --max: 1180px
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0
+        }
+
+        html {
+            scroll-behavior: smooth
+        }
+
+        body {
+            font-family: "DM Sans", sans-serif;
+            color: var(--ink);
+            line-height: 1.65;
+            -webkit-font-smoothing: antialiased
+        }
+
+        img {
+            max-width: 100%;
+            display: block
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit
+        }
+
+        button {
+            font: inherit
+        }
+
+        .container {
+            width: min(calc(100% - 48px), var(--max));
+            margin: auto
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: "Playfair Display", serif;
+            line-height: 1.1;
+            font-weight: 600;
+            letter-spacing: -.025em
+        }
+
+        .eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--dark);
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: .14em;
+            text-transform: uppercase
+        }
+
+        .eyebrow:before {
+            content: "";
+            width: 28px;
+            height: 1px;
+            background: var(--sage)
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 52px;
+            padding: 0 25px;
+            border-radius: 999px;
+            font-size: 14px;
+            font-weight: 700;
+            transition: .25s
+        }
+
+        .btn:hover {
+            transform: translateY(-2px)
+        }
+
+        .primary {
+            background: var(--dark);
+            color: #fff;
+            box-shadow: 0 12px 28px rgba(80, 103, 91, .2)
+        }
+
+        .primary:hover {
+            background: #42574d
+        }
+
+        .outline {
+            border: 1px solid var(--border);
+            background: transparent
+        }
+
+        .light {
+            background: #fff;
+            color: var(--ink)
+        }
+
+        header {
+            height: 82px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background: rgba(255, 255, 255, .94);
+            backdrop-filter: blur(18px);
+            border-bottom: 1px solid transparent;
+            transition: .25s
+        }
+
+        header.scrolled {
+            border-color: var(--border);
+            box-shadow: 0 8px 30px rgba(29, 37, 34, .05)
+        }
+
+        .head {
+            width: min(calc(100% - 48px), 1280px);
+            height: 100%;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            gap: 28px
+        }
+
+        .logo {
+            width: 205px
+        }
+
+        .nav {
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+            gap: 28px
+        }
+
+        .nav>a,
+        .drop>button {
+            border: 0;
+            background: none;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            color: #36403b;
+            padding: 30px 0
+        }
+
+        .drop {
+            position: relative
+        }
+
+        .drop>button span {
+            font-size: 11px;
+            margin-left: 5px
+        }
+
+        .menu {
+            position: absolute;
+            top: 68px;
+            left: -18px;
+            width: 225px;
+            padding: 10px;
+            background: #fff;
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            box-shadow: var(--shadow);
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(8px);
+            transition: .22s
+        }
+
+        .drop:hover .menu,
+        .drop:focus-within .menu {
+            opacity: 1;
+            visibility: visible;
+            transform: none
+        }
+
+        .menu a {
+            display: block;
+            padding: 10px 12px;
+            border-radius: 10px;
+            font-size: 13px;
+            color: var(--muted)
+        }
+
+        .menu a:hover,
+        .menu a[aria-current=page] {
+            background: var(--light);
+            color: var(--dark)
+        }
+
+        .head-actions {
+            display: flex;
+            gap: 9px;
+            align-items: center
+        }
+
+        .ig {
+            width: 42px;
+            height: 42px;
+            border: 1px solid var(--border);
+            border-radius: 50%;
+            display: grid;
+            place-items: center
+        }
+
+        .ig img {
+            width: 18px
+        }
+
+        .toggle {
+            display: none;
+            width: 44px;
+            height: 44px;
+            border: 1px solid var(--border);
+            border-radius: 50%;
+            background: #fff
+        }
+
+        .toggle span,
+        .toggle:before,
+        .toggle:after {
+            content: "";
+            display: block;
+            width: 19px;
+            height: 1.5px;
+            background: var(--ink);
+            margin: 4px auto
+        }
+
+        .mobile {
+            position: fixed;
+            z-index: 999;
+            inset: 82px 0 0;
+            background: rgba(255, 255, 255, .98);
+            padding: 25px 24px;
+            overflow: auto;
+            transform: translateX(100%);
+            transition: .3s
+        }
+
+        .mobile.open {
+            transform: none
+        }
+
+        .mobile>a,
+        .mobile>button {
+            display: block;
+            width: 100%;
+            padding: 17px 0;
+            border: 0;
+            border-bottom: 1px solid var(--border);
+            background: none;
+            text-align: left;
+            font-weight: 600;
+            font-size: 16px
+        }
+
+        .sub {
+            display: none;
+            padding-left: 15px
+        }
+
+        .sub.open {
+            display: block
+        }
+
+        .sub a {
+            display: block;
+            padding: 13px 0;
+            color: var(--muted);
+            font-size: 14px
+        }
+
+        .mobile-actions {
+            display: grid;
+            gap: 10px;
+            margin-top: 25px
+        }
+
+        .hero {
+            background: var(--cream)
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: .88fr 1.12fr;
+            min-height: 650px
+        }
+
+        .hero-copy {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 80px 70px 80px max(24px, calc((100vw - var(--max))/2))
+        }
+
+        .hero h1 {
+            font-size: clamp(48px, 5vw, 76px);
+            margin: 24px 0
+        }
+
+        .hero h1 em {
+            font-style: normal;
+            color: var(--dark)
+        }
+
+        .hero p {
+            max-width: 530px;
+            color: var(--muted);
+            font-size: 17px;
+            line-height: 1.75
+        }
+
+        .actions {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-top: 30px
+        }
+
+        .note {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-top: 28px;
+            color: var(--muted);
+            font-size: 13px
+        }
+
+        .note i {
+            width: 30px;
+            height: 30px;
+            display: grid;
+            place-items: center;
+            border-radius: 50%;
+            background: var(--light);
+            color: var(--dark);
+            font-style: normal;
+            font-weight: 700
+        }
+
+        .hero-image {
+            position: relative;
+            overflow: hidden;
+            min-height: 650px
+        }
+
+        .hero-image>img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover
+        }
+
+        .float {
+            position: absolute;
+            left: 36px;
+            bottom: 36px;
+            width: 320px;
+            padding: 22px;
+            background: rgba(255, 255, 255, .94);
+            backdrop-filter: blur(15px);
+            border-radius: 18px;
+            box-shadow: 0 20px 50px rgba(29, 37, 34, .16)
+        }
+
+        .float strong {
+            display: block;
+            font-size: 14px;
+            margin-bottom: 5px
+        }
+
+        .float span {
+            font-size: 13px;
+            color: var(--muted)
+        }
+
+        .intro,
+        .expect,
+        .cta {
+            padding: 110px 0
+        }
+
+        .intro-grid,
+        .dark-grid {
+            display: grid;
+            grid-template-columns: .75fr 1.25fr;
+            gap: 100px
+        }
+
+        .intro h2 {
+            font-size: clamp(38px, 4vw, 58px)
+        }
+
+        .copy {
+            max-width: 650px
+        }
+
+        .copy p {
+            color: var(--muted);
+            font-size: 17px;
+            margin-bottom: 20px
+        }
+
+        .cream-section {
+            background: var(--cream);
+            padding: 110px 0
+        }
+
+        .heading {
+            max-width: 700px;
+            margin-bottom: 52px
+        }
+
+        .heading h2,
+        .expect h2 {
+            font-size: clamp(40px, 4vw, 58px);
+            margin-top: 18px
+        }
+
+        .heading p {
+            margin-top: 18px;
+            color: var(--muted);
+            max-width: 610px
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px
+        }
+
+        .card {
+            min-height: 220px;
+            padding: 27px;
+            background: #fff;
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            transition: .3s
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow)
+        }
+
+        .num {
+            width: 38px;
+            height: 38px;
+            display: grid;
+            place-items: center;
+            background: var(--light);
+            border-radius: 50%;
+            color: var(--dark);
+            font-size: 12px;
+            font-weight: 700;
+            margin-bottom: 34px
+        }
+
+        .card h3 {
+            font-size: 24px;
+            margin-bottom: 10px
+        }
+
+        .card p {
+            font-size: 14px;
+            color: var(--muted)
+        }
+
+        .expect-head {
+            display: grid;
+            grid-template-columns: .8fr 1.2fr;
+            gap: 90px;
+            align-items: end;
+            margin-bottom: 65px
+        }
+
+        .expect-head p {
+            max-width: 550px;
+            color: var(--muted)
+        }
+
+        .timeline {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px
+        }
+
+        .step {
+            padding: 40px;
+            border: 1px solid var(--border);
+            border-radius: var(--radius)
+        }
+
+        .step-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 34px
+        }
+
+        .stepno {
+            width: 52px;
+            height: 52px;
+            display: grid;
+            place-items: center;
+            border-radius: 50%;
+            background: var(--dark);
+            color: #fff;
+            font-family: "Playfair Display";
+            font-size: 22px
+        }
+
+        .duration {
+            padding: 8px 12px;
+            border-radius: 999px;
+            background: var(--cream);
+            color: var(--muted);
+            font-size: 12px;
+            font-weight: 600
+        }
+
+        .step h3 {
+            font-size: 31px;
+            margin-bottom: 16px
+        }
+
+        .step p {
+            font-size: 15px;
+            color: var(--muted);
+            margin-bottom: 17px
+        }
+
+        .step ul {
+            list-style: none;
+            border-top: 1px solid var(--border);
+            padding-top: 23px;
+            margin-top: 25px
+        }
+
+        .step li {
+            display: flex;
+            gap: 10px;
+            color: var(--muted);
+            font-size: 14px;
+            margin-bottom: 12px
+        }
+
+        .step li:before {
+            content: "✓";
+            color: var(--dark);
+            font-weight: 700
+        }
+
+        .dark {
+            background: var(--ink);
+            color: #fff;
+            padding: 110px 0
+        }
+
+        .dark .eyebrow {
+            color: #c7d7ce
+        }
+
+        .dark .eyebrow:before {
+            background: #9db4a6
+        }
+
+        .dark h2 {
+            font-size: clamp(40px, 4vw, 58px);
+            margin-top: 20px
+        }
+
+        .dark-intro {
+            margin-top: 22px;
+            color: rgba(255, 255, 255, .68);
+            font-size: 16px
+        }
+
+        .details {
+            display: grid
+        }
+
+        .detail {
+            display: grid;
+            grid-template-columns: 50px 1fr;
+            gap: 22px;
+            padding: 27px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, .12)
+        }
+
+        .detail:first-child {
+            padding-top: 0
+        }
+
+        .detail-icon {
+            width: 42px;
+            height: 42px;
+            border: 1px solid rgba(255, 255, 255, .16);
+            border-radius: 50%;
+            display: grid;
+            place-items: center;
+            color: #c7d7ce;
+            font-size: 13px;
+            font-weight: 700
+        }
+
+        .detail h3 {
+            font-size: 22px;
+            margin-bottom: 7px
+        }
+
+        .detail p {
+            font-size: 14px;
+            color: rgba(255, 255, 255, .62)
+        }
+
+        .cta {
+            background: var(--cream)
+        }
+
+        .cta-box {
+            position: relative;
+            overflow: hidden;
+            padding: 75px;
+            border-radius: 30px;
+            background: var(--dark);
+            color: #fff
+        }
+
+        .cta-box:after {
+            content: "";
+            position: absolute;
+            width: 420px;
+            height: 420px;
+            right: -170px;
+            top: -220px;
+            border: 1px solid rgba(255, 255, 255, .12);
+            border-radius: 50%
+        }
+
+        .cta-content {
+            position: relative;
+            z-index: 1;
+            max-width: 720px
+        }
+
+        .cta h2 {
+            font-size: clamp(40px, 4.5vw, 62px);
+            margin: 18px 0
+        }
+
+        .cta p {
+            color: rgba(255, 255, 255, .76);
+            font-size: 16px
+        }
+
+        .cta .outline {
+            border-color: rgba(255, 255, 255, .3);
+            color: #fff
+        }
+
+        footer {
+            padding: 75px 0 25px;
+            background: #151c19;
+            color: #fff
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1.15fr .85fr .85fr;
+            gap: 70px
+        }
+
+        .footer-logo {
+            width: 290px;
+            margin-bottom: 28px
+        }
+
+        .map {
+            width: 100%;
+            height: 190px;
+            border: 0;
+            border-radius: 16px
+        }
+
+        .footer h3 {
+            font-family: "DM Sans";
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: .13em;
+            color: rgba(255, 255, 255, .55);
+            margin-bottom: 24px
+        }
+
+        .contact {
+            display: grid;
+            gap: 16px
+        }
+
+        .contact p,
+        .contact a {
+            color: rgba(255, 255, 255, .72);
+            font-size: 14px
+        }
+
+        .hours {
+            width: 100%;
+            border-collapse: collapse
+        }
+
+        .hours tr {
+            border-bottom: 1px solid rgba(255, 255, 255, .09)
+        }
+
+        .hours td {
+            padding: 11px 0;
+            color: rgba(255, 255, 255, .68);
+            font-size: 13px
+        }
+
+        .hours td:last-child {
+            text-align: right
+        }
+
+        .bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 55px;
+            padding-top: 22px;
+            border-top: 1px solid rgba(255, 255, 255, .1);
+            color: rgba(255, 255, 255, .45);
+            font-size: 12px
+        }
+
+        .social {
+            width: 38px;
+            height: 38px;
+            border: 1px solid rgba(255, 255, 255, .13);
+            border-radius: 50%;
+            display: grid;
+            place-items: center
+        }
+
+        .social img {
+            width: 16px
+        }
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: .7s
+        }
+
+        .reveal.visible {
+            opacity: 1;
+            transform: none
+        }
+
+        @media(max-width:1100px) {
+            .nav {
+                gap: 16px
+            }
+
+            .cards {
+                grid-template-columns: repeat(2, 1fr)
+            }
+
+            .hero-copy {
+                padding-right: 40px
+            }
+
+            .intro-grid,
+            .dark-grid,
+            .expect-head {
+                gap: 55px
+            }
+        }
+
+        @media(max-width:900px) {
+            header {
+                height: 72px
+            }
+
+            .head {
+                width: min(calc(100% - 32px), 700px)
+            }
+
+            .nav,
+            .head-actions {
+                display: none
+            }
+
+            .toggle {
+                display: block;
+                margin-left: auto
+            }
+
+            .mobile {
+                inset: 72px 0 0
+            }
+
+            .hero-grid {
+                grid-template-columns: 1fr
+            }
+
+            .hero-copy {
+                padding: 75px 24px 55px
+            }
+
+            .hero-image {
+                min-height: 470px
+            }
+
+            .intro-grid,
+            .dark-grid,
+            .expect-head {
+                grid-template-columns: 1fr
+            }
+
+            .timeline {
+                grid-template-columns: 1fr
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr 1fr
+            }
+
+            .footer-grid>:first-child {
+                grid-column: 1/-1
+            }
+        }
+
+        @media(max-width:620px) {
+            .container {
+                width: calc(100% - 32px)
+            }
+
+            .hero h1 {
+                font-size: 47px
+            }
+
+            .hero p {
+                font-size: 15px
+            }
+
+            .actions {
+                flex-direction: column
+            }
+
+            .actions .btn,
+            .cta .btn {
+                width: 100%
+            }
+
+            .hero-image {
+                min-height: 390px
+            }
+
+            .float {
+                left: 18px;
+                bottom: 18px;
+                width: calc(100% - 36px)
+            }
+
+            .intro,
+            .expect,
+            .dark,
+            .cta,
+            .cream-section {
+                padding: 75px 0
+            }
+
+            .cards {
+                grid-template-columns: 1fr
+            }
+
+            .card {
+                min-height: auto
+            }
+
+            .step {
+                padding: 28px
+            }
+
+            .step h3 {
+                font-size: 27px
+            }
+
+            .cta-box {
+                padding: 42px 26px;
+                border-radius: 24px
+            }
+
+            .cta h2 {
+                font-size: 40px
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 42px
+            }
+
+            .footer-grid>:first-child {
+                grid-column: auto
+            }
+
+            .footer-logo {
+                width: 240px
+            }
+
+            .bottom {
+                align-items: flex-start;
+                flex-direction: column;
+                gap: 18px
+            }
+        }
+
+        @media(prefers-reduced-motion:reduce) {
+            html {
+                scroll-behavior: auto
+            }
+
+            .reveal {
+                opacity: 1;
+                transform: none
+            }
+        }
+
+        .back-home {
+            justify-self: start;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--ink);
+            font-size: 14px;
+            font-weight: 700;
+            white-space: nowrap;
+            transition: color .2s ease;
+        }
+
+        .back-arrow {
+            font-size: 25px;
+            line-height: 1;
+            font-weight: 400;
+            transition: transform .2s ease;
+        }
+
+        .back-home:hover {
+            color: var(--sage-dark)
+        }
+
+        .back-home:hover .back-arrow {
+            transform: translateX(-4px)
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <div class="head">
+            <a class="back-home" href="index.html" aria-label="Back to home">
+                <span class="back-arrow" aria-hidden="true">←</span>
+                <span>Back to Home</span>
+            </a>
+            <nav class="nav">
+               
+
+
+            </nav>
+            <div class="head-actions"><a class="ig" href="https://www.instagram.com/atxfamilydental/" target="_blank"
+                    rel="noopener"><img src="images/insta-header.png" alt="Instagram"></a><a class="btn primary"
+                    href="https://flexbook.me/atxfd/website" target="_blank" rel="noopener">Book Online</a><a
+                    class="btn outline" href="https://patient.moolah.cc/atxfamilydental" target="_blank"
+                    rel="noopener">Make Payment</a></div>
+            <button class="toggle" id="toggle" aria-label="Open navigation"><span></span></button>
+        </div>
+    </header>
+    <div class="mobile" id="mobile"><a href="meet-us.html">Meet Us</a><button id="servicesToggle">Services
+            <span>+</span></button>
+        <div class="sub" id="servicesSub"><a href="routine-care.html">Routine Care</a><a
+                href="emergency-dentistry.html">Emergency Dentistry</a><a href="invisalign.html">Invisalign</a><a
+                href="dental-implants.html">Dental Implants</a><a href="dental-veneers.html">Dental Veneers</a><a
+                href="cosmetic-dentistry.html">Cosmetic Dentistry</a><a href="root-canals.html">Root Canals</a><a
+                href="dental-crowns.html">Dental Crowns</a></div><button id="patientToggle">Patient Info
+            <span>+</span></button>
+        <div class="sub" id="patientSub"><a href="finance-insurance.html">Finance &amp; Insurance</a><a
+                href="wellness-plan.html">Wellness Plan</a><a href="pediatric-patients.html">Do We See Kids?</a></div><a
+            href="contact.html">Contact</a>
+        <div class="mobile-actions"><a class="btn primary" href="https://flexbook.me/atxfd/website" target="_blank">Book
+                Appointment</a><a class="btn outline" href="https://patient.moolah.cc/atxfamilydental"
+                target="_blank">Make Payment</a></div>
+    </div>
+    <main>
+        <section class="hero">
+            <div class="hero-grid">
+                <div class="hero-copy reveal"><span class="eyebrow">Restorative Dentistry</span>
+                    <h1>Stronger teeth.<br><em>Natural confidence.</em></h1>
+                    <p>A dental crown restores the shape, strength and function of a damaged tooth while helping it look
+                        and feel natural.</p>
+                    <div class="actions"><a class="btn primary" href="https://flexbook.me/atxfd/website"
+                            target="_blank">Book an Appointment</a><a class="btn outline" href="tel:+15127173147">Call
+                            (512) 717-3147</a></div>
+                    <div class="note"><i>✓</i><span>Personalized care in our South Austin office.</span></div>
+                </div>
+                <div class="hero-image"><img src="images/Crowns-min-scaled.jpeg"
+                        alt="Dental crown treatment at ATX Family Dental" fetchpriority="high">
+                    <div class="float"><strong>A two-appointment process</strong><span>Your first visit prepares the
+                            tooth and your second visit completes the restoration.</span></div>
+                </div>
+            </div>
+        </section>
+        <section class="intro">
+            <div class="container">
+                <div class="intro-grid">
+                    <div class="reveal"><span class="eyebrow">Dental Crowns</span>
+                        <h2>A fresh start for a damaged tooth.</h2>
+                    </div>
+                    <div class="copy reveal">
+                        <p>A dental crown is like a protective helmet that fits over a damaged tooth, restoring its
+                            shape, size and strength.</p>
+                        <p>Crowns are often used when a tooth is cracked, worn down, severely decayed, or after a root
+                            canal. They can also improve the appearance of misshapen or severely discolored teeth.</p>
+                        <p>At ATX Family Dental, the goal is more than simply placing a crown. We want your restored
+                            tooth to feel comfortable, function naturally and look like it belongs with your smile.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cream-section">
+            <div class="container">
+                <div class="heading reveal"><span class="eyebrow">When a crown may help</span>
+                    <h2>Protecting a tooth when a filling isn't enough.</h2>
+                    <p>A dental crown may be recommended for several different situations depending on the condition and
+                        structure of the tooth.</p>
+                </div>
+                <div class="cards">
+                    <article class="card reveal">
+                        <div class="num">01</div>
+                        <h3>Tooth Decay</h3>
+                        <p>If a tooth is severely decayed and cannot be restored with a regular filling, a crown can
+                            provide protection and support.</p>
+                    </article>
+                    <article class="card reveal">
+                        <div class="num">02</div>
+                        <h3>Cracked Tooth</h3>
+                        <p>A crown can help hold together and protect a tooth affected by a significant crack or
+                            fracture.</p>
+                    </article>
+                    <article class="card reveal">
+                        <div class="num">03</div>
+                        <h3>Large Filling</h3>
+                        <p>A crown can reinforce a tooth when a large filling has compromised its overall structure.</p>
+                    </article>
+                    <article class="card reveal">
+                        <div class="num">04</div>
+                        <h3>Root Canal</h3>
+                        <p>After root canal treatment, a crown is often used to add strength and protection to the
+                            treated tooth.</p>
+                    </article>
+                    <article class="card reveal">
+                        <div class="num">05</div>
+                        <h3>Misshapen Teeth</h3>
+                        <p>Crowns may improve the appearance of severely misshapen or discolored teeth.</p>
+                    </article>
+                    <article class="card reveal">
+                        <div class="num">06</div>
+                        <h3>Tooth Wear</h3>
+                        <p>Teeth significantly worn from grinding or erosion may benefit from restoration of their shape
+                            and function.</p>
+                    </article>
+                    <article class="card reveal">
+                        <div class="num">07</div>
+                        <h3>Dental Bridges</h3>
+                        <p>Crowns can serve as supportive anchors for dental bridges used to replace missing teeth.</p>
+                    </article>
+                    <article class="card reveal">
+                        <div class="num">08</div>
+                        <h3>Tooth Protection</h3>
+                        <p>When a tooth needs additional structural support, a crown can provide a protective
+                            restoration.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="expect">
+            <div class="container">
+                <div class="expect-head">
+                    <div class="reveal"><span class="eyebrow">Your appointment</span>
+                        <h2>What to expect.</h2>
+                    </div>
+                    <p class="reveal">The crown process at our South Austin office is designed around two appointments,
+                        giving your dentist time to prepare the tooth and then carefully fit your custom restoration.
+                    </p>
+                </div>
+                <div class="timeline">
+                    <article class="step reveal">
+                        <div class="step-top">
+                            <div class="stepno">1</div><span class="duration">Approx. 2 hours</span>
+                        </div>
+                        <h3>First Appointment</h3>
+                        <p>We begin by making sure you're comfortable. The area is numbed, and nitrous is available if
+                            you're feeling nervous.</p>
+                        <p>Your dentist will conservatively prepare the tooth to make room for the crown. A digital
+                            impression or 3D scan captures the exact shape of your tooth.</p>
+                        <p>A temporary crown is then placed while your custom crown is made, usually for about two
+                            weeks.</p>
+                        <ul>
+                            <li>Comfort-focused preparation</li>
+                            <li>Digital impression or 3D scan</li>
+                            <li>Temporary crown placed</li>
+                        </ul>
+                    </article>
+                    <article class="step reveal">
+                        <div class="step-top">
+                            <div class="stepno">2</div><span class="duration">Approx. 30 minutes</span>
+                        </div>
+                        <h3>Second Appointment</h3>
+                        <p>Once your custom crown is ready, we'll remove the temporary crown and carefully try on the
+                            final restoration.</p>
+                        <p>We'll check the fit, appearance and feel to make sure everything is right before completing
+                            treatment.</p>
+                        <p>An X-ray may also be taken to double-check that everything is properly aligned.</p>
+                        <ul>
+                            <li>Temporary crown removed</li>
+                            <li>Final crown fitted</li>
+                            <li>Fit and appearance checked</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="dark">
+            <div class="container">
+                <div class="dark-grid">
+                    <div class="reveal"><span class="eyebrow">Designed around your smile</span>
+                        <h2>The goal is a tooth that feels like yours.</h2>
+                        <p class="dark-intro">Every crown treatment is different. Your dentist will evaluate your tooth
+                            and determine the appropriate approach for your individual situation.</p>
+                    </div>
+                    <div class="details">
+                        <div class="detail reveal">
+                            <div class="detail-icon">01</div>
+                            <div>
+                                <h3>Conservative preparation</h3>
+                                <p>The tooth is prepared carefully to create the space needed for the restoration.</p>
+                            </div>
+                        </div>
+                        <div class="detail reveal">
+                            <div class="detail-icon">02</div>
+                            <div>
+                                <h3>Digital precision</h3>
+                                <p>A digital impression or 3D scan captures the shape of the tooth for the custom crown.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="detail reveal">
+                            <div class="detail-icon">03</div>
+                            <div>
+                                <h3>Careful fitting</h3>
+                                <p>The final restoration is checked for fit, appearance and feel before treatment is
+                                    completed.</p>
+                            </div>
+                        </div>
+                        <div class="detail reveal">
+                            <div class="detail-icon">04</div>
+                            <div>
+                                <h3>Natural-looking result</h3>
+                                <p>The goal is a strong, functional tooth that complements the rest of your smile.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cta">
+            <div class="container">
+                <div class="cta-box reveal">
+                    <div class="cta-content"><span class="eyebrow">Ready when you are</span>
+                        <h2>Let's take a closer look at your smile.</h2>
+                        <p>If you have a cracked, worn, damaged or heavily restored tooth, schedule an appointment with
+                            ATX Family Dental to discuss your options.</p>
+                        <div class="actions"><a class="btn light" href="https://flexbook.me/atxfd/website"
+                                target="_blank">Book an Appointment</a><a class="btn outline"
+                                href="tel:+15127173147">(512) 717-3147</a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div><img src="images/Header-logo-3.png" alt="ATX Family Dental" class="footer-logo"><iframe class="map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3447.186853165127!2d-97.76179792379358!3d30.231747609670983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b4eb0b01986f%3A0x6b241d4769ed491e!2sATX%20Family%20Dental!5e0!3m2!1sen!2sin!4v1739172637598!5m2!1sen!2sin"
+                        loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"
+                        title="ATX Family Dental location"></iframe></div>
+                <div>
+                    <h3>Contact Us</h3>
+                    <div class="contact">
+                        <p>1700 S. 1st Street<br>Austin, Texas 78704</p><a href="tel:+15127173147">(512) 717-3147</a><a
+                            href="mailto:info@atxfamilydental.com">info@atxfamilydental.com</a><a class="btn primary"
+                            style="width:max-content" href="https://flexbook.me/atxfd/website" target="_blank">Book
+                            Online</a>
+                    </div>
+                </div>
+                <div>
+                    <h3>Office Hours</h3>
+                    <table class="hours">
+                        <tr>
+                            <td>Monday</td>
+                            <td>8am - 5pm</td>
+                        </tr>
+                        <tr>
+                            <td>Tuesday</td>
+                            <td>8am - 5pm</td>
+                        </tr>
+                        <tr>
+                            <td>Wednesday</td>
+                            <td>8am - 5pm</td>
+                        </tr>
+                        <tr>
+                            <td>Thursday</td>
+                            <td>8am - 5pm</td>
+                        </tr>
+                        <tr>
+                            <td>Friday</td>
+                            <td>8am - 4pm</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="bottom">
+                <div>© 2026 All Rights Reserved. <a href="privacy-policy.html">Privacy Policy | Terms and Conditions</a>
+                </div><a class="social" href="https://www.instagram.com/atxfamilydental/" target="_blank"><img
+                        src="images/instagram-icon.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        const header = document.getElementById('header'); window.addEventListener('scroll', () => header.classList.toggle('scrolled', scrollY > 10), { passive: true });
+        const toggle = document.getElementById('toggle'), mobile = document.getElementById('mobile'); toggle.addEventListener('click', () => { const open = mobile.classList.toggle('open'); document.body.style.overflow = open ? 'hidden' : '' });
+        function sub(t, s) { document.getElementById(t).addEventListener('click', () => { const e = document.getElementById(s), open = e.classList.toggle('open'); document.getElementById(t).querySelector('span').textContent = open ? '−' : '+' }) } sub('servicesToggle', 'servicesSub'); sub('patientToggle', 'patientSub');
+        document.querySelectorAll('.mobile a').forEach(a => a.addEventListener('click', () => { mobile.classList.remove('open'); document.body.style.overflow = '' }));
+        const els = document.querySelectorAll('.reveal'); if ('IntersectionObserver' in window) { const o = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); o.unobserve(e.target) } }), { threshold: .12 }); els.forEach(e => o.observe(e)) } else els.forEach(e => e.classList.add('visible'));
+    </script>
+</body>
+
+</html>

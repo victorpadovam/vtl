@@ -1,0 +1,1278 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Root canal treatment at ATX Family Dental in Austin, Texas. Learn what to expect, treatment timing, comfort options, and why a crown may be recommended afterward.">
+    <title>Root Canals | ATX Family Dental</title>
+    <link rel="canonical" href="https://www.atxfamilydental.com/service/root-canals/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        :root {
+            --cream: #f7f5ef;
+            --paper: #fffdf9;
+            --white: #ffffff;
+            --ink: #18201e;
+            --muted: #66706c;
+            --sage: #718b7e;
+            --sage-dark: #38564a;
+            --sage-soft: #e6eee9;
+            --sand: #e9dfd1;
+            --line: #dfe4df;
+            --shadow: 0 24px 70px rgba(24, 32, 30, .10);
+            --radius: 26px;
+            --max: 1180px;
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        html {
+            scroll-behavior: smooth
+        }
+
+        body {
+            margin: 0;
+            color: var(--ink);
+            background: var(--cream);
+            font-family: "DM Sans", sans-serif;
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        img {
+            max-width: 100%;
+            display: block
+        }
+
+        a {
+            color: inherit
+        }
+
+        button {
+            font: inherit
+        }
+
+        .container {
+            width: min(calc(100% - 40px), var(--max));
+            margin: 0 auto
+        }
+
+        .serif {
+            font-family: "Playfair Display", serif
+        }
+
+        .eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 9px;
+            color: var(--sage-dark);
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: .16em;
+            text-transform: uppercase;
+        }
+
+        .eyebrow:before {
+            content: "";
+            width: 28px;
+            height: 1px;
+            background: currentColor;
+        }
+
+        /* Header */
+        .topbar {
+            background: var(--ink);
+            color: #f5f3ed;
+            font-size: 12px;
+            letter-spacing: .04em;
+        }
+
+        .topbar-inner {
+            min-height: 38px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .topbar a {
+            text-decoration: none;
+            opacity: .92
+        }
+
+        .topbar-right {
+            display: flex;
+            gap: 22px
+        }
+
+        .site-header {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background: rgba(255, 253, 249, .94);
+            border-bottom: 1px solid rgba(223, 228, 223, .8);
+            backdrop-filter: blur(18px);
+            transition: box-shadow .25s ease;
+        }
+
+        .site-header.scrolled {
+            box-shadow: 0 12px 35px rgba(24, 32, 30, .08)
+        }
+
+        .nav {
+            min-height: 82px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 30px;
+        }
+
+        .logo img {
+            width: 184px;
+            height: auto
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 28px
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #39423e;
+            font-size: 14px;
+            font-weight: 600;
+            position: relative;
+        }
+
+        .nav-links a:not(.btn):after {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 100%;
+            bottom: -7px;
+            height: 1px;
+            background: var(--sage-dark);
+            transition: right .25s ease;
+        }
+
+        .nav-links a:not(.btn):hover:after {
+            right: 0
+        }
+
+        .nav-services {
+            position: relative
+        }
+
+        .dropdown {
+            position: absolute;
+            top: calc(100% + 18px);
+            left: -18px;
+            min-width: 245px;
+            padding: 12px;
+            background: var(--white);
+            border: 1px solid var(--line);
+            border-radius: 18px;
+            box-shadow: var(--shadow);
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(8px);
+            transition: .22s ease;
+        }
+
+        .nav-services:hover .dropdown {
+            opacity: 1;
+            visibility: visible;
+            transform: none;
+        }
+
+        .dropdown a {
+            display: block;
+            padding: 10px 12px;
+            border-radius: 11px;
+        }
+
+        .dropdown a:hover {
+            background: var(--sage-soft)
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 9px;
+            min-height: 48px;
+            padding: 0 20px;
+            border-radius: 999px;
+            text-decoration: none !important;
+            font-size: 14px;
+            font-weight: 700;
+            transition: transform .2s ease, box-shadow .2s ease, background .2s ease;
+        }
+
+        .btn-primary {
+            color: #fff !important;
+            background: var(--sage-dark);
+            box-shadow: 0 10px 25px rgba(56, 86, 74, .18);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 14px 30px rgba(56, 86, 74, .24)
+        }
+
+        .btn-secondary {
+            color: var(--ink) !important;
+            border: 1px solid var(--line);
+            background: rgba(255, 255, 255, .65);
+        }
+
+        .btn-secondary:hover {
+            background: #fff;
+            transform: translateY(-2px)
+        }
+
+        .menu-toggle {
+            display: none;
+            border: 0;
+            background: none;
+            font-size: 26px;
+            cursor: pointer
+        }
+
+        /* Hero */
+        .hero {
+            position: relative;
+            overflow: hidden;
+            padding: 76px 0 88px;
+            background:
+                radial-gradient(circle at 85% 15%, rgba(113, 139, 126, .20), transparent 31%),
+                linear-gradient(135deg, #f7f5ef 0%, #eef2ed 100%);
+        }
+
+        .hero:before {
+            content: "";
+            position: absolute;
+            width: 360px;
+            height: 360px;
+            border: 1px solid rgba(113, 139, 126, .22);
+            border-radius: 50%;
+            right: -130px;
+            bottom: -180px;
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1.02fr .98fr;
+            align-items: center;
+            gap: 72px;
+            position: relative;
+        }
+
+        .hero-copy h1 {
+            margin: 16px 0 22px;
+            max-width: 650px;
+            font-family: "Playfair Display", serif;
+            font-size: clamp(48px, 6vw, 78px);
+            line-height: 1.02;
+            letter-spacing: -.04em;
+            font-weight: 600;
+        }
+
+        .hero-copy h1 em {
+            font-style: normal;
+            color: var(--sage-dark)
+        }
+
+        .hero-copy p {
+            max-width: 610px;
+            margin: 0;
+            color: var(--muted);
+            font-size: 18px;
+        }
+
+        .hero-actions {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-top: 32px
+        }
+
+        .hero-visual {
+            position: relative
+        }
+
+        .hero-image {
+            aspect-ratio: 4/4.7;
+            object-fit: cover;
+            width: 100%;
+            border-radius: 32px;
+            box-shadow: var(--shadow);
+        }
+
+        .floating-card {
+            position: absolute;
+            left: -30px;
+            bottom: 28px;
+            width: min(270px, 70%);
+            padding: 20px;
+            background: rgba(255, 253, 249, .94);
+            border: 1px solid rgba(255, 255, 255, .8);
+            border-radius: 20px;
+            box-shadow: 0 18px 50px rgba(24, 32, 30, .14);
+            backdrop-filter: blur(14px);
+        }
+
+        .floating-card strong {
+            display: block;
+            font-size: 16px;
+            margin-bottom: 5px
+        }
+
+        .floating-card span {
+            font-size: 13px;
+            color: var(--muted);
+            line-height: 1.5
+        }
+
+        /* Trust */
+        .trust {
+            background: var(--white);
+            border-bottom: 1px solid var(--line);
+        }
+
+        .trust-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 0;
+        }
+
+        .trust-item {
+            padding: 24px 28px;
+            border-right: 1px solid var(--line);
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .trust-item:last-child {
+            border-right: 0
+        }
+
+        .trust-icon {
+            width: 42px;
+            height: 42px;
+            flex: 0 0 42px;
+            display: grid;
+            place-items: center;
+            border-radius: 50%;
+            background: var(--sage-soft);
+            color: var(--sage-dark);
+            font-weight: 800;
+        }
+
+        .trust-item strong {
+            display: block;
+            font-size: 14px
+        }
+
+        .trust-item span {
+            display: block;
+            color: var(--muted);
+            font-size: 12px
+        }
+
+        /* Main sections */
+        .section {
+            padding: 105px 0
+        }
+
+        .section-head {
+            max-width: 720px;
+            margin-bottom: 48px
+        }
+
+        .section-head h2 {
+            margin: 13px 0 14px;
+            font-family: "Playfair Display", serif;
+            font-size: clamp(36px, 4.4vw, 56px);
+            line-height: 1.08;
+            letter-spacing: -.03em;
+            font-weight: 600;
+        }
+
+        .section-head p {
+            margin: 0;
+            color: var(--muted);
+            font-size: 17px
+        }
+
+        .intro-grid {
+            display: grid;
+            grid-template-columns: .8fr 1.2fr;
+            gap: 80px;
+            align-items: start;
+        }
+
+        .intro-note {
+            padding: 28px;
+            border: 1px solid var(--line);
+            border-radius: var(--radius);
+            background: var(--paper);
+        }
+
+        .intro-note strong {
+            font-size: 15px
+        }
+
+        .intro-note p {
+            margin: 8px 0 0;
+            color: var(--muted);
+            font-size: 14px
+        }
+
+        .expect {
+            background: var(--ink);
+            color: #fff;
+        }
+
+        .expect .eyebrow {
+            color: #b8cfc3
+        }
+
+        .expect .section-head p {
+            color: #b7c0bc
+        }
+
+        .expect-card {
+            display: grid;
+            grid-template-columns: 100px 1fr;
+            gap: 26px;
+            align-items: center;
+            padding: 34px;
+            border: 1px solid rgba(255, 255, 255, .13);
+            border-radius: 24px;
+            background: rgba(255, 255, 255, .045);
+        }
+
+        .clock {
+            width: 78px;
+            height: 78px;
+            border-radius: 50%;
+            border: 1px solid rgba(255, 255, 255, .24);
+            display: grid;
+            place-items: center;
+            color: #c5d8cf;
+            font-size: 30px;
+        }
+
+        .expect-card h3 {
+            margin: 0 0 7px;
+            font-size: 22px;
+            font-weight: 600;
+        }
+
+        .expect-card p {
+            margin: 0;
+            color: #b7c0bc
+        }
+
+        .content-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
+
+        .content-card {
+            padding: 38px;
+            border: 1px solid var(--line);
+            border-radius: var(--radius);
+            background: var(--paper);
+        }
+
+        .content-card.featured {
+            background: var(--sage-dark);
+            color: #fff;
+            border-color: var(--sage-dark);
+        }
+
+        .content-card h3 {
+            margin: 0 0 16px;
+            font-family: "Playfair Display", serif;
+            font-size: 30px;
+            line-height: 1.15;
+        }
+
+        .content-card p {
+            margin: 0;
+            color: var(--muted)
+        }
+
+        .content-card.featured p {
+            color: #dce6e1
+        }
+
+        .comfort-list {
+            display: grid;
+            gap: 13px;
+            margin-top: 24px;
+        }
+
+        .comfort-list div {
+            display: flex;
+            gap: 12px;
+            align-items: flex-start;
+            font-size: 14px;
+        }
+
+        .check {
+            width: 24px;
+            height: 24px;
+            flex: 0 0 24px;
+            border-radius: 50%;
+            display: grid;
+            place-items: center;
+            background: var(--sage-soft);
+            color: var(--sage-dark);
+            font-weight: 800;
+            font-size: 12px;
+        }
+
+        .featured .check {
+            background: rgba(255, 255, 255, .13);
+            color: #fff
+        }
+
+        .after {
+            background: #f0eee8;
+        }
+
+        .after-grid {
+            display: grid;
+            grid-template-columns: 1fr .85fr;
+            gap: 70px;
+            align-items: center;
+        }
+
+        .after-copy h2 {
+            margin: 14px 0 18px;
+            font-family: "Playfair Display", serif;
+            font-size: clamp(38px, 4.5vw, 58px);
+            line-height: 1.08;
+            font-weight: 600;
+            letter-spacing: -.03em;
+        }
+
+        .after-copy p {
+            color: var(--muted);
+            font-size: 17px
+        }
+
+        .after-panel {
+            padding: 34px;
+            border-radius: var(--radius);
+            background: var(--white);
+            box-shadow: 0 16px 45px rgba(24, 32, 30, .08);
+        }
+
+        .after-panel .mini {
+            color: var(--sage-dark);
+            text-transform: uppercase;
+            letter-spacing: .14em;
+            font-weight: 700;
+            font-size: 11px;
+        }
+
+        .after-panel h3 {
+            margin: 8px 0 12px;
+            font-size: 24px
+        }
+
+        .after-panel p {
+            margin: 0;
+            color: var(--muted);
+            font-size: 14px
+        }
+
+        .cta {
+            padding: 90px 0;
+            background: var(--sage-dark);
+            color: #fff;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta:after {
+            content: "";
+            position: absolute;
+            width: 500px;
+            height: 500px;
+            border: 1px solid rgba(255, 255, 255, .12);
+            border-radius: 50%;
+            right: -190px;
+            top: -260px;
+        }
+
+        .cta-inner {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 40px;
+        }
+
+        .cta h2 {
+            margin: 10px 0 10px;
+            font-family: "Playfair Display", serif;
+            font-size: clamp(36px, 4vw, 54px);
+            line-height: 1.08;
+            font-weight: 600;
+        }
+
+        .cta p {
+            margin: 0;
+            color: #d5e1dc;
+            max-width: 620px
+        }
+
+        .cta .eyebrow {
+            color: #c7d9d0
+        }
+
+        .cta .btn-primary {
+            background: #fff;
+            color: var(--sage-dark) !important;
+            box-shadow: none
+        }
+
+        .cta .btn-secondary {
+            border-color: rgba(255, 255, 255, .28);
+            color: #fff !important;
+            background: transparent
+        }
+
+        /* Footer */
+        footer {
+            background: #111715;
+            color: #e8ebe8;
+            padding: 68px 0 28px;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1.2fr .9fr .8fr;
+            gap: 60px;
+        }
+
+        .footer-logo {
+            width: 220px;
+            filter: brightness(0) invert(1);
+            opacity: .92
+        }
+
+        .footer-brand p {
+            max-width: 360px;
+            color: #aeb8b3;
+            font-size: 14px
+        }
+
+        .footer h4 {
+            margin: 0 0 18px;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: .13em
+        }
+
+        .footer a {
+            color: #dce2de;
+            text-decoration: none
+        }
+
+        .footer a:hover {
+            color: #fff
+        }
+
+        .footer-list {
+            display: grid;
+            gap: 10px;
+            color: #aeb8b3;
+            font-size: 14px
+        }
+
+        .hours {
+            display: grid;
+            gap: 8px;
+            font-size: 14px;
+            color: #aeb8b3
+        }
+
+        .hours div {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px
+        }
+
+        .hours strong {
+            font-weight: 500;
+            color: #e4e8e5
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, .12);
+            margin-top: 50px;
+            padding-top: 22px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            color: #8f9994;
+            font-size: 12px;
+        }
+
+        .footer-social {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .footer-social img {
+            width: 22px;
+            filter: brightness(0) invert(1);
+            opacity: .8
+        }
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(18px);
+            transition: opacity .65s ease, transform .65s ease
+        }
+
+        .reveal.visible {
+            opacity: 1;
+            transform: none
+        }
+
+        @media(max-width:980px) {
+            .nav-links {
+                display: none
+            }
+
+            .menu-toggle {
+                display: block
+            }
+
+            .nav.open .nav-links {
+                display: flex;
+                position: absolute;
+                top: 82px;
+                left: 0;
+                right: 0;
+                padding: 18px 20px 24px;
+                background: var(--paper);
+                border-bottom: 1px solid var(--line);
+                flex-direction: column;
+                align-items: stretch;
+                gap: 8px;
+            }
+
+            .nav.open .nav-links a {
+                padding: 11px 0
+            }
+
+            .nav.open .dropdown {
+                position: static;
+                opacity: 1;
+                visibility: visible;
+                transform: none;
+                box-shadow: none;
+                border: 0;
+                padding: 0 0 0 12px;
+                min-width: 0;
+                background: transparent;
+            }
+
+            .nav.open .dropdown a {
+                padding: 8px 0
+            }
+
+            .hero-grid,
+            .after-grid {
+                grid-template-columns: 1fr;
+                gap: 44px
+            }
+
+            .hero-copy {
+                order: 1
+            }
+
+            .hero-visual {
+                order: 2
+            }
+
+            .hero-image {
+                aspect-ratio: 16/11
+            }
+
+            .floating-card {
+                left: 18px;
+                bottom: 18px
+            }
+
+            .intro-grid {
+                grid-template-columns: 1fr;
+                gap: 28px
+            }
+
+            .cta-inner {
+                align-items: flex-start;
+                flex-direction: column
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr 1fr
+            }
+
+            .footer-brand {
+                grid-column: 1/-1
+            }
+        }
+
+        @media(max-width:680px) {
+            .container {
+                width: min(calc(100% - 28px), var(--max))
+            }
+
+            .topbar {
+                display: none
+            }
+
+            .nav {
+                min-height: 72px
+            }
+
+            .nav.open .nav-links {
+                top: 72px
+            }
+
+            .logo img {
+                width: 155px
+            }
+
+            .hero {
+                padding: 55px 0 62px
+            }
+
+            .hero-copy h1 {
+                font-size: 48px
+            }
+
+            .hero-copy p {
+                font-size: 16px
+            }
+
+            .hero-actions .btn {
+                width: 100%
+            }
+
+            .hero-image {
+                aspect-ratio: 1/1.12;
+                border-radius: 24px
+            }
+
+            .floating-card {
+                width: 240px
+            }
+
+            .trust-grid {
+                grid-template-columns: 1fr
+            }
+
+            .trust-item {
+                border-right: 0;
+                border-bottom: 1px solid var(--line)
+            }
+
+            .trust-item:last-child {
+                border-bottom: 0
+            }
+
+            .section {
+                padding: 72px 0
+            }
+
+            .section-head {
+                margin-bottom: 32px
+            }
+
+            .section-head h2 {
+                font-size: 39px
+            }
+
+            .content-grid {
+                grid-template-columns: 1fr
+            }
+
+            .content-card {
+                padding: 28px
+            }
+
+            .expect-card {
+                grid-template-columns: 1fr;
+                padding: 28px
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 38px
+            }
+
+            .footer-brand {
+                grid-column: auto
+            }
+
+            .footer-bottom {
+                align-items: flex-start;
+                flex-direction: column
+            }
+
+            .hours div {
+                justify-content: flex-start
+            }
+
+            .hours div span {
+                margin-left: auto
+            }
+        }
+
+        @media(prefers-reduced-motion:reduce) {
+            html {
+                scroll-behavior: auto
+            }
+
+            *,
+            *:before,
+            *:after {
+                animation: none !important;
+                transition: none !important
+            }
+
+            .reveal {
+                opacity: 1;
+                transform: none
+            }
+        }
+
+        .back-home {
+            justify-self: start;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--ink);
+            font-size: 14px;
+            font-weight: 700;
+            white-space: nowrap;
+            text-decoration: none;
+            transition: color .2s ease;
+        }
+
+        .back-arrow {
+            font-size: 25px;
+            line-height: 1;
+            font-weight: 400;
+            text-decoration: none;
+            transition: transform .2s ease;
+        }
+
+        .back-home:hover {
+            color: var(--sage-dark);
+        }
+
+        .back-home:hover .back-arrow {
+            transform: translateX(-4px);
+        }
+    </style>
+</head>
+
+<body id="top">
+    <div class="topbar">
+        <div class="container topbar-inner">
+            <span>ATX Family Dental · Austin, Texas</span>
+            <div class="topbar-right">
+                <a href="tel:+15127173147">(512) 717-3147</a>
+                <a href="mailto:info@atxfamilydental.com">info@atxfamilydental.com</a>
+            </div>
+        </div>
+    </div>
+
+    <header class="site-header" id="site-header">
+        <div class="container nav" id="nav">
+            <a class="back-home" href="index.html" aria-label="Back to home">
+                <span class="back-arrow" aria-hidden="true">←</span>
+                <span>Back to Home</span>
+            </a>
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-copy reveal">
+                    <span class="eyebrow">Root canal treatment</span>
+                    <h1>Relief for your tooth. <em>Confidence in your smile.</em></h1>
+                    <p>
+                        Root canals have a reputation for being intimidating. At ATX Family Dental,
+                        the goal is straightforward: address infection or decay, help relieve pain,
+                        and make the experience as comfortable as possible.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="https://flexbook.me/atxfd/website" target="_blank"
+                            rel="noopener">Book an Appointment <span>→</span></a>
+                        <a class="btn btn-secondary" href="tel:+15127173147">Call (512) 717-3147</a>
+                    </div>
+                </div>
+
+                <div class="hero-visual reveal">
+                    <img class="hero-image" src="images/Dental-emergency-scaled.jpeg"
+                        alt="Dental care at ATX Family Dental">
+                    <div class="floating-card">
+                        <strong>What to expect</strong>
+                        <span>Up to 3 hours, including restorative treatment.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="trust">
+            <div class="container trust-grid">
+                <div class="trust-item reveal">
+                    <div class="trust-icon">01</div>
+                    <div><strong>Comfort-focused care</strong><span>Pain-management options available</span></div>
+                </div>
+                <div class="trust-item reveal">
+                    <div class="trust-icon">02</div>
+                    <div><strong>Save the natural tooth</strong><span>When a root canal is appropriate</span></div>
+                </div>
+                <div class="trust-item reveal">
+                    <div class="trust-icon">03</div>
+                    <div><strong>Restorative follow-through</strong><span>Crown protection may be recommended</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container intro-grid">
+                <div class="section-head reveal">
+                    <span class="eyebrow">Why treatment matters</span>
+                    <h2>A root canal can be the hero your tooth needs.</h2>
+                    <p>
+                        When a tooth is badly infected or decayed, the goal of root canal treatment
+                        is to save the tooth and get you out of pain.
+                    </p>
+                </div>
+
+                <div class="intro-note reveal">
+                    <strong>At ATX Family Dental</strong>
+                    <p>
+                        The practice focuses on putting patients at ease and making the process
+                        as smooth and relaxing as possible. If treatment is necessary, pain-management
+                        options are available to help keep you comfortable throughout the visit.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section expect">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="eyebrow">Plan your visit</span>
+                    <h2>What to expect</h2>
+                    <p>
+                        The original treatment information lists up to three hours for the visit,
+                        including restorative treatment.
+                    </p>
+                </div>
+
+                <div class="expect-card reveal">
+                    <div class="clock" aria-hidden="true">◷</div>
+                    <div>
+                        <h3>Up to 3 hours, including restorative treatment.</h3>
+                        <p>
+                            Your treatment time can include the root canal and restorative work needed
+                            to complete the appointment.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="eyebrow">The treatment experience</span>
+                    <h2>Focused care from the first step to the final restoration.</h2>
+                    <p>
+                        The purpose is not simply to address discomfort today, but to help protect
+                        the treated tooth afterward.
+                    </p>
+                </div>
+
+                <div class="content-grid">
+                    <article class="content-card featured reveal">
+                        <h3>During your root canal</h3>
+                        <p>
+                            If a root canal is necessary, ATX Family Dental offers a range of
+                            pain-management options to help you stay comfortable every step of the way.
+                        </p>
+
+                        <div class="comfort-list">
+                            <div><span class="check">✓</span><span>Comfort-focused treatment approach</span></div>
+                            <div><span class="check">✓</span><span>Pain-management options available</span></div>
+                            <div><span class="check">✓</span><span>Goal: a smooth, relaxing experience</span></div>
+                        </div>
+                    </article>
+
+                    <article class="content-card reveal">
+                        <h3>Why save the tooth?</h3>
+                        <p>
+                            A root canal can help address a badly infected or decayed tooth while
+                            preserving the natural tooth rather than immediately removing it.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section after">
+            <div class="container after-grid">
+                <div class="after-copy reveal">
+                    <span class="eyebrow">After your root canal</span>
+                    <h2>Protect the tooth once the treatment is complete.</h2>
+                    <p>
+                        After a root canal, the treated tooth needs a crown to keep it strong and
+                        protected. Because damaged tissue has been removed, the tooth can become
+                        more fragile and prone to breaking.
+                    </p>
+                </div>
+
+                <div class="after-panel reveal">
+                    <span class="mini">Restoration</span>
+                    <h3>A crown restores structure and protection.</h3>
+                    <p>
+                        A crown helps restore the tooth's structure so it can handle normal chewing
+                        and pressure, while giving the tooth a natural, healthy look.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container cta-inner">
+                <div class="reveal">
+                    <span class="eyebrow">Austin, Texas</span>
+                    <h2>Ready to talk about your tooth?</h2>
+                    <p>
+                        If you're experiencing discomfort or have been told you may need a root canal,
+                        schedule a visit with ATX Family Dental.
+                    </p>
+                </div>
+                <div class="hero-actions reveal">
+                    <a class="btn btn-primary" href="https://flexbook.me/atxfd/website" target="_blank"
+                        rel="noopener">Book Online</a>
+                    <a class="btn btn-secondary" href="tel:+15127173147">Call the Office</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img class="footer-logo" src="images/Header-logo-3.png" alt="ATX Family Dental">
+                    <p>
+                        ATX Family Dental<br>
+                        1700 S. 1st Street, Austin, Texas 78704
+                    </p>
+                </div>
+
+                <div>
+                    <h4>Contact</h4>
+                    <div class="footer-list">
+                        <a href="tel:+15127173147">(512) 717-3147</a>
+                        <a href="mailto:info@atxfamilydental.com">info@atxfamilydental.com</a>
+                        <a href="contact.html">Contact Us</a>
+                        <a href="https://flexbook.me/atxfd/website" target="_blank" rel="noopener">Book Online</a>
+                        <a href="https://patient.moolah.cc/atxfamilydental" target="_blank" rel="noopener">Make
+                            Payment</a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4>Office Hours</h4>
+                    <div class="hours">
+                        <div><strong>Monday</strong><span>8am - 5pm</span></div>
+                        <div><strong>Tuesday</strong><span>8am - 5pm</span></div>
+                        <div><strong>Wednesday</strong><span>8am - 5pm</span></div>
+                        <div><strong>Thursday</strong><span>8am - 5pm</span></div>
+                        <div><strong>Friday</strong><span>8am - 4pm</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <span>© 2026 ATX Family Dental. All Rights Reserved.</span>
+                <div class="footer-social">
+                    <a href="privacy-policy.html">Privacy Policy | Terms and Conditions</a>
+                    <a href="https://www.instagram.com/atxfamilydental/" target="_blank" rel="noopener"
+                        aria-label="ATX Family Dental on Instagram">
+                        <img src="images/instagram-icon.png" alt="Instagram">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const header = document.getElementById('site-header');
+        const nav = document.getElementById('nav');
+        const menuToggle = document.getElementById('menu-toggle');
+
+        window.addEventListener('scroll', () => {
+            header.classList.toggle('scrolled', window.scrollY > 8);
+        }, { passive: true });
+
+        menuToggle.addEventListener('click', () => {
+            const open = nav.classList.toggle('open');
+            menuToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+            menuToggle.textContent = open ? '×' : '☰';
+        });
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: .12 });
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Meet Dr. Adam Gutwein, DMD, founder of ATX Family Dental in South Austin. Discover his patient-first approach, teaching background, and commitment to advanced dental education.">
+    <title>Dr. Adam Gutwein, DMD | ATX Family Dental</title>
+    <link rel="canonical" href="https://www.atxfamilydental.com/doctor/dr-adam-gutwein-dmd/">
+    <link rel="icon" href="images/cropped-favicon-atx-32x32.png" sizes="32x32">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --cream: #f7f5f0;
+            --paper: #fff;
+            --ink: #1d2522;
+            --muted: #68716d;
+            --sage: #718579;
+            --sage-dark: #50665a;
+            --sage-soft: #e6ede8;
+            --sand: #ece5d8;
+            --line: #dfe4df;
+            --shadow: 0 24px 70px rgba(29, 37, 34, .11);
+            --radius: 28px;
+            --max: 1180px
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        html {
+            scroll-behavior: smooth
+        }
+
+        body {
+            margin: 0;
+            background: var(--cream);
+            color: var(--ink);
+            font-family: "DM Sans", Arial, sans-serif;
+            line-height: 1.65;
+            -webkit-font-smoothing: antialiased
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none
+        }
+
+        img {
+            display: block;
+            max-width: 100%
+        }
+
+        button {
+            font: inherit
+        }
+
+        .container {
+            width: min(calc(100% - 48px), var(--max));
+            margin: auto
+        }
+
+        .site-header {
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            background: rgba(247, 245, 240, .9);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid rgba(29, 37, 34, .08);
+            transition: .25s
+        }
+
+        .site-header.scrolled {
+            box-shadow: 0 10px 30px rgba(29, 37, 34, .08)
+        }
+
+        .header-inner {
+            height: 86px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 28px
+        }
+
+        .logo img {
+            width: 188px;
+            height: auto
+        }
+
+        .desktop-nav {
+            display: flex;
+            align-items: center;
+            gap: 26px;
+            font-size: 14px;
+            font-weight: 600
+        }
+
+        .desktop-nav>a,
+        .nav-dropdown>button {
+            border: 0;
+            background: none;
+            color: var(--ink);
+            padding: 12px 0;
+            cursor: pointer
+        }
+
+        .desktop-nav>a:hover,
+        .nav-dropdown>button:hover {
+            color: var(--sage-dark)
+        }
+
+        .nav-dropdown {
+            position: relative
+        }
+
+        .nav-dropdown>button:after {
+            content: "⌄";
+            font-size: 13px;
+            margin-left: 7px
+        }
+
+        .dropdown-menu {
+            position: absolute;
+            top: calc(100% + 10px);
+            left: -18px;
+            min-width: 230px;
+            background: #fff;
+            border: 1px solid var(--line);
+            border-radius: 16px;
+            padding: 8px;
+            box-shadow: 0 18px 45px rgba(29, 37, 34, .13);
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(8px);
+            transition: .2s
+        }
+
+        .nav-dropdown:hover .dropdown-menu,
+        .nav-dropdown:focus-within .dropdown-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: none
+        }
+
+        .dropdown-menu a {
+            display: block;
+            padding: 10px 12px;
+            border-radius: 10px;
+            font-size: 13px
+        }
+
+        .dropdown-menu a:hover {
+            background: var(--sage-soft);
+            color: var(--sage-dark)
+        }
+
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 9px
+        }
+
+        .icon-link {
+            width: 40px;
+            height: 40px;
+            display: grid;
+            place-items: center;
+            border: 1px solid var(--line);
+            border-radius: 50%;
+            background: #fff
+        }
+
+        .icon-link img {
+            width: 18px;
+            height: 18px;
+            object-fit: contain
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 9px;
+            border-radius: 999px;
+            padding: 13px 20px;
+            font-size: 14px;
+            font-weight: 700;
+            transition: transform .2s, box-shadow .2s, background .2s
+        }
+
+        .btn:hover {
+            transform: translateY(-2px)
+        }
+
+        .btn-primary {
+            background: var(--sage-dark);
+            color: #fff;
+            box-shadow: 0 12px 24px rgba(80, 102, 90, .2)
+        }
+
+        .btn-primary:hover {
+            box-shadow: 0 16px 30px rgba(80, 102, 90, .28)
+        }
+
+        .btn-secondary {
+            background: #fff;
+            border: 1px solid var(--line)
+        }
+
+        .mobile-toggle {
+            display: none;
+            border: 0;
+            background: none;
+            font-size: 28px;
+            cursor: pointer
+        }
+
+        .mobile-panel {
+            display: none
+        }
+
+        .hero {
+            padding: 70px 0 84px;
+            overflow: hidden
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: .9fr 1.1fr;
+            align-items: center;
+            gap: 72px
+        }
+
+        .eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--sage-dark);
+            font-size: 12px;
+            font-weight: 800;
+            letter-spacing: .14em;
+            text-transform: uppercase
+        }
+
+        .eyebrow:before {
+            content: "";
+            width: 30px;
+            height: 1px;
+            background: var(--sage)
+        }
+
+        h1,
+        h2,
+        h3 {
+            margin: 0;
+            line-height: 1.08
+        }
+
+        h1,
+        h2 {
+            font-family: "Playfair Display", Georgia, serif;
+            font-weight: 500
+        }
+
+        .hero h1 {
+            font-size: clamp(46px, 5.5vw, 78px);
+            letter-spacing: -.035em;
+            margin: 20px 0
+        }
+
+        .hero-copy {
+            font-size: 18px;
+            color: var(--muted);
+            max-width: 560px
+        }
+
+        .hero-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 30px
+        }
+
+        .hero-note {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 20px;
+            font-size: 13px;
+            color: var(--muted)
+        }
+
+        .hero-note span {
+            width: 8px;
+            height: 8px;
+            background: var(--sage);
+            border-radius: 50%
+        }
+
+        .portrait-wrap {
+            position: relative
+        }
+
+        .portrait {
+            position: relative;
+            border-radius: 34px;
+            overflow: hidden;
+            aspect-ratio: 4/5;
+            background: var(--sand);
+            box-shadow: var(--shadow)
+        }
+
+        .portrait img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center top
+        }
+
+        .portrait:after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(180deg, transparent 62%, rgba(17, 25, 21, .2))
+        }
+
+        .floating-card {
+            position: absolute;
+            left: -42px;
+            bottom: 38px;
+            width: 245px;
+            background: #fff;
+            border: 1px solid rgba(29, 37, 34, .08);
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 20px 50px rgba(29, 37, 34, .15)
+        }
+
+        .floating-card .number {
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--sage-dark);
+            line-height: 1
+        }
+
+        .floating-card strong {
+            display: block;
+            margin-top: 7px;
+            font-size: 14px
+        }
+
+        .floating-card p {
+            margin: 6px 0 0;
+            font-size: 12px;
+            color: var(--muted)
+        }
+
+        .intro {
+            background: #fff;
+            padding: 105px 0
+        }
+
+        .intro-grid {
+            display: grid;
+            grid-template-columns: .7fr 1.3fr;
+            gap: 90px
+        }
+
+        .section-kicker {
+            font-size: 12px;
+            font-weight: 800;
+            letter-spacing: .14em;
+            text-transform: uppercase;
+            color: var(--sage-dark)
+        }
+
+        h2 {
+            font-size: clamp(38px, 4vw, 58px);
+            letter-spacing: -.03em
+        }
+
+        .intro-copy {
+            font-size: 20px;
+            color: var(--muted);
+            margin: 0
+        }
+
+        .intro-copy+.intro-copy {
+            margin-top: 22px
+        }
+
+        .credentials {
+            padding: 0 0 105px;
+            background: #fff
+        }
+
+        .credential-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px
+        }
+
+        .credential {
+            border: 1px solid var(--line);
+            border-radius: 22px;
+            padding: 28px;
+            background: var(--cream);
+            transition: .25s
+        }
+
+        .credential:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 15px 35px rgba(29, 37, 34, .08)
+        }
+
+        .credential-icon {
+            width: 42px;
+            height: 42px;
+            border-radius: 14px;
+            background: var(--sage-soft);
+            display: grid;
+            place-items: center;
+            color: var(--sage-dark);
+            font-weight: 800;
+            margin-bottom: 22px
+        }
+
+        .credential h3 {
+            font-size: 18px;
+            margin-bottom: 9px
+        }
+
+        .credential p {
+            margin: 0;
+            color: var(--muted);
+            font-size: 14px
+        }
+
+        .approach {
+            padding: 105px 0;
+            background: var(--ink);
+            color: #fff
+        }
+
+        .approach-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 80px;
+            align-items: center
+        }
+
+        .approach h2 {
+            color: #fff
+        }
+
+        .approach-copy {
+            color: #b9c2bd;
+            font-size: 17px;
+            max-width: 520px
+        }
+
+        .principles {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 14px
+        }
+
+        .principle {
+            padding: 22px;
+            border: 1px solid rgba(255, 255, 255, .12);
+            border-radius: 20px;
+            background: rgba(255, 255, 255, .035)
+        }
+
+        .principle span {
+            display: block;
+            color: #9db1a5;
+            font-size: 12px;
+            font-weight: 800;
+            letter-spacing: .12em;
+            text-transform: uppercase;
+            margin-bottom: 8px
+        }
+
+        .principle strong {
+            font-size: 16px
+        }
+
+        .cta {
+            padding: 95px 0
+        }
+
+        .cta-card {
+            position: relative;
+            overflow: hidden;
+            background: var(--sage-soft);
+            border-radius: 32px;
+            padding: 64px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 40px
+        }
+
+        .cta-card:before {
+            content: "";
+            position: absolute;
+            width: 280px;
+            height: 280px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, .48);
+            right: -80px;
+            top: -120px
+        }
+
+        .cta-card>* {
+            position: relative
+        }
+
+        .cta-card h2 {
+            max-width: 650px
+        }
+
+        .cta-card p {
+            color: var(--muted);
+            max-width: 620px;
+            margin: 16px 0 0
+        }
+
+        .cta-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            flex-shrink: 0
+        }
+
+        .site-footer {
+            background: #18201d;
+            color: #fff;
+            padding: 65px 0 24px
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1.25fr .9fr .9fr;
+            gap: 60px
+        }
+
+        .footer-logo {
+            width: 220px;
+            margin-bottom: 24px;
+            filter: brightness(0) invert(1);
+            opacity: .95
+        }
+
+        .footer-text {
+            color: #aeb8b3;
+            max-width: 330px;
+            font-size: 14px
+        }
+
+        .footer-title {
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: .13em;
+            color: #cdd6d1;
+            font-weight: 800;
+            margin: 0 0 18px
+        }
+
+        .footer-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            color: #aeb8b3;
+            font-size: 14px
+        }
+
+        .footer-list li {
+            margin: 10px 0
+        }
+
+        .footer-list a:hover {
+            color: #fff
+        }
+
+        .hours-row {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, .08);
+            color: #aeb8b3;
+            font-size: 14px
+        }
+
+        .hours-row:last-child {
+            border-bottom: 0
+        }
+
+        .footer-bottom {
+            margin-top: 45px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, .1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            color: #87938d;
+            font-size: 12px
+        }
+
+        .footer-social img {
+            width: 20px;
+            height: 20px;
+            filter: brightness(0) invert(1);
+            opacity: .8
+        }
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(18px);
+            transition: opacity .7s ease, transform .7s ease
+        }
+
+        .reveal.visible {
+            opacity: 1;
+            transform: none
+        }
+
+        @media(prefers-reduced-motion:reduce) {
+            html {
+                scroll-behavior: auto
+            }
+
+            .reveal {
+                opacity: 1;
+                transform: none;
+                transition: none
+            }
+
+            .btn,
+            .credential {
+                transition: none
+            }
+        }
+
+        @media(max-width:1050px) {
+            .desktop-nav {
+                gap: 16px
+            }
+
+            .header-actions .btn-secondary {
+                display: none
+            }
+
+            .hero-grid {
+                gap: 45px
+            }
+
+            .floating-card {
+                left: -18px
+            }
+
+            .intro-grid {
+                gap: 50px
+            }
+
+            .approach-grid {
+                gap: 45px
+            }
+        }
+
+        @media(max-width:820px) {
+            .container {
+                width: min(calc(100% - 32px), var(--max))
+            }
+
+            .header-inner {
+                height: 74px
+            }
+
+            .desktop-nav,
+            .header-actions {
+                display: none
+            }
+
+            .mobile-toggle {
+                display: block
+            }
+
+            .mobile-panel {
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 74px;
+                background: rgba(255, 255, 255, .98);
+                border-bottom: 1px solid var(--line);
+                padding: 18px 16px 25px;
+                box-shadow: 0 20px 35px rgba(29, 37, 34, .1)
+            }
+
+            .mobile-panel.open {
+                display: block
+            }
+
+            .mobile-panel a {
+                display: block;
+                padding: 12px 8px;
+                font-weight: 600
+            }
+
+            .mobile-panel .mobile-cta {
+                margin-top: 10px;
+                text-align: center;
+                background: var(--sage-dark);
+                color: #fff;
+                border-radius: 999px
+            }
+
+            .hero {
+                padding: 42px 0 60px
+            }
+
+            .hero-grid,
+            .intro-grid,
+            .approach-grid {
+                grid-template-columns: 1fr
+            }
+
+            .hero-grid {
+                gap: 44px
+            }
+
+            .hero h1 {
+                font-size: 52px
+            }
+
+            .portrait-wrap {
+                max-width: 560px;
+                margin: auto
+            }
+
+            .floating-card {
+                left: 16px;
+                bottom: 18px
+            }
+
+            .intro {
+                padding: 72px 0
+            }
+
+            .credentials {
+                padding-bottom: 72px
+            }
+
+            .credential-grid {
+                grid-template-columns: 1fr
+            }
+
+            .approach {
+                padding: 72px 0
+            }
+
+            .cta {
+                padding: 65px 0
+            }
+
+            .cta-card {
+                padding: 38px 28px;
+                display: block
+            }
+
+            .cta-actions {
+                margin-top: 25px
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 38px
+            }
+
+            .footer-grid>div:first-child {
+                grid-column: 1/-1
+            }
+        }
+
+        @media(max-width:560px) {
+            .hero h1 {
+                font-size: 44px
+            }
+
+            .hero-copy {
+                font-size: 16px
+            }
+
+            .hero-actions .btn {
+                width: 100%
+            }
+
+            .portrait {
+                aspect-ratio: 4/5
+            }
+
+            .floating-card {
+                position: relative;
+                left: auto;
+                bottom: auto;
+                margin: -30px 14px 0;
+                z-index: 2;
+                width: auto
+            }
+
+            .principles {
+                grid-template-columns: 1fr
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr
+            }
+
+            .footer-grid>div:first-child {
+                grid-column: auto
+            }
+
+            .footer-bottom {
+                align-items: flex-start;
+                flex-direction: column
+            }
+
+            .cta-card h2 {
+                font-size: 40px
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="site-header" id="siteHeader">
+        <div class="container header-inner">
+            <a class="logo" href="index.html" aria-label="ATX Family Dental home"><img src="images/Header-logo.png"
+                    alt="ATX Family Dental"></a>
+            <nav class="desktop-nav" aria-label="Main navigation">
+                <a href="meet-us.html">Meet Us</a>
+                <div class="nav-dropdown"><button type="button">Services</button>
+                    <div class="dropdown-menu">
+                        <a href="routine-care.html">Routine Care</a><a href="emergency-dentistry.html">Emergency
+                            Dentistry</a><a href="invisalign.html">Invisalign</a><a href="dental-implants.html">Dental
+                            Implants</a><a href="dental-veneers.html">Dental Veneers</a><a
+                            href="cosmetic-dentistry.html">Cosmetic Dentistry</a><a href="root-canals.html">Root
+                            Canals</a><a href="dental-crowns.html">Dental Crowns</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown"><button type="button">Patient Info</button>
+                    <div class="dropdown-menu">
+                        <a href="finance-insurance.html">Finance &amp; Insurance</a><a
+                            href="wellness-plan.html">Wellness Plan</a><a href="pediatric-patients.html">Do We See
+                            Kids?</a>
+                    </div>
+                </div>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <div class="header-actions">
+                <a class="icon-link" href="https://www.instagram.com/atxfamilydental/" target="_blank" rel="noopener"
+                    aria-label="Instagram"><img src="images/insta-header.png" alt=""></a>
+                <a class="btn btn-secondary" href="https://patient.moolah.cc/atxfamilydental" target="_blank"
+                    rel="noopener">Make Payment</a>
+                <a class="btn btn-primary" href="https://flexbook.me/atxfd/website" target="_blank" rel="noopener">Book
+                    Online</a>
+            </div>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+        </div>
+        <div class="mobile-panel" id="mobilePanel">
+            <div class="container">
+                <a href="meet-us.html">Meet Us</a><a href="services.html">Services</a><a
+                    href="finance-insurance.html">Patient Info</a><a href="contact.html">Contact</a>
+                <a href="https://flexbook.me/atxfd/website" target="_blank" rel="noopener" class="mobile-cta">Book an
+                    Appointment</a>
+                <a href="https://patient.moolah.cc/atxfamilydental" target="_blank" rel="noopener">Make Payment</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="reveal">
+                    <span class="eyebrow">Meet your dentist</span>
+                    <h1>Dr. Adam Gutwein, DMD</h1>
+                    <p class="hero-copy">A dentist with a teacher’s approach to care — focused on clear communication,
+                        practical solutions, and helping patients understand their oral health.</p>
+                    <div class="hero-actions"><a class="btn btn-primary" href="https://flexbook.me/atxfd/website"
+                            target="_blank" rel="noopener">Book an Appointment <span>↗</span></a><a
+                            class="btn btn-secondary" href="tel:+15127173147">Call (512) 717-3147</a></div>
+                    <div class="hero-note"><span></span> Serving patients of all ages in South Austin</div>
+                </div>
+                <div class="portrait-wrap reveal">
+                    <div class="portrait"><img src="images/Dr-Adam-scaled-1.jpg" alt="Dr. Adam Gutwein, DMD"></div>
+                    <div class="floating-card">
+                        <div class="number">100+</div><strong>hours of advanced education</strong>
+                        <p>Dr. Adam dedicates over 100 hours annually to continuing education.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="intro">
+            <div class="container intro-grid">
+                <div class="reveal"><span class="section-kicker">His story</span>
+                    <h2 style="margin-top:16px">Care that starts with understanding.</h2>
+                </div>
+                <div class="reveal">
+                    <p class="intro-copy">Before pursuing dentistry, Dr. Adam Gutwein worked as a teacher, a role that
+                        shaped his ability to explain dental care in clear, simple terms.</p>
+                    <p class="intro-copy">Since founding ATX Family Dental in 2016, he has built a trusted practice in
+                        South Austin, known for its patient-first approach and innovative care.</p>
+                    <p class="intro-copy">His goal is to combine dental expertise with communication that helps patients
+                        make informed, practical decisions about their oral health.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="credentials">
+            <div class="container">
+                <div class="credential-grid">
+                    <article class="credential reveal">
+                        <div class="credential-icon">01</div>
+                        <h3>Advanced education</h3>
+                        <p>Dr. Adam dedicates over 100 hours annually to advanced education, with a focus on the
+                            connection between oral health, overall wellness, and longevity.</p>
+                    </article>
+                    <article class="credential reveal">
+                        <div class="credential-icon">02</div>
+                        <h3>Professional networks</h3>
+                        <p>He is a member of Capital Area Dental Society and several national networks of dental
+                            practice owners, staying connected to evolving best practices.</p>
+                    </article>
+                    <article class="credential reveal">
+                        <div class="credential-icon">03</div>
+                        <h3>Kois Trained</h3>
+                        <p>Dr. Adam completed the rigorous Kois education program, continuing his pursuit of a high
+                            standard of clinical care.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="approach">
+            <div class="container approach-grid">
+                <div class="reveal"><span class="section-kicker">The approach</span>
+                    <h2 style="margin-top:16px">A dental experience built around clarity.</h2>
+                    <p class="approach-copy">Dr. Adam combines his teaching background with his dental expertise to
+                        clearly communicate and offer practical solutions. The result is a care experience designed to
+                        feel understandable, personal, and purposeful.</p>
+                </div>
+                <div class="principles reveal">
+                    <div class="principle"><span>01</span><strong>Clear communication</strong></div>
+                    <div class="principle"><span>02</span><strong>Patient-first care</strong></div>
+                    <div class="principle"><span>03</span><strong>Practical solutions</strong></div>
+                    <div class="principle"><span>04</span><strong>Continued learning</strong></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <div class="cta-card reveal">
+                    <div><span class="section-kicker">Visit ATX Family Dental</span>
+                        <h2 style="margin-top:14px">Ready to make your next dental visit feel different?</h2>
+                        <p>Schedule an appointment with Dr. Adam Gutwein and the ATX Family Dental team in South Austin.
+                        </p>
+                    </div>
+                    <div class="cta-actions"><a class="btn btn-primary" href="https://flexbook.me/atxfd/website"
+                            target="_blank" rel="noopener">Book Online ↗</a><a class="btn btn-secondary"
+                            href="contact.html">Contact Us</a></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div><img class="footer-logo" src="images/Header-logo-3.png" alt="ATX Family Dental">
+                    <p class="footer-text">Patient-first dental care in South Austin, with a focus on clear
+                        communication, practical solutions, and long-term oral health.</p>
+                </div>
+                <div>
+                    <h3 class="footer-title">Contact</h3>
+                    <ul class="footer-list">
+                        <li>1700 S. 1st Street<br>Austin, Texas 78704</li>
+                        <li><a href="tel:+15127173147">(512) 717-3147</a></li>
+                        <li><a href="mailto:info@atxfamilydental.com">info@atxfamilydental.com</a></li>
+                        <li><a href="https://flexbook.me/atxfd/website" target="_blank" rel="noopener">Book Online →</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer-title">Office Hours</h3>
+                    <div class="hours-row"><span>Monday</span><span>8am – 5pm</span></div>
+                    <div class="hours-row"><span>Tuesday</span><span>8am – 5pm</span></div>
+                    <div class="hours-row"><span>Wednesday</span><span>8am – 5pm</span></div>
+                    <div class="hours-row"><span>Thursday</span><span>8am – 5pm</span></div>
+                    <div class="hours-row"><span>Friday</span><span>8am – 4pm</span></div>
+                </div>
+            </div>
+            <div class="footer-bottom"><span>© 2026 ATX Family Dental. All Rights Reserved. · <a
+                        href="privacy-policy.html">Privacy Policy | Terms and Conditions</a></span><a
+                    class="footer-social" href="https://www.instagram.com/atxfamilydental/" target="_blank"
+                    rel="noopener" aria-label="Instagram"><img src="images/instagram-icon.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const header = document.getElementById('siteHeader');
+        const toggle = document.getElementById('mobileToggle');
+        const panel = document.getElementById('mobilePanel');
+        window.addEventListener('scroll', () => header.classList.toggle('scrolled', window.scrollY > 8), { passive: true });
+        toggle.addEventListener('click', () => { const open = panel.classList.toggle('open'); toggle.setAttribute('aria-expanded', open ? 'true' : 'false'); toggle.textContent = open ? '×' : '☰'; });
+        panel.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { panel.classList.remove('open'); toggle.setAttribute('aria-expanded', 'false'); toggle.textContent = '☰'; }));
+        const observer = new IntersectionObserver(entries => entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); observer.unobserve(entry.target) } }), { threshold: .12 });
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
+</body>
+
+</html>

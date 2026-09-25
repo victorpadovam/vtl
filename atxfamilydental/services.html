@@ -1,0 +1,1315 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dental Services in Austin, TX | ATX Family Dental</title>
+    <meta name="description"
+        content="Explore comprehensive dental care in Austin, Texas, from routine cleanings and emergency dentistry to Invisalign, implants, veneers, root canals and crowns.">
+    <link rel="canonical" href="https://www.atxfamilydental.com/services.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        :root {
+            --cream: #f7f5ef;
+            --paper: #fffdf9;
+            --ink: #17201d;
+            --muted: #66716c;
+            --sage: #a8b9ad;
+            --sage-dark: #5d7568;
+            --sage-soft: #e7eee9;
+            --sand: #ded4c3;
+            --line: #dfe4df;
+            --white: #fff;
+            --shadow: 0 24px 70px rgba(23, 32, 29, .10);
+            --radius: 26px;
+            --max: 1180px;
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        html {
+            scroll-behavior: smooth
+        }
+
+        body {
+            margin: 0;
+            background: var(--cream);
+            color: var(--ink);
+            font-family: "DM Sans", system-ui, sans-serif;
+            line-height: 1.65
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none
+        }
+
+        img {
+            display: block;
+            max-width: 100%
+        }
+
+        .container {
+            width: min(calc(100% - 40px), var(--max));
+            margin: auto
+        }
+
+        .eyebrow {
+            font-size: 12px;
+            letter-spacing: .16em;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: var(--sage-dark)
+        }
+
+        h1,
+        h2,
+        h3 {
+            line-height: 1.08;
+            margin: 0
+        }
+
+        h1,
+        h2 {
+            font-family: "Playfair Display", Georgia, serif
+        }
+
+        h1 {
+            font-size: clamp(48px, 6vw, 82px);
+            letter-spacing: -.045em
+        }
+
+        h2 {
+            font-size: clamp(38px, 4.5vw, 62px);
+            letter-spacing: -.035em
+        }
+
+        h3 {
+            font-size: 21px
+        }
+
+        p {
+            margin: 0;
+            color: var(--muted)
+        }
+
+        .topbar {
+            background: var(--ink);
+            color: #fff;
+            padding: 9px 20px;
+            font-size: 12px
+        }
+
+        .topbar-inner {
+            max-width: var(--max);
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            align-items: center
+        }
+
+        .topbar a {
+            color: #fff
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            background: rgba(255, 253, 249, .92);
+            backdrop-filter: blur(18px);
+            border-bottom: 1px solid rgba(223, 228, 223, .8)
+        }
+
+        .nav {
+            height: 78px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 28px
+        }
+
+        .logo img {
+            width: 220px;
+            height: auto
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 28px;
+            font-size: 14px;
+            font-weight: 600
+        }
+
+        .nav-links>a,
+        .nav-dropdown>button {
+            padding: 10px 0;
+            border: 0;
+            background: none;
+            font: inherit;
+            cursor: pointer;
+            color: var(--ink)
+        }
+
+        .nav-dropdown {
+            position: relative
+        }
+
+        .nav-dropdown:after {
+            content: "";
+            display: inline-block;
+            width: 6px;
+            height: 6px;
+            border-right: 1.5px solid;
+            border-bottom: 1.5px solid;
+            transform: rotate(45deg);
+            margin: 0 0 3px 7px
+        }
+
+        .dropdown-menu {
+            position: absolute;
+            top: calc(100% + 13px);
+            left: -18px;
+            min-width: 235px;
+            padding: 10px;
+            background: var(--paper);
+            border: 1px solid var(--line);
+            border-radius: 16px;
+            box-shadow: var(--shadow);
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(8px);
+            transition: .22s
+        }
+
+        .nav-dropdown:hover .dropdown-menu,
+        .nav-dropdown:focus-within .dropdown-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: none
+        }
+
+        .dropdown-menu a {
+            display: block;
+            padding: 10px 12px;
+            border-radius: 10px;
+            font-size: 13px
+        }
+
+        .dropdown-menu a:hover {
+            background: var(--sage-soft)
+        }
+
+        .nav-actions {
+            display: flex;
+            gap: 10px;
+            align-items: center
+        }
+
+        .button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 9px;
+            min-height: 46px;
+            padding: 0 18px;
+            border-radius: 999px;
+            font-weight: 700;
+            font-size: 13px;
+            transition: transform .2s, box-shadow .2s, background .2s
+        }
+
+        .button:hover {
+            transform: translateY(-2px)
+        }
+
+        .button-dark {
+            background: var(--ink);
+            color: #fff;
+            box-shadow: 0 10px 24px rgba(23, 32, 29, .16)
+        }
+
+        .button-light {
+            background: #fff;
+            border: 1px solid var(--line)
+        }
+
+        .button-sage {
+            background: var(--sage-dark);
+            color: #fff
+        }
+
+        .mobile-toggle {
+            display: none;
+            border: 0;
+            background: none;
+            font-size: 25px;
+            cursor: pointer
+        }
+
+        .hero {
+            padding: 58px 0 0
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1.02fr .98fr;
+            min-height: 570px;
+            background: var(--paper);
+            border: 1px solid var(--line);
+            border-radius: 32px;
+            overflow: hidden;
+            box-shadow: var(--shadow)
+        }
+
+        .hero-copy {
+            padding: 74px 68px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center
+        }
+
+        .hero-copy h1 {
+            margin: 16px 0 22px
+        }
+
+        .hero-copy p {
+            max-width: 580px;
+            font-size: 18px
+        }
+
+        .hero-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 30px
+        }
+
+        .hero-note {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            margin-top: 26px;
+            font-size: 12px;
+            color: var(--muted)
+        }
+
+        .dot {
+            width: 9px;
+            height: 9px;
+            border-radius: 50%;
+            background: var(--sage-dark)
+        }
+
+        .hero-media {
+            position: relative;
+            min-height: 100%;
+            background: #dce5df
+        }
+
+        .hero-media img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover
+        }
+
+        .hero-card {
+            position: absolute;
+            left: 28px;
+            bottom: 28px;
+            max-width: 290px;
+            padding: 20px;
+            background: rgba(255, 253, 249, .94);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, .7);
+            border-radius: 20px;
+            box-shadow: 0 18px 45px rgba(23, 32, 29, .18)
+        }
+
+        .hero-card strong {
+            display: block;
+            font-size: 15px;
+            margin-bottom: 5px
+        }
+
+        .hero-card span {
+            font-size: 12px;
+            color: var(--muted)
+        }
+
+        .intro {
+            padding: 92px 0 56px
+        }
+
+        .intro-grid {
+            display: grid;
+            grid-template-columns: .72fr 1.28fr;
+            gap: 80px;
+            align-items: end
+        }
+
+        .intro h2 {
+            margin-top: 14px;
+            max-width: 780px
+        }
+
+        .intro-copy {
+            font-size: 17px;
+            max-width: 580px
+        }
+
+        .intro-copy p+p {
+            margin-top: 18px
+        }
+
+        .services {
+            padding: 48px 0 105px
+        }
+
+        .section-head {
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
+            gap: 30px;
+            margin-bottom: 34px
+        }
+
+        .section-head p {
+            max-width: 470px
+        }
+
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 16px
+        }
+
+        .service-card {
+            position: relative;
+            min-height: 270px;
+            padding: 28px;
+            background: var(--paper);
+            border: 1px solid var(--line);
+            border-radius: 22px;
+            overflow: hidden;
+            transition: transform .25s, box-shadow .25s, border-color .25s
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 50px rgba(23, 32, 29, .10);
+            border-color: #c8d3cc
+        }
+
+        .service-icon {
+            width: 58px;
+            height: 58px;
+            object-fit: contain;
+            margin-bottom: 35px
+        }
+
+        .service-card h3 {
+            margin-bottom: 10px;
+            font-family: "Playfair Display", Georgia, serif;
+            font-size: 28px
+        }
+
+        .service-card p {
+            max-width: 480px;
+            font-size: 14px
+        }
+
+        .service-link {
+            position: absolute;
+            right: 24px;
+            bottom: 23px;
+            width: 40px;
+            height: 40px;
+            border: 1px solid var(--line);
+            border-radius: 50%;
+            display: grid;
+            place-items: center;
+            transition: .2s
+        }
+
+        .service-card:hover .service-link {
+            background: var(--ink);
+            color: #fff
+        }
+
+        .service-link span {
+            font-size: 18px;
+            transform: translateY(-1px)
+        }
+
+        .tech {
+            padding: 0 0 110px
+        }
+
+        .tech-card {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            min-height: 480px;
+            border-radius: 30px;
+            overflow: hidden;
+            background: var(--ink);
+            color: #fff
+        }
+
+        .tech-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover
+        }
+
+        .tech-copy {
+            padding: 68px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center
+        }
+
+        .tech-copy .eyebrow {
+            color: #b9cabe
+        }
+
+        .tech-copy h2 {
+            margin: 13px 0 20px;
+            color: #fff
+        }
+
+        .tech-copy p {
+            color: #cbd3ce;
+            font-size: 16px;
+            max-width: 520px
+        }
+
+        .tech-points {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+            margin-top: 32px
+        }
+
+        .tech-point {
+            padding: 15px 0;
+            border-top: 1px solid rgba(255, 255, 255, .18);
+            font-size: 12px;
+            color: #e8edea
+        }
+
+        .tech-point strong {
+            display: block;
+            font-size: 14px;
+            margin-bottom: 3px;
+            color: #fff
+        }
+
+        .choose {
+            padding: 0 0 105px
+        }
+
+        .choose-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px
+        }
+
+        .choose-card {
+            padding: 30px;
+            background: var(--sage-soft);
+            border-radius: 22px;
+            min-height: 190px
+        }
+
+        .choose-num {
+            font-family: "Playfair Display", Georgia, serif;
+            font-size: 42px;
+            color: var(--sage-dark);
+            line-height: 1;
+            margin-bottom: 22px
+        }
+
+        .choose-card h3 {
+            font-size: 19px;
+            margin-bottom: 8px
+        }
+
+        .cta {
+            padding: 0 0 105px
+        }
+
+        .cta-box {
+            position: relative;
+            overflow: hidden;
+            background: var(--sand);
+            border-radius: 30px;
+            padding: 70px;
+            display: flex;
+            align-items: end;
+            justify-content: space-between;
+            gap: 35px
+        }
+
+        .cta-box:after {
+            content: "";
+            position: absolute;
+            width: 330px;
+            height: 330px;
+            border-radius: 50%;
+            right: -110px;
+            top: -160px;
+            border: 1px solid rgba(23, 32, 29, .12)
+        }
+
+        .cta-copy {
+            position: relative;
+            z-index: 1
+        }
+
+        .cta h2 {
+            max-width: 680px;
+            margin-top: 10px
+        }
+
+        .cta p {
+            max-width: 590px;
+            margin-top: 15px
+        }
+
+        .cta-actions {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px
+        }
+
+        footer {
+            background: var(--ink);
+            color: #fff;
+            padding: 72px 0 25px
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1.3fr 1fr 1fr;
+            gap: 55px
+        }
+
+        .footer-logo {
+            width: 250px;
+            filter: brightness(0) invert(1);
+            margin-bottom: 22px
+        }
+
+        .footer-title {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: .15em;
+            color: #aeb9b2;
+            font-weight: 700;
+            margin-bottom: 16px
+        }
+
+        .footer p,
+        .footer a {
+            color: #cbd3ce;
+            font-size: 14px
+        }
+
+        .footer a:hover {
+            color: #fff
+        }
+
+        .footer-map iframe {
+            width: 100%;
+            height: 210px;
+            border: 0;
+            border-radius: 18px
+        }
+
+        .hours {
+            width: 100%;
+            border-collapse: collapse
+        }
+
+        .hours td {
+            padding: 7px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, .1);
+            font-size: 13px;
+            color: #cbd3ce
+        }
+
+        .hours td:last-child {
+            text-align: right
+        }
+
+        .footer-bottom {
+            margin-top: 55px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, .12);
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            align-items: center
+        }
+
+        .social {
+            display: flex;
+            gap: 12px;
+            align-items: center
+        }
+
+        .social img {
+            width: 22px;
+            height: 22px;
+            filter: brightness(0) invert(1);
+            opacity: .8
+        }
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(22px);
+            transition: opacity .7s ease, transform .7s ease
+        }
+
+        .reveal.visible {
+            opacity: 1;
+            transform: none
+        }
+
+        @media(max-width:980px) {
+            .nav-links {
+                display: none
+            }
+
+            .nav-actions .button-light {
+                display: none
+            }
+
+            .mobile-toggle {
+                display: block
+            }
+
+            .nav {
+                height: 70px
+            }
+
+            .hero-grid,
+            .tech-card {
+                grid-template-columns: 1fr
+            }
+
+            .hero-media {
+                min-height: 430px;
+                order: -1
+            }
+
+            .hero-copy {
+                padding: 52px 42px
+            }
+
+            .intro-grid {
+                grid-template-columns: 1fr;
+                gap: 25px
+            }
+
+            .tech-image {
+                min-height: 360px
+            }
+
+            .tech-copy {
+                padding: 50px 42px
+            }
+
+            .cta-box {
+                align-items: start;
+                flex-direction: column;
+                padding: 52px 42px
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr 1fr
+            }
+
+            .footer-map {
+                grid-column: 1/-1;
+                order: 3
+            }
+        }
+
+        @media(max-width:680px) {
+            .topbar-inner {
+                justify-content: center;
+                text-align: center
+            }
+
+            .topbar-inner span {
+                display: none
+            }
+
+            .container {
+                width: min(calc(100% - 28px), var(--max))
+            }
+
+            .logo img {
+                width: 185px
+            }
+
+            .nav-actions {
+                gap: 5px
+            }
+
+            .nav-actions .button-dark {
+                display: none
+            }
+
+            .hero {
+                padding-top: 20px
+            }
+
+            .hero-grid {
+                border-radius: 22px
+            }
+
+            .hero-media {
+                min-height: 330px
+            }
+
+            .hero-card {
+                left: 16px;
+                right: 16px;
+                bottom: 16px;
+                max-width: none
+            }
+
+            .hero-copy {
+                padding: 38px 25px 42px
+            }
+
+            h1 {
+                font-size: 48px
+            }
+
+            h2 {
+                font-size: 40px
+            }
+
+            .hero-copy p {
+                font-size: 16px
+            }
+
+            .hero-actions .button {
+                width: 100%
+            }
+
+            .intro {
+                padding: 68px 0 35px
+            }
+
+            .services {
+                padding: 35px 0 75px
+            }
+
+            .section-head {
+                display: block
+            }
+
+            .section-head p {
+                margin-top: 16px
+            }
+
+            .service-grid {
+                grid-template-columns: 1fr
+            }
+
+            .service-card {
+                min-height: 245px;
+                padding: 24px
+            }
+
+            .service-icon {
+                margin-bottom: 26px
+            }
+
+            .service-card h3 {
+                font-size: 25px
+            }
+
+            .tech {
+                padding-bottom: 75px
+            }
+
+            .tech-image {
+                min-height: 270px
+            }
+
+            .tech-copy {
+                padding: 38px 25px
+            }
+
+            .tech-points {
+                grid-template-columns: 1fr
+            }
+
+            .choose {
+                padding-bottom: 75px
+            }
+
+            .choose-grid {
+                grid-template-columns: 1fr
+            }
+
+            .cta {
+                padding-bottom: 75px
+            }
+
+            .cta-box {
+                padding: 40px 25px;
+                border-radius: 22px
+            }
+
+            .cta-actions {
+                width: 100%
+            }
+
+            .cta-actions .button {
+                width: 100%
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 38px
+            }
+
+            .footer-map {
+                grid-column: auto
+            }
+
+            .footer-bottom {
+                align-items: flex-start;
+                flex-direction: column
+            }
+        }
+
+        @media(prefers-reduced-motion:reduce) {
+            html {
+                scroll-behavior: auto
+            }
+
+            *,
+            *:before,
+            *:after {
+                transition: none !important;
+                animation: none !important
+            }
+
+            .reveal {
+                opacity: 1;
+                transform: none
+            }
+        }
+
+        /* Mobile menu */
+        .mobile-menu {
+            display: none;
+            position: fixed;
+            inset: 70px 0 auto 0;
+            background: var(--paper);
+            z-index: 49;
+            border-bottom: 1px solid var(--line);
+            padding: 20px 20px 25px;
+            box-shadow: 0 20px 40px rgba(23, 32, 29, .10)
+        }
+
+        .mobile-menu.open {
+            display: block
+        }
+
+        .mobile-menu a {
+            display: block;
+            padding: 12px 0;
+            border-bottom: 1px solid var(--line);
+            font-weight: 600
+        }
+
+        .mobile-menu .sub-links {
+            padding-left: 14px
+        }
+
+        .mobile-menu .sub-links a {
+            font-size: 13px;
+            font-weight: 500
+        }
+
+        .back-home {
+            justify-self: start;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--ink);
+            font-size: 14px;
+            font-weight: 700;
+            white-space: nowrap;
+            text-decoration: none;
+            transition: color .2s ease;
+        }
+
+        .back-arrow {
+            font-size: 25px;
+            line-height: 1;
+            font-weight: 400;
+            text-decoration: none;
+            transition: transform .2s ease;
+        }
+
+        .back-home:hover {
+            color: var(--sage-dark);
+        }
+
+        .back-home:hover .back-arrow {
+            transform: translateX(-4px);
+        }
+    </style>
+</head>
+
+<body id="top">
+    <div class="topbar">
+        <div class="topbar-inner">
+            <span>Modern dental care in South Austin</span>
+            <a href="tel:+15127173147">(512) 717-3147</a>
+        </div>
+    </div>
+
+    <header>
+        <div class="container nav">
+            <a class="back-home" href="index.html" aria-label="Back to home">
+                <span class="back-arrow" aria-hidden="true">←</span>
+                <span>Back to Home</span>
+            </a>
+
+            <div class="nav-actions">
+                <a class="button button-light" href="https://patient.moolah.cc/atxfamilydental" target="_blank"
+                    rel="noopener">Payment</a>
+                <a class="button button-dark" href="https://flexbook.me/atxfd/website" target="_blank"
+                    rel="noopener">Book Online</a>
+                <button class="mobile-toggle" type="button" aria-label="Open menu" aria-expanded="false">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="meet-us.html">Meet Us</a>
+        <a href="#services">Services</a>
+        <div class="sub-links">
+            <a href="routine-care.html">Routine Care</a>
+            <a href="emergency-dentistry.html">Emergency Dentistry</a>
+            <a href="invisalign.html">Invisalign</a>
+            <a href="dental-implants.html">Dental Implants</a>
+            <a href="dental-veneers.html">Dental Veneers</a>
+            <a href="cosmetic-dentistry.html">Cosmetic Dentistry</a>
+            <a href="root-canals.html">Root Canals</a>
+            <a href="dental-crowns.html">Dental Crowns</a>
+        </div>
+        <a href="finance-insurance.html">Finance &amp; Insurance</a>
+        <a href="wellness-plan.html">Wellness Plan</a>
+        <a href="contact.html">Contact</a>
+        <a href="https://patient.moolah.cc/atxfamilydental" target="_blank" rel="noopener">Make Payment</a>
+        <a href="https://flexbook.me/atxfd/website" target="_blank" rel="noopener">Book Online</a>
+    </div>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-grid reveal">
+                <div class="hero-copy">
+                    <div class="eyebrow">Comprehensive dental care · Austin, Texas</div>
+                    <h1>Care for your smile, from routine to remarkable.</h1>
+                    <p>We’re a welcoming, full-service dental practice in Austin, providing everything from routine
+                        family care to cosmetic treatments that boost confidence.</p>
+                    <div class="hero-actions">
+                        <a class="button button-dark" href="https://flexbook.me/atxfd/website" target="_blank"
+                            rel="noopener">Book an appointment <span>↗</span></a>
+                        <a class="button button-light" href="#services">Explore services</a>
+                    </div>
+                    <div class="hero-note"><span class="dot"></span> Patient-first care with a modern, comfortable
+                        approach.</div>
+                </div>
+                <div class="hero-media">
+                    <img src="images/Services.jpg" alt="ATX Family Dental services">
+                    <div class="hero-card">
+                        <strong>One practice. Many ways to care for your smile.</strong>
+                        <span>Explore preventive, restorative, emergency and cosmetic services.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="intro">
+            <div class="container intro-grid reveal">
+                <div>
+                    <div class="eyebrow">A complete dental experience</div>
+                    <h2>Modern dentistry that feels easier to navigate.</h2>
+                </div>
+                <div class="intro-copy">
+                    <p>Patients come to us from all over Austin and beyond, and we’re truly humbled by their trust.
+                        Putting patients first is what we do.</p>
+                    <p>From keeping your everyday smile healthy to addressing urgent needs or planning a larger
+                        transformation, our services are designed to give you a clear next step.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <div class="container">
+                <div class="section-head reveal">
+                    <div>
+                        <div class="eyebrow">Our services</div>
+                        <h2>Care built around what your smile needs.</h2>
+                    </div>
+                    <p>Explore each service to learn more about the treatment, experience and next steps.</p>
+                </div>
+
+                <div class="service-grid">
+                    <a class="service-card reveal" href="routine-care.html">
+                        <img class="service-icon" src="images/services-icon-8_edited.png" alt="">
+                        <h3>Routine Care</h3>
+                        <p>Routine dental cleanings and exams help maintain a healthy smile and support your overall
+                            health and well-being.</p>
+                        <span class="service-link" aria-hidden="true"><span>↗</span></span>
+                    </a>
+
+                    <a class="service-card reveal" href="emergency-dentistry.html">
+                        <img class="service-icon" src="images/services-icon-7_edited.png" alt="">
+                        <h3>Emergency Dentistry</h3>
+                        <p>Dental emergency? We’ve got you — same-day care is available for urgent dental needs whenever
+                            possible.</p>
+                        <span class="service-link" aria-hidden="true"><span>↗</span></span>
+                    </a>
+
+                    <a class="service-card reveal" href="invisalign.html">
+                        <img class="service-icon" src="images/services-icon-1_edited.png" alt="">
+                        <h3>Invisalign</h3>
+                        <p>Transform your teeth comfortably and discreetly with advanced technology and a custom
+                            treatment plan.</p>
+                        <span class="service-link" aria-hidden="true"><span>↗</span></span>
+                    </a>
+
+                    <a class="service-card reveal" href="dental-implants.html">
+                        <img class="service-icon" src="images/services-icon-2_edited.png" alt="">
+                        <h3>Dental Implants</h3>
+                        <p>When a tooth cannot be saved, an implant can help support surrounding teeth, assist chewing
+                            and maintain your smile.</p>
+                        <span class="service-link" aria-hidden="true"><span>↗</span></span>
+                    </a>
+
+                    <a class="service-card reveal" href="dental-veneers.html">
+                        <img class="service-icon" src="images/services-icon-6_edited.png" alt="">
+                        <h3>Dental Veneers</h3>
+                        <p>Custom-made porcelain veneers can change the color, shape and length of teeth for a complete
+                            smile transformation.</p>
+                        <span class="service-link" aria-hidden="true"><span>↗</span></span>
+                    </a>
+
+                    <a class="service-card reveal" href="cosmetic-dentistry.html">
+                        <img class="service-icon" src="images/services-icon-4_edited.png" alt="">
+                        <h3>Cosmetic Dentistry</h3>
+                        <p>Whitening with Zoom or KoR, bonding and natural-looking fillings can help address cosmetic
+                            concerns and refine your smile.</p>
+                        <span class="service-link" aria-hidden="true"><span>↗</span></span>
+                    </a>
+
+                    <a class="service-card reveal" href="root-canals.html">
+                        <img class="service-icon" src="images/services-icon-5_edited.png" alt="">
+                        <h3>Root Canals</h3>
+                        <p>A root canal can relieve pain and help save your natural tooth when the inside of the tooth
+                            needs treatment.</p>
+                        <span class="service-link" aria-hidden="true"><span>↗</span></span>
+                    </a>
+
+                    <a class="service-card reveal" href="dental-crowns.html">
+                        <img class="service-icon" src="images/services-icon-3_edited.png" alt="">
+                        <h3>Dental Crowns</h3>
+                        <p>A crown can restore the shape, size and strength of a damaged tooth, including after a root
+                            canal.</p>
+                        <span class="service-link" aria-hidden="true"><span>↗</span></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="tech">
+            <div class="container tech-card reveal">
+                <div class="tech-image">
+                    <img src="images/Digital-impressions.jpg" alt="Digital impressions at ATX Family Dental">
+                </div>
+                <div class="tech-copy">
+                    <div class="eyebrow">Digital impressions</div>
+                    <h2>Better technology. A more comfortable experience.</h2>
+                    <p>We’re all about next-level dental tech. That’s why we’ve invested in cutting-edge 3D scanning —
+                        no more goopy, messy impressions. This digital technology captures your smile with incredible
+                        accuracy, making treatments like clear aligners, crowns and retainers more precise and
+                        comfortable.</p>
+                    <div class="tech-points">
+                        <div class="tech-point"><strong>3-D scanning</strong>Detailed digital capture</div>
+                        <div class="tech-point"><strong>Crowns</strong>Precise digital impressions</div>
+                        <div class="tech-point"><strong>Retainers</strong>Comfortable, modern workflow</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="choose">
+            <div class="container">
+                <div class="section-head reveal">
+                    <div>
+                        <div class="eyebrow">Why ATX Family Dental</div>
+                        <h2>A clearer way to approach dental care.</h2>
+                    </div>
+                    <p>Whether you’re due for a cleaning or looking for a more involved treatment, the experience should
+                        feel informed, comfortable and personal.</p>
+                </div>
+
+                <div class="choose-grid">
+                    <div class="choose-card reveal">
+                        <div class="choose-num">01</div>
+                        <h3>Start with your needs</h3>
+                        <p>We begin by understanding what brought you in and what matters most to you.</p>
+                    </div>
+                    <div class="choose-card reveal">
+                        <div class="choose-num">02</div>
+                        <h3>Understand your options</h3>
+                        <p>Clear communication helps you understand your dental health and possible next steps.</p>
+                    </div>
+                    <div class="choose-card reveal">
+                        <div class="choose-num">03</div>
+                        <h3>Move forward with confidence</h3>
+                        <p>Choose the care that makes sense for your smile, with a team focused on your experience.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container cta-box reveal">
+                <div class="cta-copy">
+                    <div class="eyebrow">Your next step</div>
+                    <h2>Let’s find the right care for your smile.</h2>
+                    <p>Ready to talk about your dental needs? Book online or contact our South Austin office.</p>
+                </div>
+                <div class="cta-actions">
+                    <a class="button button-dark" href="https://flexbook.me/atxfd/website" target="_blank"
+                        rel="noopener">Book Online ↗</a>
+                    <a class="button button-light" href="contact.html">Contact Us</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <img class="footer-logo" src="images/Header-logo-3.png" alt="ATX Family Dental">
+                <p>Comprehensive dental care in Austin, Texas, with a patient-first approach.</p>
+            </div>
+
+            <div>
+                <div class="footer-title">Contact us</div>
+                <p><a href="https://maps.app.goo.gl/uJtwNfDTvTNvqe9X6" target="_blank" rel="noopener">1700 S. 1st
+                        Street<br>Austin, Texas 78704</a></p>
+                <p style="margin-top:12px"><a href="tel:+15127173147">(512) 717-3147</a></p>
+                <p style="margin-top:7px"><a href="mailto:info@atxfamilydental.com">info@atxfamilydental.com</a></p>
+                <a class="button button-sage" style="margin-top:20px" href="https://flexbook.me/atxfd/website"
+                    target="_blank" rel="noopener">Book Online</a>
+            </div>
+
+            <div>
+                <div class="footer-title">Office hours</div>
+                <table class="hours">
+                    <tr>
+                        <td>Monday</td>
+                        <td>8am - 5pm</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>8am - 5pm</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>8am - 5pm</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td>8am - 5pm</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>8am - 4pm</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="footer-map">
+                <div class="footer-title">Find us</div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3447.186853165127!2d-97.76179792379358!3d30.231747609670983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b4eb0b01986f%3A0x6b241d4769ed491e!2sATX%20Family%20Dental!5e0!3m2!1sen!2sin!4v1739172637598!5m2!1sen!2sin"
+                    loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen
+                    title="ATX Family Dental location"></iframe>
+            </div>
+        </div>
+
+        <div class="container footer-bottom">
+            <div>© 2026 All Rights Reserved. <a href="privacy-policy.html">Privacy Policy | Terms and Conditions</a>
+            </div>
+            <div class="social">
+                <span>Follow us</span>
+                <a href="https://www.instagram.com/atxfamilydental/" target="_blank" rel="noopener"
+                    aria-label="ATX Family Dental on Instagram">
+                    <img src="images/instagram-icon.png" alt="Instagram">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const toggle = document.querySelector('.mobile-toggle');
+        const menu = document.getElementById('mobileMenu');
+
+        toggle?.addEventListener('click', () => {
+            const open = menu.classList.toggle('open');
+            toggle.setAttribute('aria-expanded', String(open));
+            toggle.textContent = open ? '×' : '☰';
+        });
+
+        menu?.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                menu.classList.remove('open');
+                toggle?.setAttribute('aria-expanded', 'false');
+                if (toggle) toggle.textContent = '☰';
+            });
+        });
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.12 });
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
+</body>
+
+</html>

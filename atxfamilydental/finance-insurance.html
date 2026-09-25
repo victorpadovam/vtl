@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance & Insurance | ATX Family Dental</title>
+    <meta name="description"
+        content="Explore flexible payment options, accepted PPO dental insurance plans, financing, FSA and HSA options at ATX Family Dental in Austin, Texas.">
+    <link rel="canonical" href="https://www.atxfamilydental.com/finance-insurance/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="images/cropped-favicon-atx-32x32.png" sizes="32x32">
+    <style>
+        :root {
+            --cream: #f7f5f0;
+            --paper: #fff;
+            --ink: #17201e;
+            --muted: #65706d;
+            --sage: #5f7d72;
+            --sage-dark: #3f5d53;
+            --sage-light: #e7eee9;
+            --sand: #eee7db;
+            --line: #dfe4e1;
+            --dark: #18231f;
+            --shadow: 0 20px 60px rgba(23, 32, 30, .10);
+            --radius: 22px
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        html {
+            scroll-behavior: smooth
+        }
+
+        body {
+            margin: 0;
+            background: var(--cream);
+            color: var(--ink);
+            font-family: "DM Sans", Arial, sans-serif;
+            line-height: 1.65
+        }
+
+        a {
+            color: inherit
+        }
+
+        img {
+            max-width: 100%;
+            display: block
+        }
+
+        button,
+        a {
+            font-family: inherit
+        }
+
+        .container {
+            width: min(1160px, calc(100% - 40px));
+            margin: auto
+        }
+
+        .topbar {
+            background: var(--dark);
+            color: #fff;
+            font-size: 13px
+        }
+
+        .topbar-inner {
+            min-height: 38px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px
+        }
+
+        .topbar a {
+            text-decoration: none;
+            opacity: .92
+        }
+
+        .topbar-right {
+            display: flex;
+            gap: 20px
+        }
+
+        .header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(255, 255, 255, .92);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid rgba(223, 228, 225, .85);
+            transition: .25s
+        }
+
+        .header.scrolled {
+            box-shadow: 0 10px 35px rgba(23, 32, 30, .08)
+        }
+
+        .nav {
+            height: 82px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 30px
+        }
+
+        .logo img {
+            width: 205px;
+            height: auto
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 28px;
+            font-size: 14px;
+            font-weight: 600
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #26312e
+        }
+
+        .nav-links a:hover {
+            color: var(--sage-dark)
+        }
+
+        .nav-actions {
+            display: flex;
+            align-items: center;
+            gap: 10px
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 48px;
+            padding: 0 21px;
+            border-radius: 999px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 14px;
+            transition: transform .2s, box-shadow .2s, background .2s
+        }
+
+        .btn:hover {
+            transform: translateY(-2px)
+        }
+
+        .btn-primary {
+            background: var(--sage-dark);
+            color: #fff;
+            box-shadow: 0 10px 25px rgba(63, 93, 83, .2)
+        }
+
+        .btn-secondary {
+            border: 1px solid var(--line);
+            background: #fff
+        }
+
+        .mobile-toggle {
+            display: none;
+            border: 0;
+            background: none;
+            font-size: 27px;
+            color: var(--ink)
+        }
+
+        .hero {
+            padding: 76px 0 54px;
+            position: relative;
+            overflow: hidden
+        }
+
+        .hero:before {
+            content: "";
+            position: absolute;
+            width: 500px;
+            height: 500px;
+            border-radius: 50%;
+            background: rgba(95, 125, 114, .10);
+            right: -180px;
+            top: -210px
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1.05fr .95fr;
+            gap: 60px;
+            align-items: center;
+            position: relative
+        }
+
+        .eyebrow {
+            text-transform: uppercase;
+            letter-spacing: .16em;
+            font-size: 12px;
+            font-weight: 700;
+            color: var(--sage-dark);
+            margin-bottom: 18px
+        }
+
+        .hero h1 {
+            font-family: "Playfair Display", serif;
+            font-size: clamp(48px, 6vw, 78px);
+            line-height: 1.02;
+            letter-spacing: -.04em;
+            margin: 0 0 22px;
+            max-width: 720px
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: var(--muted);
+            max-width: 620px;
+            margin: 0 0 30px
+        }
+
+        .hero-actions {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap
+        }
+
+        .hero-card {
+            background: var(--paper);
+            border: 1px solid var(--line);
+            border-radius: 30px;
+            padding: 15px;
+            box-shadow: var(--shadow);
+            transform: rotate(1.5deg)
+        }
+
+        .hero-card img {
+            width: 100%;
+            height: 410px;
+            object-fit: cover;
+            border-radius: 22px
+        }
+
+        .hero-card-caption {
+            padding: 18px 10px 5px;
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            align-items: center
+        }
+
+        .hero-card-caption strong {
+            font-size: 15px
+        }
+
+        .hero-card-caption span {
+            font-size: 12px;
+            color: var(--muted);
+            text-align: right
+        }
+
+        .trust {
+            border-top: 1px solid var(--line);
+            border-bottom: 1px solid var(--line);
+            background: #fff
+        }
+
+        .trust-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr)
+        }
+
+        .trust-item {
+            padding: 22px 25px;
+            display: flex;
+            gap: 13px;
+            align-items: center;
+            border-right: 1px solid var(--line)
+        }
+
+        .trust-item:last-child {
+            border-right: 0
+        }
+
+        .trust-icon {
+            width: 34px;
+            height: 34px;
+            border-radius: 50%;
+            background: var(--sage-light);
+            display: grid;
+            place-items: center;
+            color: var(--sage-dark);
+            font-weight: 700
+        }
+
+        .trust-item strong {
+            display: block;
+            font-size: 14px
+        }
+
+        .trust-item span {
+            font-size: 12px;
+            color: var(--muted)
+        }
+
+        .section {
+            padding: 92px 0
+        }
+
+        .section-head {
+            max-width: 730px;
+            margin-bottom: 42px
+        }
+
+        .section-kicker {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: .15em;
+            font-weight: 700;
+            color: var(--sage-dark);
+            margin-bottom: 12px
+        }
+
+        .section h2 {
+            font-family: "Playfair Display", serif;
+            font-size: clamp(35px, 4vw, 53px);
+            line-height: 1.08;
+            letter-spacing: -.03em;
+            margin: 0 0 16px
+        }
+
+        .section-head p {
+            color: var(--muted);
+            font-size: 17px;
+            margin: 0
+        }
+
+        .payment-grid {
+            display: grid;
+            grid-template-columns: 1.05fr .95fr;
+            gap: 26px
+        }
+
+        .panel {
+            background: #fff;
+            border: 1px solid var(--line);
+            border-radius: var(--radius);
+            padding: 34px;
+            box-shadow: 0 10px 35px rgba(23, 32, 30, .05)
+        }
+
+        .panel h3 {
+            font-family: "Playfair Display", serif;
+            font-size: 29px;
+            margin: 0 0 18px
+        }
+
+        .option-list {
+            display: grid;
+            gap: 12px;
+            padding: 0;
+            margin: 0;
+            list-style: none
+        }
+
+        .option-list li {
+            display: flex;
+            gap: 12px;
+            align-items: flex-start;
+            padding: 15px 0;
+            border-bottom: 1px solid #edf0ee
+        }
+
+        .option-list li:last-child {
+            border-bottom: 0
+        }
+
+        .check {
+            width: 24px;
+            height: 24px;
+            flex: 0 0 24px;
+            border-radius: 50%;
+            background: var(--sage-light);
+            color: var(--sage-dark);
+            display: grid;
+            place-items: center;
+            font-size: 13px;
+            font-weight: 700;
+            margin-top: 1px
+        }
+
+        .callout {
+            background: var(--dark);
+            color: #fff;
+            border-radius: var(--radius);
+            padding: 34px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 100%
+        }
+
+        .callout .section-kicker {
+            color: #b9cec4
+        }
+
+        .callout h3 {
+            font-family: "Playfair Display", serif;
+            font-size: 36px;
+            line-height: 1.1;
+            margin: 0 0 15px
+        }
+
+        .callout p {
+            color: #c9d2cf;
+            margin: 0 0 25px
+        }
+
+        .insurance {
+            background: #eef2ef
+        }
+
+        .insurance-layout {
+            display: grid;
+            grid-template-columns: .75fr 1.25fr;
+            gap: 45px;
+            align-items: start
+        }
+
+        .insurance-copy {
+            position: sticky;
+            top: 120px
+        }
+
+        .insurance-copy h2 {
+            margin-bottom: 18px
+        }
+
+        .insurance-copy p {
+            color: var(--muted);
+            font-size: 16px
+        }
+
+        .carriers {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px
+        }
+
+        .carrier {
+            background: #fff;
+            border: 1px solid var(--line);
+            border-radius: 15px;
+            padding: 17px 18px;
+            font-weight: 600;
+            min-height: 58px;
+            display: flex;
+            align-items: center;
+            transition: .2s
+        }
+
+        .carrier:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(23, 32, 30, .06)
+        }
+
+        .note {
+            margin-top: 20px;
+            background: var(--sand);
+            border-radius: 18px;
+            padding: 20px;
+            color: #46514e
+        }
+
+        .help-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px
+        }
+
+        .help-card {
+            background: #fff;
+            border: 1px solid var(--line);
+            border-radius: 20px;
+            padding: 28px
+        }
+
+        .number {
+            font-size: 12px;
+            letter-spacing: .12em;
+            color: var(--sage-dark);
+            font-weight: 700
+        }
+
+        .help-card h3 {
+            font-size: 21px;
+            margin: 9px 0 8px
+        }
+
+        .help-card p {
+            color: var(--muted);
+            margin: 0
+        }
+
+        .remember {
+            background: #fff;
+            border: 1px solid var(--line);
+            border-radius: 24px;
+            padding: 34px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 28px
+        }
+
+        .remember h3 {
+            font-family: "Playfair Display", serif;
+            font-size: 30px;
+            margin: 0 0 12px
+        }
+
+        .remember p {
+            color: var(--muted);
+            margin: 0
+        }
+
+        .special {
+            background: var(--sage-light);
+            border-radius: 20px;
+            padding: 25px
+        }
+
+        .special strong {
+            display: block;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: .12em;
+            color: var(--sage-dark);
+            margin-bottom: 8px
+        }
+
+        .special .price {
+            font-family: "Playfair Display", serif;
+            font-size: 38px;
+            line-height: 1;
+            margin-bottom: 10px
+        }
+
+        .cta {
+            padding: 0 0 92px
+        }
+
+        .cta-box {
+            background: var(--dark);
+            border-radius: 30px;
+            padding: 55px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 30px;
+            color: #fff;
+            position: relative;
+            overflow: hidden
+        }
+
+        .cta-box:after {
+            content: "";
+            position: absolute;
+            width: 340px;
+            height: 340px;
+            border-radius: 50%;
+            border: 1px solid rgba(255, 255, 255, .10);
+            right: -110px;
+            top: -150px
+        }
+
+        .cta-box h2 {
+            font-family: "Playfair Display", serif;
+            font-size: 42px;
+            line-height: 1.08;
+            margin: 0 0 12px;
+            position: relative;
+            z-index: 1
+        }
+
+        .cta-box p {
+            color: #c9d2cf;
+            margin: 0;
+            max-width: 600px;
+            position: relative;
+            z-index: 1
+        }
+
+        .cta-box .btn {
+            position: relative;
+            z-index: 1;
+            background: #fff;
+            color: var(--dark)
+        }
+
+        .footer {
+            background: #17211e;
+            color: #dbe3df;
+            padding: 65px 0 25px
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1.2fr .9fr .9fr;
+            gap: 55px
+        }
+
+        .footer-logo {
+            width: 230px;
+            margin-bottom: 22px;
+            /* filter: brightness(0) invert(1); */
+            opacity: .95
+        }
+
+        .footer p,
+        .footer a {
+            color: #aebbb6;
+            font-size: 14px
+        }
+
+        .footer h4 {
+            color: #fff;
+            margin: 0 0 15px;
+            text-transform: uppercase;
+            letter-spacing: .12em;
+            font-size: 11px
+        }
+
+        .footer-links {
+            display: grid;
+            gap: 9px
+        }
+
+        .footer-links a {
+            text-decoration: none
+        }
+
+        .hours {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 7px;
+            font-size: 14px;
+            color: #aebbb6
+        }
+
+        .hours strong {
+            color: #fff
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, .10);
+            margin-top: 45px;
+            padding-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            font-size: 12px;
+            color: #8f9c97
+        }
+
+        .footer-bottom a {
+            text-decoration: none
+        }
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(18px);
+            transition: opacity .65s ease, transform .65s ease
+        }
+
+        .reveal.visible {
+            opacity: 1;
+            transform: none
+        }
+
+        @media(max-width:980px) {
+            .nav-links {
+                display: none
+            }
+
+            .mobile-toggle {
+                display: block
+            }
+
+            .nav-actions .btn-secondary {
+                display: none
+            }
+
+            .hero-grid,
+            .payment-grid,
+            .insurance-layout {
+                grid-template-columns: 1fr
+            }
+
+            .hero-card {
+                max-width: 620px;
+                margin: auto
+            }
+
+            .insurance-copy {
+                position: static
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr 1fr
+            }
+
+            .hero {
+                padding-top: 55px
+            }
+        }
+
+        @media(max-width:680px) {
+            .container {
+                width: min(100% - 28px, 1160px)
+            }
+
+            .topbar {
+                display: none
+            }
+
+            .nav {
+                height: 72px
+            }
+
+            .logo img {
+                width: 175px
+            }
+
+            .nav-actions .btn-primary {
+                display: none
+            }
+
+            .hero {
+                padding: 45px 0 35px
+            }
+
+            .hero h1 {
+                font-size: 46px
+            }
+
+            .hero p {
+                font-size: 16px
+            }
+
+            .hero-card img {
+                height: 290px
+            }
+
+            .trust-grid {
+                grid-template-columns: 1fr
+            }
+
+            .trust-item {
+                border-right: 0;
+                border-bottom: 1px solid var(--line);
+                padding: 17px 0
+            }
+
+            .trust-item:last-child {
+                border-bottom: 0
+            }
+
+            .section {
+                padding: 65px 0
+            }
+
+            .panel,
+            .callout,
+            .help-card,
+            .remember {
+                padding: 25px
+            }
+
+            .carriers,
+            .help-grid,
+            .remember {
+                grid-template-columns: 1fr
+            }
+
+            .cta {
+                padding-bottom: 65px
+            }
+
+            .cta-box {
+                padding: 35px 25px;
+                display: block
+            }
+
+            .cta-box h2 {
+                font-size: 34px;
+                margin-bottom: 18px
+            }
+
+            .cta-box .btn {
+                margin-top: 25px
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 35px
+            }
+
+            .footer-bottom {
+                display: block
+            }
+
+            .footer-bottom span {
+                display: block;
+                margin-top: 8px
+            }
+        }
+
+        @media(prefers-reduced-motion:reduce) {
+            html {
+                scroll-behavior: auto
+            }
+
+            .reveal {
+                opacity: 1;
+                transform: none;
+                transition: none
+            }
+
+            .btn,
+            .carrier {
+                transition: none
+            }
+        }
+
+        .back-home {
+            justify-self: start;
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            color: var(--ink);
+            font-size: 14px;
+            font-weight: 700;
+            white-space: nowrap;
+            text-decoration: none !important;
+            border: 0;
+            outline: 0;
+        }
+
+        .back-arrow {
+            display: inline-block;
+            font-size: 25px;
+            line-height: 1;
+            font-weight: 400;
+            text-decoration: none !important;
+            border: 0;
+            transition: transform .2s ease;
+        }
+
+        .back-home span:last-child {
+            text-decoration: none !important;
+        }
+
+        .back-home:hover {
+            color: var(--sage-dark);
+            text-decoration: none !important;
+        }
+
+        .back-home:hover .back-arrow {
+            transform: translateX(-4px);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="topbar">
+        <div class="container topbar-inner"><span>ATX Family Dental · Austin, Texas</span>
+            <div class="topbar-right"><a href="tel:(512) 717-3147">(512) 717-3147</a><a
+                    href="mailto:info@atxfamilydental.com">info@atxfamilydental.com</a></div>
+        </div>
+    </div>
+    <header class="header" id="header">
+        <div class="container nav">
+            <a class="back-home" href="index.html" aria-label="Back to home">
+                <span class="back-arrow" aria-hidden="true">←</span>
+                <span>Back to Home</span>
+            </a>
+
+            <div class="nav-actions"><a class="btn btn-secondary" href="https://patient.moolah.cc/atxfamilydental"
+                    target="_blank" rel="noopener">Make Payment</a><a class="btn btn-primary"
+                    href="https://flexbook.me/atxfd/website" target="_blank" rel="noopener">Book Online</a><button
+                    class="mobile-toggle" id="mobileToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+            </div>
+        </div>
+    </header>
+    <div id="mobileMenu" style="display:none;background:#fff;border-bottom:1px solid var(--line)">
+        <div class="container" style="padding:18px 0 25px;display:grid;gap:12px;font-weight:600"><a
+                href="meet-us.html">Meet Us</a><a href="services.html">Services</a><a
+                href="finance-insurance.html">Finance &amp; Insurance</a><a href="wellness-plan.html">Wellness
+                Plan</a><a href="pediatric-patients.html">Do We See Kids?</a><a href="contact.html">Contact</a><a
+                href="https://flexbook.me/atxfd/website" target="_blank" rel="noopener">Book Online</a></div>
+    </div>
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="reveal">
+                    <div class="eyebrow">Patient information</div>
+                    <h1>Care that feels clear from the start.</h1>
+                    <p>Understanding your insurance and payment options should be part of your dental care — not an
+                        afterthought. Here’s how ATX Family Dental helps you plan for your visit.</p>
+                    <div class="hero-actions"><a class="btn btn-primary" href="https://flexbook.me/atxfd/website"
+                            target="_blank" rel="noopener">Book an Appointment</a><a class="btn btn-secondary"
+                            href="tel:(512) 717-3147">Talk to Our Team</a></div>
+                </div>
+                <div class="hero-card reveal"><img src="images/home-banner-desktop.png"
+                        alt="Dental care at ATX Family Dental">
+                    <div class="hero-card-caption"><strong>Finance &amp; Insurance</strong><span>Simple options. Clear
+                            expectations.</span></div>
+                </div>
+            </div>
+        </section>
+        <section class="trust">
+            <div class="container trust-grid">
+                <div class="trust-item">
+                    <div class="trust-icon">✓</div>
+                    <div><strong>Most PPO insurance</strong><span>We accept most PPO plans.</span></div>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-icon">$</div>
+                    <div><strong>Flexible payments</strong><span>Cards, CareCredit, FSA &amp; HSA.</span></div>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-icon">i</div>
+                    <div><strong>Benefit verification</strong><span>We help clarify your coverage.</span></div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="section-head reveal">
+                    <div class="section-kicker">Payment options</div>
+                    <h2>Several ways to make care work for you.</h2>
+                    <p>We accept most PPO insurances, all major credit cards, third-party financing through CareCredit,
+                        and FSA/HSA benefits.</p>
+                </div>
+                <div class="payment-grid">
+                    <div class="panel reveal">
+                        <h3>Flexible payment options</h3>
+                        <ul class="option-list">
+                            <li><span class="check">✓</span><span>Most PPO dental insurance plans</span></li>
+                            <li><span class="check">✓</span><span>All major credit cards</span></li>
+                            <li><span class="check">✓</span><span>Third-party financing through CareCredit</span></li>
+                            <li><span class="check">✓</span><span>FSA (Flex Spending Benefits) and HSA</span></li>
+                        </ul>
+                    </div>
+                    <div class="callout reveal">
+                        <div>
+                            <div class="section-kicker">Need help?</div>
+                            <h3>We can help you understand the numbers before treatment.</h3>
+                            <p>When you schedule, our team can collect your insurance information, verify eligibility
+                                and benefits, and help estimate your expected out-of-pocket costs.</p>
+                        </div><a class="btn" href="tel:(512) 717-3147">Call (512) 717-3147</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section insurance">
+            <div class="container insurance-layout">
+                <div class="insurance-copy reveal">
+                    <div class="section-kicker">Dental insurance</div>
+                    <h2>Know what your plan means for your visit.</h2>
+                    <p>ATX Family Dental is in-network with the PPO carriers listed here. If you don’t see your carrier,
+                        call us and we’ll help get the answers.</p>
+                    <div class="note"><strong>Important:</strong><br>We do not participate in HMO, DMO, or Medicaid
+                        plans.</div>
+                </div>
+                <div class="reveal">
+                    <div class="carriers">
+                        <div class="carrier">Ameritas, Classic PPO</div>
+                        <div class="carrier">Anthem</div>
+                        <div class="carrier">Blue Cross Blue Shield</div>
+                        <div class="carrier">Cigna, DPPO</div>
+                        <div class="carrier">Guardian</div>
+                        <div class="carrier">Humana</div>
+                        <div class="carrier">Lincoln Financial</div>
+                        <div class="carrier">MetLife, PDP Plus &amp; FEDVIP</div>
+                        <div class="carrier">Principal</div>
+                        <div class="carrier">United Concordia</div>
+                        <div class="carrier">United Healthcare</div>
+                        <div class="carrier">Other carriers — call us</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="section-head reveal">
+                    <div class="section-kicker">How we help</div>
+                    <h2>A little more clarity before you sit in the chair.</h2>
+                    <p>Our goal is to make the financial side of dental care as straightforward as possible.</p>
+                </div>
+                <div class="help-grid">
+                    <article class="help-card reveal">
+                        <div class="number">01 · INSURANCE VERIFICATION</div>
+                        <h3>We check your benefits.</h3>
+                        <p>When you schedule, we’ll collect your insurance information, verify eligibility and benefits
+                            with your provider, and file your insurance claim.</p>
+                    </article>
+                    <article class="help-card reveal">
+                        <div class="number">02 · ESTIMATE OF COSTS</div>
+                        <h3>You’ll know what to expect.</h3>
+                        <p>Before treatment, we’ll let you know expected out-of-pocket costs for non-covered portions.
+                            Even if we’re out-of-network, we can still check your benefits.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="section" style="padding-top:0">
+            <div class="container">
+                <div class="remember reveal">
+                    <div>
+                        <div class="section-kicker">A few things to keep in mind</div>
+                        <h3>Estimates are not guarantees.</h3>
+                        <p>Insurance companies provide estimates of coverage, not guarantees. Your policy is a contract
+                            between you and your carrier, and claims may sometimes be paid differently than expected.
+                        </p>
+                    </div>
+                    <div>
+                        <div class="special"><strong>New patient special</strong>
+                            <div class="price">$299</div>
+                            <p>For new patients with a healthy smile: digital X-rays, a comprehensive exam, and a
+                                professional cleaning.</p>
+                        </div>
+                        <p style="margin-top:16px">Ready to make us your dental home? Ask about our <a
+                                href="wellness-plan.html"><strong>Wellness Plan</strong></a> for year-round care.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cta">
+            <div class="container">
+                <div class="cta-box reveal">
+                    <div>
+                        <div class="section-kicker">Questions about your coverage?</div>
+                        <h2>Let’s make the next step simple.</h2>
+                        <p>If you’re unsure about your insurance, financing, or what to expect, our team is happy to
+                            help.</p>
+                    </div><a class="btn" href="https://flexbook.me/atxfd/website" target="_blank" rel="noopener">Book
+                        Online</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div><img class="footer-logo" src="images/Header-logo-3.png" alt="ATX Family Dental">
+                    <p>Thoughtful dental care in Austin, Texas, with clear communication from appointment to treatment.
+                    </p>
+                    <p>1700 S. 1st Street<br>Austin, Texas 78704</p>
+                </div>
+                <div>
+                    <h4>Contact</h4>
+                    <div class="footer-links"><a href="tel:(512) 717-3147">(512) 717-3147</a><a
+                            href="mailto:info@atxfamilydental.com">info@atxfamilydental.com</a><a
+                            href="https://www.instagram.com/atxfamilydental/" target="_blank"
+                            rel="noopener">Instagram</a><a href="https://patient.moolah.cc/atxfamilydental"
+                            target="_blank" rel="noopener">Make a Payment</a><a href="https://flexbook.me/atxfd/website"
+                            target="_blank" rel="noopener">Book Online</a></div>
+                </div>
+                <div>
+                    <h4>Office hours</h4>
+                    <div class="hours">
+                        <span>Monday</span><strong>8am–5pm</strong><span>Tuesday</span><strong>8am–5pm</strong><span>Wednesday</span><strong>8am–5pm</strong><span>Thursday</span><strong>8am–5pm</strong><span>Friday</span><strong>8am–4pm</strong>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom"><span>© 2026 ATX Family Dental. All Rights Reserved.</span><span><a
+                        href="privacy-policy.html">Privacy Policy</a> · <a href="privacy-policy.html">Terms and
+                        Conditions</a></span></div>
+        </div>
+    </footer>
+    <script>
+        const header = document.getElementById('header'); const toggle = document.getElementById('mobileToggle'); const menu = document.getElementById('mobileMenu');
+        window.addEventListener('scroll', () => header.classList.toggle('scrolled', window.scrollY > 8), { passive: true });
+        toggle.addEventListener('click', () => { const open = menu.style.display === 'block'; menu.style.display = open ? 'none' : 'block'; toggle.setAttribute('aria-expanded', String(!open)); toggle.textContent = open ? '☰' : '×' });
+        const observer = new IntersectionObserver(entries => entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible') }), { threshold: .12 }); document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
+</body>
+
+</html>

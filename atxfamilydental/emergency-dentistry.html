@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Dentistry | ATX Family Dental</title>
+    <meta name="description"
+        content="Emergency dental care in Austin. ATX Family Dental makes room for urgent tooth or gum pain, with focused evaluation, X-rays and a clear treatment plan.">
+    <link rel="canonical" href="https://www.atxfamilydental.com/service/emergency-dentistry/">
+    <link rel="icon" href="images/cropped-favicon-atx-32x32.png" sizes="32x32">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        :root {
+            --cream: #f7f5ef;
+            --paper: #fff;
+            --ink: #18201f;
+            --muted: #68716e;
+            --sage: #667d72;
+            --sage-dark: #40584e;
+            --sage-soft: #e7eee9;
+            --sand: #e9dfcf;
+            --line: #dfe4df;
+            --white: #fff;
+            --shadow: 0 22px 60px rgba(24, 32, 31, .10);
+            --radius: 24px;
+            --max: 1180px;
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        html {
+            scroll-behavior: smooth
+        }
+
+        body {
+            margin: 0;
+            background: var(--paper);
+            color: var(--ink);
+            font-family: "DM Sans", sans-serif;
+            line-height: 1.65
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none
+        }
+
+        img {
+            display: block;
+            max-width: 100%
+        }
+
+        .container {
+            width: min(var(--max), calc(100% - 48px));
+            margin: auto
+        }
+
+        .eyebrow {
+            text-transform: uppercase;
+            letter-spacing: .16em;
+            font-size: 12px;
+            font-weight: 700;
+            color: var(--sage)
+        }
+
+        h1,
+        h2,
+        h3 {
+            margin: 0;
+            line-height: 1.08
+        }
+
+        h1,
+        h2 {
+            font-family: "Playfair Display", serif
+        }
+
+        h1 {
+            font-size: clamp(48px, 6.2vw, 82px);
+            letter-spacing: -.035em
+        }
+
+        h2 {
+            font-size: clamp(38px, 4.5vw, 60px);
+            letter-spacing: -.025em
+        }
+
+        p {
+            margin: 0;
+            color: var(--muted)
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 52px;
+            padding: 0 23px;
+            border-radius: 999px;
+            font-weight: 700;
+            font-size: 15px;
+            transition: .25s ease
+        }
+
+        .btn-primary {
+            background: var(--sage-dark);
+            color: #fff;
+            box-shadow: 0 12px 30px rgba(64, 88, 78, .18)
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            background: #30483e
+        }
+
+        .btn-light {
+            background: #fff;
+            color: var(--ink);
+            border: 1px solid rgba(255, 255, 255, .55)
+        }
+
+        .btn-outline {
+            border: 1px solid var(--line);
+            background: #fff
+        }
+
+        .btn-outline:hover {
+            border-color: var(--sage);
+            transform: translateY(-2px)
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            background: rgba(255, 255, 255, .92);
+            backdrop-filter: blur(18px);
+            border-bottom: 1px solid rgba(223, 228, 223, .8)
+        }
+
+        .nav {
+            height: 84px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 28px
+        }
+
+        .logo img {
+            width: 190px;
+            height: auto
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            font-size: 14px;
+            font-weight: 600
+        }
+
+        .nav-links>a,
+        .nav-drop>span {
+            transition: .2s;
+            color: #303836
+        }
+
+        .nav-links>a:hover,
+        .nav-drop:hover>span {
+            color: var(--sage-dark)
+        }
+
+        .nav-drop {
+            position: relative
+        }
+
+        .nav-drop span {
+            cursor: default
+        }
+
+        .dropdown {
+            position: absolute;
+            top: 30px;
+            left: -18px;
+            min-width: 220px;
+            padding: 10px;
+            background: #fff;
+            border: 1px solid var(--line);
+            border-radius: 16px;
+            box-shadow: var(--shadow);
+            opacity: 0;
+            pointer-events: none;
+            transform: translateY(7px);
+            transition: .2s
+        }
+
+        .nav-drop:hover .dropdown {
+            opacity: 1;
+            pointer-events: auto;
+            transform: none
+        }
+
+        .dropdown a {
+            display: block;
+            padding: 10px 12px;
+            border-radius: 10px;
+            font-size: 14px
+        }
+
+        .dropdown a:hover {
+            background: var(--sage-soft)
+        }
+
+        .nav-actions {
+            display: flex;
+            gap: 9px
+        }
+
+        .nav-actions .btn {
+            min-height: 44px;
+            padding: 0 17px;
+            font-size: 13px
+        }
+
+        .mobile-toggle {
+            display: none;
+            border: 0;
+            background: none;
+            font-size: 26px
+        }
+
+        .hero {
+            background: var(--cream);
+            padding: 70px 0 82px;
+            overflow: hidden
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.02fr;
+            align-items: center;
+            gap: 70px
+        }
+
+        .hero-copy {
+            max-width: 590px
+        }
+
+        .hero-copy h1 {
+            margin: 16px 0 22px
+        }
+
+        .hero-copy>p {
+            font-size: 19px;
+            max-width: 560px
+        }
+
+        .hero-actions {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-top: 32px
+        }
+
+        .hero-note {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            margin-top: 25px;
+            font-size: 13px;
+            color: #56625e
+        }
+
+        .hero-note b {
+            color: var(--ink)
+        }
+
+        .hero-media {
+            position: relative
+        }
+
+        .hero-media:before {
+            content: "";
+            position: absolute;
+            inset: -18px 18px 18px -18px;
+            border-radius: 30px;
+            background: var(--sand)
+        }
+
+        .hero-media img {
+            position: relative;
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+            border-radius: 30px;
+            box-shadow: var(--shadow)
+        }
+
+        .emergency-card {
+            position: absolute;
+            left: -30px;
+            bottom: 28px;
+            background: #fff;
+            border: 1px solid rgba(223, 228, 223, .9);
+            border-radius: 18px;
+            padding: 17px 20px;
+            box-shadow: var(--shadow);
+            max-width: 245px
+        }
+
+        .emergency-card strong {
+            display: block;
+            font-size: 14px;
+            margin-bottom: 4px
+        }
+
+        .emergency-card span {
+            font-size: 12px;
+            color: var(--muted)
+        }
+
+        .trust {
+            padding: 22px 0;
+            border-bottom: 1px solid var(--line);
+            background: #fff
+        }
+
+        .trust-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px
+        }
+
+        .trust-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 14px;
+            font-weight: 700
+        }
+
+        .trust-icon {
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            background: var(--sage-soft);
+            display: grid;
+            place-items: center;
+            color: var(--sage-dark);
+            font-weight: 800
+        }
+
+        .section {
+            padding: 105px 0
+        }
+
+        .intro-grid {
+            display: grid;
+            grid-template-columns: .78fr 1.22fr;
+            gap: 90px;
+            align-items: start
+        }
+
+        .intro-grid h2 {
+            max-width: 450px
+        }
+
+        .intro-copy {
+            font-size: 17px
+        }
+
+        .intro-copy p+p {
+            margin-top: 18px
+        }
+
+        .pain-points {
+            margin-top: 34px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 14px
+        }
+
+        .point {
+            padding: 20px;
+            border: 1px solid var(--line);
+            border-radius: 18px;
+            background: #fff
+        }
+
+        .point strong {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 15px
+        }
+
+        .point span {
+            font-size: 14px;
+            color: var(--muted)
+        }
+
+        .process {
+            background: var(--cream)
+        }
+
+        .process-head {
+            max-width: 650px;
+            margin-bottom: 50px
+        }
+
+        .process-head p {
+            margin-top: 18px;
+            font-size: 17px
+        }
+
+        .steps {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 18px
+        }
+
+        .step {
+            background: #fff;
+            border: 1px solid var(--line);
+            border-radius: var(--radius);
+            padding: 30px;
+            min-height: 240px
+        }
+
+        .step-num {
+            font-size: 13px;
+            font-weight: 800;
+            color: var(--sage);
+            letter-spacing: .12em
+        }
+
+        .step h3 {
+            font-family: "Playfair Display", serif;
+            font-size: 29px;
+            margin: 45px 0 12px
+        }
+
+        .step p {
+            font-size: 14px
+        }
+
+        .emergency-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 70px;
+            align-items: center
+        }
+
+        .list-card {
+            background: var(--sage-dark);
+            color: #fff;
+            border-radius: 30px;
+            padding: 48px
+        }
+
+        .list-card h2 {
+            color: #fff;
+            margin-bottom: 18px
+        }
+
+        .list-card p {
+            color: rgba(255, 255, 255, .76)
+        }
+
+        .list {
+            margin: 28px 0 0;
+            padding: 0;
+            list-style: none
+        }
+
+        .list li {
+            padding: 16px 0;
+            border-top: 1px solid rgba(255, 255, 255, .16);
+            font-size: 15px
+        }
+
+        .list li strong {
+            color: #fff
+        }
+
+        .side-copy h2 {
+            margin-bottom: 20px
+        }
+
+        .side-copy>p {
+            font-size: 17px
+        }
+
+        .side-copy .callout {
+            margin-top: 28px;
+            padding: 20px;
+            background: var(--cream);
+            border-radius: 18px;
+            border-left: 3px solid var(--sage)
+        }
+
+        .cta {
+            padding: 95px 0;
+            background: var(--ink);
+            color: #fff
+        }
+
+        .cta-inner {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 40px;
+            align-items: center
+        }
+
+        .cta h2 {
+            max-width: 720px
+        }
+
+        .cta p {
+            color: rgba(255, 255, 255, .68);
+            margin-top: 14px;
+            max-width: 650px
+        }
+
+        footer {
+            background: #111716;
+            color: #fff;
+            padding: 70px 0 24px
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1.3fr 1fr 1fr;
+            gap: 60px
+        }
+
+        .footer-logo {
+            width: 230px;
+            margin-bottom: 20px
+        }
+
+        footer p,
+        footer a {
+            color: rgba(255, 255, 255, .68)
+        }
+
+        footer a:hover {
+            color: #fff
+        }
+
+        .footer-title {
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: .15em;
+            color: #fff;
+            font-weight: 700;
+            margin-bottom: 18px
+        }
+
+        .contact-line {
+            margin: 10px 0
+        }
+
+        .hours {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px
+        }
+
+        .hours td {
+            padding: 5px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, .08)
+        }
+
+        .hours td:last-child {
+            text-align: right
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, .1);
+            margin-top: 55px;
+            padding-top: 22px;
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            font-size: 13px
+        }
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity .7s ease, transform .7s ease
+        }
+
+        .reveal.visible {
+            opacity: 1;
+            transform: none
+        }
+
+        @media(max-width:1050px) {
+            .nav-links {
+                display: none
+            }
+
+            .mobile-toggle {
+                display: block
+            }
+
+            .nav-actions .btn-outline {
+                display: none
+            }
+
+            .hero-grid {
+                gap: 45px
+            }
+
+            .hero-media img {
+                height: 440px
+            }
+        }
+
+        @media(max-width:800px) {
+            .container {
+                width: min(var(--max), calc(100% - 32px))
+            }
+
+            .nav {
+                height: 72px
+            }
+
+            .logo img {
+                width: 155px
+            }
+
+            .hero {
+                padding: 48px 0 62px
+            }
+
+            .hero-grid,
+            .intro-grid,
+            .emergency-list,
+            .cta-inner {
+                grid-template-columns: 1fr
+            }
+
+            .hero-copy>p {
+                font-size: 17px
+            }
+
+            .hero-media {
+                margin-top: 20px
+            }
+
+            .hero-media img {
+                height: 390px
+            }
+
+            .emergency-card {
+                left: 16px;
+                bottom: 16px
+            }
+
+            .trust-grid {
+                grid-template-columns: 1fr
+            }
+
+            .trust {
+                padding: 17px 0
+            }
+
+            .section {
+                padding: 72px 0
+            }
+
+            .steps,
+            .pain-points {
+                grid-template-columns: 1fr
+            }
+
+            .list-card {
+                padding: 32px
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 38px
+            }
+
+            .footer-bottom {
+                flex-direction: column
+            }
+
+            .cta {
+                padding: 72px 0
+            }
+        }
+
+        @media(prefers-reduced-motion:reduce) {
+            html {
+                scroll-behavior: auto
+            }
+
+            .reveal {
+                opacity: 1;
+                transform: none;
+                transition: none
+            }
+
+            .btn {
+                transition: none
+            }
+        }
+
+        .back-home {
+            justify-self: start;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--ink);
+            font-size: 14px;
+            font-weight: 700;
+            white-space: nowrap;
+            text-decoration: none;
+            transition: color .2s ease;
+        }
+
+        .back-arrow {
+            font-size: 25px;
+            line-height: 1;
+            font-weight: 400;
+            text-decoration: none;
+            transition: transform .2s ease;
+        }
+
+        .back-home:hover {
+            color: var(--sage-dark);
+        }
+
+        .back-home:hover .back-arrow {
+            transform: translateX(-4px);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container nav">
+
+            <a class="back-home" href="index.html" aria-label="Back to home">
+                <span class="back-arrow" aria-hidden="true">←</span>
+                <span>Back to Home</span>
+            </a>
+
+            <div class="nav-actions">
+                <a class="btn btn-outline" href="https://patient.moolah.cc/atxfamilydental" target="_blank"
+                    rel="noopener">Make Payment</a>
+                <a class="btn btn-primary" href="https://flexbook.me/atxfd/website" target="_blank" rel="noopener">Book
+                    Online</a>
+            </div>
+            <button class="mobile-toggle" type="button" aria-label="Open menu" onclick="toggleMenu()">☰</button>
+        </div>
+    </header>
+
+    <div id="mobileMenu" style="display:none;background:#fff;border-bottom:1px solid var(--line);padding:0 16px 22px">
+        <div class="container" style="display:grid;gap:4px">
+            <a href="meet-us.html" style="padding:11px 0;font-weight:600">Meet Us</a>
+            <a href="services.html" style="padding:11px 0;font-weight:600">Services</a>
+            <a href="finance-insurance.html" style="padding:11px 0;font-weight:600">Patient Info</a>
+            <a href="contact.html" style="padding:11px 0;font-weight:600">Contact</a>
+            <a class="btn btn-primary" href="https://flexbook.me/atxfd/website" target="_blank" rel="noopener"
+                style="margin-top:8px">Book Appointment</a>
+            <a class="btn btn-outline" href="https://patient.moolah.cc/atxfamilydental" target="_blank"
+                rel="noopener">Make Payment</a>
+        </div>
+    </div>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-copy reveal">
+                    <div class="eyebrow">Urgent dental care in Austin</div>
+                    <h1>When your tooth hurts, you shouldn't have to wait.</h1>
+                    <p>Dental emergencies don’t follow a schedule. When urgent tooth or gum pain happens, ATX Family
+                        Dental makes room to evaluate the problem and help you understand what comes next.</p>
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="https://flexbook.me/atxfd/website" target="_blank"
+                            rel="noopener">Request an Appointment</a>
+                        <a class="btn btn-outline" href="tel:+15127173147">Call (512) 717-3147</a>
+                    </div>
+                    <div class="hero-note"><b>Focused evaluation</b><span>•</span><span>X-ray + limited exam + clear
+                            treatment plan</span></div>
+                </div>
+
+                <div class="hero-media reveal">
+                    <img src="images/Dental-emergency-scaled.jpeg" alt="Dental emergency care" fetchpriority="high">
+                    <div class="emergency-card">
+                        <strong>Emergency dental care</strong>
+                        <span>Appointments are reserved each day for patients with urgent tooth or gum pain.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="trust">
+            <div class="container trust-grid">
+                <div class="trust-item"><span class="trust-icon">01</span><span>45 mins or longer</span></div>
+                <div class="trust-item"><span class="trust-icon">02</span><span>Focused evaluation</span></div>
+                <div class="trust-item"><span class="trust-icon">03</span><span>Clear next-step plan</span></div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container intro-grid">
+                <div class="reveal">
+                    <div class="eyebrow">Emergency dentistry</div>
+                    <h2>Start with relief, clarity, and a plan.</h2>
+                </div>
+                <div class="intro-copy reveal">
+                    <p>Dental pain is tough, and we know how urgent it feels. Whether you’re a current patient or new to
+                        our practice, we make sure to leave room in our schedule each day to see Austinites with tooth
+                        or gum pain.</p>
+                    <p>When you come in, we’ll start with a quick but thorough evaluation of the problem area. This
+                        includes taking an X-ray and conducting a focused, 15–30 minute examination—what we call a
+                        limited exam.</p>
+                    <div class="pain-points">
+                        <div class="point"><strong>Tooth pain</strong><span>Sudden or sharp pain that needs prompt
+                                attention.</span></div>
+                        <div class="point"><strong>Swollen gums</strong><span>Painful swelling may point to an infection
+                                or abscess.</span></div>
+                        <div class="point"><strong>Broken tooth</strong><span>A fracture can expose sensitive areas and
+                                cause severe pain.</span></div>
+                        <div class="point"><strong>Knocked-out tooth</strong><span>Prompt care can improve the chances
+                                of saving the tooth.</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section process">
+            <div class="container">
+                <div class="process-head reveal">
+                    <div class="eyebrow">What to expect</div>
+                    <h2>Know what happens when you walk in.</h2>
+                    <p>The goal is to quickly understand the problem, explain what we see, and give you a practical path
+                        forward.</p>
+                </div>
+                <div class="steps">
+                    <article class="step reveal">
+                        <div class="step-num">STEP 01</div>
+                        <h3>Evaluate</h3>
+                        <p>We examine the problem area and take an X-ray to better understand what is happening.</p>
+                    </article>
+                    <article class="step reveal">
+                        <div class="step-num">STEP 02</div>
+                        <h3>Explain</h3>
+                        <p>One of our dentists walks you through the situation using clear images and straightforward
+                            language.</p>
+                    </article>
+                    <article class="step reveal">
+                        <div class="step-num">STEP 03</div>
+                        <h3>Plan</h3>
+                        <p>You leave with a clear treatment plan focused on getting you back to feeling comfortable.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container emergency-list">
+                <div class="list-card reveal">
+                    <div class="eyebrow" style="color:#b9d0c5">Know the signs</div>
+                    <h2>When should you reach out?</h2>
+                    <p>A dental emergency is an urgent issue that may require immediate attention to relieve pain,
+                        prevent further damage, or protect oral health.</p>
+                    <ul class="list">
+                        <li><strong>Knocked-out tooth</strong> — seek care as soon as possible.</li>
+                        <li><strong>Broken or cracked tooth</strong> — especially with severe pain or sensitivity.</li>
+                        <li><strong>Sharp, intense dental pain</strong> — may signal an underlying dental problem.</li>
+                        <li><strong>Suddenly painful, swollen gums</strong> — may indicate infection or an abscess.</li>
+                    </ul>
+                </div>
+                <div class="side-copy reveal">
+                    <div class="eyebrow">A straightforward experience</div>
+                    <h2>We’ll show you what’s going on.</h2>
+                    <p>Rather than leaving you guessing, our dentists explain the findings, show you clear images of the
+                        area, and discuss your treatment options.</p>
+                    <div class="callout"><strong>Urgent pain?</strong><br>Contact ATX Family Dental so we can help
+                        determine the next step.</div>
+                    <div style="margin-top:24px"><a class="btn btn-primary" href="contact.html">Contact the Practice</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container cta-inner">
+                <div>
+                    <div class="eyebrow" style="color:#b9d0c5">ATX Family Dental</div>
+                    <h2>Don’t let dental pain keep you waiting.</h2>
+                    <p>Request an appointment online or call the practice at (512) 717-3147.</p>
+                </div>
+                <a class="btn btn-light" href="https://flexbook.me/atxfd/website" target="_blank" rel="noopener">Book
+                    Online</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <img class="footer-logo" src="images/Header-logo-3.png" alt="ATX Family Dental">
+                    <p>1700 S. 1st Street<br>Austin, Texas 78704</p>
+                    <p class="contact-line"><a href="tel:+15127173147">(512) 717-3147</a></p>
+                    <p><a href="mailto:info@atxfamilydental.com">info@atxfamilydental.com</a></p>
+                </div>
+                <div>
+                    <div class="footer-title">Quick links</div>
+                    <p class="contact-line"><a href="meet-us.html">Meet Us</a></p>
+                    <p class="contact-line"><a href="services.html">Services</a></p>
+                    <p class="contact-line"><a href="contact.html">Contact</a></p>
+                    <p class="contact-line"><a href="privacy-policy.html">Privacy Policy</a></p>
+                    <p class="contact-line"><a href="https://patient.moolah.cc/atxfamilydental" target="_blank"
+                            rel="noopener">Make Payment</a></p>
+                </div>
+                <div>
+                    <div class="footer-title">Office Hours</div>
+                    <table class="hours">
+                        <tr>
+                            <td>Monday</td>
+                            <td>8am – 5pm</td>
+                        </tr>
+                        <tr>
+                            <td>Tuesday</td>
+                            <td>8am – 5pm</td>
+                        </tr>
+                        <tr>
+                            <td>Wednesday</td>
+                            <td>8am – 5pm</td>
+                        </tr>
+                        <tr>
+                            <td>Thursday</td>
+                            <td>8am – 5pm</td>
+                        </tr>
+                        <tr>
+                            <td>Friday</td>
+                            <td>8am – 4pm</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2026 ATX Family Dental. All Rights Reserved.</span>
+                <a href="https://www.instagram.com/atxfamilydental/" target="_blank" rel="noopener">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('mobileMenu');
+            menu.style.display = menu.style.display === 'none' ? 'block' : 'none';
+        }
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
+        }, { threshold: .12 });
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
+</body>
+
+</html>

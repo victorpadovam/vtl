@@ -1,0 +1,1201 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Routine Dental Care | ATX Family Dental</title>
+    <meta name="description"
+        content="Routine dental cleanings and exams at ATX Family Dental in South Austin. Preventive care designed to keep your smile healthy, informed, and confident.">
+    <link rel="canonical" href="https://www.atxfamilydental.com/service/routine-care/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="images/cropped-favicon-atx-32x32.png" sizes="32x32">
+
+    <style>
+        :root {
+            --cream: #f7f4ee;
+            --paper: #fffdf9;
+            --white: #fff;
+            --ink: #17201f;
+            --muted: #65706d;
+            --sage: #55776e;
+            --sage-dark: #35564f;
+            --sage-soft: #dfe9e4;
+            --sand: #e9dfcf;
+            --line: #dfe3df;
+            --shadow: 0 24px 70px rgba(23, 32, 31, .10);
+            --radius: 26px;
+            --max: 1180px;
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        html {
+            scroll-behavior: smooth
+        }
+
+        body {
+            margin: 0;
+            color: var(--ink);
+            background: var(--cream);
+            font-family: "DM Sans", Arial, sans-serif;
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none
+        }
+
+        img {
+            display: block;
+            max-width: 100%
+        }
+
+        button {
+            font: inherit
+        }
+
+        .container {
+            width: min(var(--max), calc(100% - 40px));
+            margin: auto
+        }
+
+        .topbar {
+            background: var(--ink);
+            color: #f7f4ee;
+            font-size: 13px;
+            letter-spacing: .02em;
+        }
+
+        .topbar-inner {
+            min-height: 38px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .topbar a {
+            text-decoration: underline;
+            text-underline-offset: 3px
+        }
+
+        .topbar-right {
+            display: flex;
+            gap: 20px
+        }
+
+        .site-header {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background: rgba(255, 253, 249, .92);
+            border-bottom: 1px solid rgba(23, 32, 31, .08);
+            backdrop-filter: blur(18px);
+            transition: box-shadow .3s ease, background .3s ease;
+        }
+
+        .site-header.scrolled {
+            box-shadow: 0 12px 35px rgba(23, 32, 31, .08)
+        }
+
+        .nav {
+            min-height: 82px;
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            gap: 28px;
+        }
+
+        .logo {
+            justify-self: center
+        }
+
+        .logo img {
+            width: 180px;
+            height: auto
+        }
+
+        .back-home {
+            justify-self: start;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--ink);
+            font-size: 14px;
+            font-weight: 700;
+            white-space: nowrap;
+            transition: color .2s ease;
+        }
+
+        .back-arrow {
+            font-size: 25px;
+            line-height: 1;
+            font-weight: 400;
+            transition: transform .2s ease;
+        }
+
+        .back-home:hover {
+            color: var(--sage-dark)
+        }
+
+        .back-home:hover .back-arrow {
+            transform: translateX(-4px)
+        }
+
+        .nav-actions {
+            justify-self: end;
+            display: flex;
+            align-items: center;
+            gap: 10px
+        }
+
+        .button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 45px;
+            padding: 0 18px;
+            border-radius: 999px;
+            font-weight: 700;
+            font-size: 14px;
+            border: 1px solid transparent;
+            transition: transform .2s ease, box-shadow .2s ease, background .2s ease;
+        }
+
+        .button:hover {
+            transform: translateY(-2px)
+        }
+
+        .button-primary {
+            background: var(--sage);
+            color: #fff;
+            box-shadow: 0 12px 25px rgba(85, 119, 110, .22)
+        }
+
+        .button-primary:hover {
+            background: var(--sage-dark)
+        }
+
+        .button-light {
+            background: transparent;
+            border-color: rgba(23, 32, 31, .16)
+        }
+
+        .hero {
+            position: relative;
+            overflow: hidden;
+            padding: 72px 0 88px;
+            background:
+                radial-gradient(circle at 85% 20%, rgba(223, 233, 228, .9), transparent 31%),
+                linear-gradient(135deg, #fbf9f4 0%, #f2eee6 100%);
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1.02fr .98fr;
+            align-items: center;
+            gap: 70px;
+        }
+
+        .eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 9px;
+            color: var(--sage-dark);
+            text-transform: uppercase;
+            letter-spacing: .16em;
+            font-size: 12px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .eyebrow:before {
+            content: "";
+            width: 28px;
+            height: 1px;
+            background: var(--sage)
+        }
+
+        h1,
+        h2,
+        h3 {
+            margin: 0;
+            line-height: 1.08
+        }
+
+        h1,
+        h2 {
+            font-family: "Playfair Display", Georgia, serif
+        }
+
+        .hero h1 {
+            font-size: clamp(48px, 6vw, 78px);
+            letter-spacing: -.035em;
+            max-width: 700px
+        }
+
+        .hero-copy {
+            font-size: 18px;
+            color: var(--muted);
+            max-width: 610px;
+            margin: 24px 0 30px
+        }
+
+        .hero-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px
+        }
+
+        .hero-note {
+            display: flex;
+            gap: 14px;
+            align-items: center;
+            margin-top: 22px;
+            color: var(--muted);
+            font-size: 13px
+        }
+
+        .check {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            background: var(--sage-soft);
+            display: grid;
+            place-items: center;
+            color: var(--sage-dark);
+            font-weight: 800
+        }
+
+        .hero-media {
+            position: relative
+        }
+
+        .hero-image {
+            width: 100%;
+            aspect-ratio: 4/3;
+            object-fit: cover;
+            border-radius: 34px;
+            box-shadow: var(--shadow);
+        }
+
+        .hero-card {
+            position: absolute;
+            left: -30px;
+            bottom: 28px;
+            width: 230px;
+            padding: 20px;
+            background: rgba(255, 253, 249, .94);
+            border: 1px solid rgba(255, 255, 255, .9);
+            border-radius: 20px;
+            box-shadow: 0 18px 45px rgba(23, 32, 31, .16);
+            backdrop-filter: blur(14px);
+        }
+
+        .hero-card strong {
+            display: block;
+            font-size: 15px;
+            margin-bottom: 5px
+        }
+
+        .hero-card span {
+            font-size: 13px;
+            color: var(--muted)
+        }
+
+        .trust {
+            background: var(--white);
+            border-bottom: 1px solid var(--line);
+        }
+
+        .trust-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr)
+        }
+
+        .trust-item {
+            padding: 27px 22px;
+            border-right: 1px solid var(--line)
+        }
+
+        .trust-item:last-child {
+            border-right: 0
+        }
+
+        .trust-item strong {
+            display: block;
+            font-size: 14px;
+            margin-bottom: 3px
+        }
+
+        .trust-item span {
+            font-size: 13px;
+            color: var(--muted)
+        }
+
+        .section {
+            padding: 105px 0
+        }
+
+        .section-intro {
+            max-width: 700px;
+            margin-bottom: 50px
+        }
+
+        .section-intro.center {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto
+        }
+
+        .section-kicker {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: .15em;
+            color: var(--sage-dark);
+            font-weight: 700;
+            margin-bottom: 13px
+        }
+
+        .section h2 {
+            font-size: clamp(40px, 5vw, 60px);
+            letter-spacing: -.03em
+        }
+
+        .section-intro p {
+            font-size: 17px;
+            color: var(--muted);
+            margin: 18px 0 0
+        }
+
+        .expect {
+            background: var(--ink);
+            color: #fff;
+            padding: 92px 0;
+        }
+
+        .expect-grid {
+            display: grid;
+            grid-template-columns: .8fr 1.2fr;
+            gap: 80px;
+            align-items: center
+        }
+
+        .expect h2 {
+            font-size: clamp(42px, 5vw, 62px)
+        }
+
+        .expect-copy {
+            color: #b9c2bf;
+            max-width: 500px;
+            margin-top: 18px
+        }
+
+        .time-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1px;
+            background: rgba(255, 255, 255, .12);
+            border: 1px solid rgba(255, 255, 255, .12);
+            border-radius: 24px;
+            overflow: hidden
+        }
+
+        .time-card {
+            padding: 34px;
+            background: rgba(255, 255, 255, .035)
+        }
+
+        .time-card .number {
+            font-family: "Playfair Display", Georgia, serif;
+            font-size: 48px;
+            color: #e4eee9
+        }
+
+        .time-card strong {
+            display: block;
+            font-size: 17px;
+            margin-top: 6px
+        }
+
+        .time-card span {
+            display: block;
+            color: #aeb9b5;
+            font-size: 14px;
+            margin-top: 8px
+        }
+
+        .content-grid {
+            display: grid;
+            grid-template-columns: .75fr 1.25fr;
+            gap: 80px;
+            align-items: start;
+        }
+
+        .sticky-heading {
+            position: sticky;
+            top: 125px
+        }
+
+        .content-copy {
+            color: var(--muted);
+            font-size: 16px
+        }
+
+        .content-copy p {
+            margin: 0 0 22px
+        }
+
+        .content-copy p:last-child {
+            margin-bottom: 0
+        }
+
+        .care-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 14px;
+            margin-top: 34px
+        }
+
+        .care-card {
+            padding: 23px;
+            background: var(--white);
+            border: 1px solid var(--line);
+            border-radius: 20px;
+            transition: transform .25s ease, box-shadow .25s ease;
+        }
+
+        .care-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 16px 35px rgba(23, 32, 31, .08)
+        }
+
+        .care-icon {
+            width: 38px;
+            height: 38px;
+            border-radius: 12px;
+            background: var(--sage-soft);
+            display: grid;
+            place-items: center;
+            color: var(--sage-dark);
+            font-weight: 800;
+            margin-bottom: 15px
+        }
+
+        .care-card strong {
+            font-size: 15px
+        }
+
+        .care-card span {
+            display: block;
+            color: var(--muted);
+            font-size: 13px;
+            margin-top: 5px
+        }
+
+        .experience {
+            background: var(--sage-soft);
+            padding: 100px 0;
+        }
+
+        .experience-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 55px;
+            align-items: center
+        }
+
+        .experience-image {
+            width: 100%;
+            aspect-ratio: 1.08;
+            object-fit: cover;
+            border-radius: 30px;
+            box-shadow: var(--shadow)
+        }
+
+        .experience h2 {
+            font-size: clamp(40px, 5vw, 58px)
+        }
+
+        .experience p {
+            color: var(--muted);
+            font-size: 17px;
+            margin: 20px 0
+        }
+
+        .steps {
+            display: grid;
+            gap: 15px;
+            margin-top: 28px
+        }
+
+        .step {
+            display: flex;
+            gap: 15px;
+            align-items: flex-start
+        }
+
+        .step-num {
+            flex: 0 0 34px;
+            height: 34px;
+            border-radius: 50%;
+            background: var(--sage);
+            color: #fff;
+            display: grid;
+            place-items: center;
+            font-size: 13px;
+            font-weight: 700
+        }
+
+        .step strong {
+            display: block;
+            font-size: 15px
+        }
+
+        .step span {
+            display: block;
+            color: var(--muted);
+            font-size: 13px;
+            margin-top: 2px
+        }
+
+        .cta {
+            padding: 100px 0
+        }
+
+        .cta-card {
+            position: relative;
+            overflow: hidden;
+            background: var(--sage-dark);
+            color: #fff;
+            border-radius: 32px;
+            padding: 70px;
+        }
+
+        .cta-card:after {
+            content: "";
+            position: absolute;
+            width: 380px;
+            height: 380px;
+            right: -120px;
+            top: -160px;
+            border: 1px solid rgba(255, 255, 255, .15);
+            border-radius: 50%;
+            box-shadow: 0 0 0 65px rgba(255, 255, 255, .025), 0 0 0 130px rgba(255, 255, 255, .018);
+        }
+
+        .cta-card h2 {
+            font-size: clamp(40px, 5vw, 58px);
+            max-width: 720px
+        }
+
+        .cta-card p {
+            color: #c9d6d1;
+            max-width: 620px;
+            margin: 18px 0 28px
+        }
+
+        .cta-card .button {
+            position: relative;
+            z-index: 2;
+            background: #fff;
+            color: var(--ink)
+        }
+
+        .cta-card .button:hover {
+            background: #f1f5f2
+        }
+
+        footer {
+            background: #111918;
+            color: #d7dfdc;
+            padding: 72px 0 30px
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1.35fr .8fr .8fr;
+            gap: 60px
+        }
+
+        .footer-logo {
+            width: 230px;
+            opacity: .94
+        }
+
+        .footer-map {
+            margin-top: 22px;
+            border-radius: 18px;
+            overflow: hidden;
+            height: 190px
+        }
+
+        .footer-map iframe {
+            width: 100%;
+            height: 100%;
+            border: 0
+        }
+
+        footer h3 {
+            font-family: "DM Sans", Arial, sans-serif;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: .12em;
+            color: #fff;
+            margin-bottom: 18px
+        }
+
+        .footer-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: grid;
+            gap: 10px;
+            font-size: 14px;
+            color: #aeb9b5
+        }
+
+        .footer-list a:hover {
+            color: #fff
+        }
+
+        .hours {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+            color: #aeb9b5
+        }
+
+        .hours td {
+            padding: 7px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, .07)
+        }
+
+        .hours td:last-child {
+            text-align: right;
+            color: #e5ebe8
+        }
+
+        .footer-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            border-top: 1px solid rgba(255, 255, 255, .1);
+            margin-top: 50px;
+            padding-top: 22px;
+            color: #8f9b97;
+            font-size: 12px
+        }
+
+        .footer-bottom a {
+            text-decoration: underline;
+            text-underline-offset: 3px
+        }
+
+        .instagram {
+            font-weight: 700;
+            color: #fff
+        }
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(18px);
+            transition: opacity .65s ease, transform .65s ease
+        }
+
+        .reveal.visible {
+            opacity: 1;
+            transform: none
+        }
+
+        @media (max-width:980px) {
+
+            .hero-grid,
+            .expect-grid,
+            .content-grid,
+            .experience-grid {
+                grid-template-columns: 1fr
+            }
+
+            .hero {
+                padding: 55px 0 70px
+            }
+
+            .hero-grid {
+                gap: 42px
+            }
+
+            .hero-card {
+                left: 18px
+            }
+
+            .sticky-heading {
+                position: static
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr 1fr
+            }
+
+            .footer-grid> :first-child {
+                grid-column: 1/-1
+            }
+        }
+
+        @media (max-width:680px) {
+            .container {
+                width: min(var(--max), calc(100% - 28px))
+            }
+
+            .topbar-right {
+                display: none
+            }
+
+            .topbar-inner {
+                justify-content: center;
+                text-align: center
+            }
+
+            .nav {
+                min-height: 70px;
+                grid-template-columns: auto 1fr;
+                gap: 16px
+            }
+
+            .back-home {
+                font-size: 13px
+            }
+
+            .back-arrow {
+                font-size: 22px
+            }
+
+            .logo {
+                justify-self: end
+            }
+
+            .logo img {
+                width: 150px
+            }
+
+            .nav-actions {
+                display: none
+            }
+
+            .hero h1 {
+                font-size: 47px
+            }
+
+            .hero-copy {
+                font-size: 16px
+            }
+
+            .hero-image {
+                aspect-ratio: 1/1
+            }
+
+            .hero-card {
+                position: relative;
+                left: auto;
+                bottom: auto;
+                margin: -35px 15px 0;
+                z-index: 2;
+                width: auto
+            }
+
+            .trust-grid {
+                grid-template-columns: 1fr
+            }
+
+            .trust-item {
+                border-right: 0;
+                border-bottom: 1px solid var(--line);
+                padding: 20px
+            }
+
+            .trust-item:last-child {
+                border-bottom: 0
+            }
+
+            .section {
+                padding: 75px 0
+            }
+
+            .expect {
+                padding: 70px 0
+            }
+
+            .time-grid,
+            .care-list {
+                grid-template-columns: 1fr
+            }
+
+            .experience {
+                padding: 70px 0
+            }
+
+            .cta {
+                padding: 70px 0
+            }
+
+            .cta-card {
+                padding: 42px 25px;
+                border-radius: 24px
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 38px
+            }
+
+            .footer-grid> :first-child {
+                grid-column: auto
+            }
+
+            .footer-bottom {
+                align-items: flex-start;
+                flex-direction: column
+            }
+        }
+
+        @media (prefers-reduced-motion:reduce) {
+            html {
+                scroll-behavior: auto
+            }
+
+            *,
+            *::before,
+            *::after {
+                animation: none !important;
+                transition: none !important
+            }
+
+            .reveal {
+                opacity: 1;
+                transform: none
+            }
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="topbar">
+        <div class="container topbar-inner">
+            <span>South Austin dental care, designed around you.</span>
+            <div class="topbar-right">
+                <a href="tel:+15127173147">(512) 717-3147</a>
+                <a href="https://flexbook.me/atxfd/website" target="_blank" rel="noopener">Book online</a>
+            </div>
+        </div>
+    </div>
+
+    <header class="site-header" id="siteHeader">
+        <div class="container nav">
+            <a class="back-home" href="index.html" aria-label="Back to home">
+                <span class="back-arrow" aria-hidden="true">←</span>
+                <span>Back to Home</span>
+            </a>
+
+            <a class="logo" href="index.html" aria-label="ATX Family Dental home">
+                <img src="images/Header-logo.png" alt="ATX Family Dental">
+            </a>
+
+            <div class="nav-actions">
+                <a class="button button-light" href="https://patient.moolah.cc/atxfamilydental" target="_blank"
+                    rel="noopener">Make Payment</a>
+                <a class="button button-primary" href="https://flexbook.me/atxfd/website" target="_blank"
+                    rel="noopener">Book Online</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="reveal">
+                    <div class="eyebrow">Routine care · South Austin</div>
+                    <h1>A healthier smile starts with the care you repeat.</h1>
+                    <p class="hero-copy">Routine dental cleanings and exams are designed to keep your smile healthy,
+                        help catch concerns early, and give you a clear understanding of your oral health.</p>
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="https://flexbook.me/atxfd/website" target="_blank"
+                            rel="noopener">Book an Appointment</a>
+                        <a class="button button-light" href="#what-to-expect">See what to expect</a>
+                    </div>
+                    <div class="hero-note">
+                        <span class="check">✓</span>
+                        <span>Clear, kind, thorough preventive care.</span>
+                    </div>
+                </div>
+
+                <div class="hero-media reveal">
+                    <img class="hero-image" src="images/Routine-care.jpg" alt="Routine dental care at ATX Family Dental"
+                        fetchpriority="high">
+                    <div class="hero-card">
+                        <strong>Designed around your visit</strong>
+                        <span>Education, prevention, and a clear picture of your dental health.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="trust">
+            <div class="container trust-grid">
+                <div class="trust-item reveal">
+                    <strong>Registered Dental Hygienists</strong>
+                    <span>Education and guidance throughout your hygiene appointment.</span>
+                </div>
+                <div class="trust-item reveal">
+                    <strong>Digital diagnostics when needed</strong>
+                    <span>Low-radiation digital X-rays and intraoral photos when appropriate.</span>
+                </div>
+                <div class="trust-item reveal">
+                    <strong>Prevention first</strong>
+                    <span>Regular care helps address plaque, calculus, decay, and gum health.</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="what-to-expect">
+            <div class="container">
+                <div class="section-intro center reveal">
+                    <div class="section-kicker">What to expect</div>
+                    <h2>Time for care. Time for questions.</h2>
+                    <p>Your visit is structured to give the team enough time to evaluate your oral health and make sure
+                        you leave informed about what comes next.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="expect">
+            <div class="container expect-grid">
+                <div class="reveal">
+                    <div class="section-kicker" style="color:#a9c4ba">Your appointment</div>
+                    <h2>Built around the time you need.</h2>
+                    <p class="expect-copy">The original practice guidance sets aside different appointment times
+                        depending on whether you are an established or new patient.</p>
+                </div>
+
+                <div class="time-grid reveal">
+                    <div class="time-card">
+                        <div class="number">1h</div>
+                        <strong>Established patients</strong>
+                        <span>Typical appointment time for routine care.</span>
+                    </div>
+                    <div class="time-card">
+                        <div class="number">2h</div>
+                        <strong>New patients</strong>
+                        <span>More time for your first visit and comprehensive evaluation.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container content-grid">
+                <div class="sticky-heading reveal">
+                    <div class="section-kicker">Dental cleanings &amp; exams</div>
+                    <h2>Preventive care, without the guesswork.</h2>
+                    <p class="section-intro" style="margin:18px 0 0">The goal is simple: help you understand what is
+                        happening, why it matters, and what you can do between visits.</p>
+                </div>
+
+                <div class="content-copy reveal">
+                    <p>We’ve put a lot of thought into your hygiene appointment to ensure the best experience possible.
+                        Our team upholds high standards of care, and our Registered Dental Hygienists are committed to
+                        educating you every step of the way. We believe that being clear, kind, and thorough is the best
+                        approach to patient care.</p>
+
+                    <p>During your cleaning, we may take digital X-rays and intraoral photos if needed, so we can
+                        provide a full picture of your dental health. Our goal is for you to leave feeling confident and
+                        well-informed, with a clear understanding of what’s happening and why it matters.</p>
+
+                    <p>In our South Austin office, routine cleanings are designed to eliminate plaque and calculus
+                        buildup around your teeth and below the gumline. By removing harmful bacteria and hard debris,
+                        the team helps you work toward optimal oral health and a confident smile.</p>
+
+                    <p>The best way to avoid serious dental issues is by sticking to a regimen of prevention.
+                        Maintaining optimal oral health is important for preventing issues including tooth decay, gum
+                        disease, bad breath, and tooth loss.</p>
+
+                    <p>Your visit will typically begin with low-radiation digital X-rays to detect abnormalities or
+                        decay between the teeth and a comprehensive examination of your teeth and gums. If there is
+                        anything to address, the team will create a treatment plan customized to your unique oral health
+                        needs.</p>
+
+                    <p>The team then uses both hand instruments and an ultrasonic scaler to gently break up plaque and
+                        tartar buildup. You’ll also receive guidance on home care between visits so future cleanings can
+                        be easier.</p>
+
+                    <div class="care-list">
+                        <div class="care-card">
+                            <div class="care-icon">01</div>
+                            <strong>Comprehensive evaluation</strong>
+                            <span>Teeth and gums are examined as part of your preventive visit.</span>
+                        </div>
+                        <div class="care-card">
+                            <div class="care-icon">02</div>
+                            <strong>Digital imaging when needed</strong>
+                            <span>X-rays and intraoral photos can provide a fuller picture.</span>
+                        </div>
+                        <div class="care-card">
+                            <div class="care-icon">03</div>
+                            <strong>Professional cleaning</strong>
+                            <span>Hand instruments and an ultrasonic scaler help remove buildup.</span>
+                        </div>
+                        <div class="care-card">
+                            <div class="care-icon">04</div>
+                            <strong>Home-care guidance</strong>
+                            <span>Leave with practical information for the time between visits.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="experience">
+            <div class="container experience-grid">
+                <div class="reveal">
+                    <img class="experience-image" src="images/Routine-care.jpg" alt="Routine dental cleaning and exam">
+                </div>
+                <div class="reveal">
+                    <div class="section-kicker">A clearer dental experience</div>
+                    <h2>Know what is happening — and why.</h2>
+                    <p>Routine care is more than a cleaning. It is an opportunity to understand your oral health,
+                        identify anything that needs attention, and build a prevention routine that works for you.</p>
+
+                    <div class="steps">
+                        <div class="step">
+                            <div class="step-num">1</div>
+                            <div><strong>Assess</strong><span>Review your dental health with an exam and imaging when
+                                    needed.</span></div>
+                        </div>
+                        <div class="step">
+                            <div class="step-num">2</div>
+                            <div><strong>Clean</strong><span>Remove plaque and calculus buildup around the teeth and
+                                    gumline.</span></div>
+                        </div>
+                        <div class="step">
+                            <div class="step-num">3</div>
+                            <div><strong>Explain</strong><span>Understand what the team sees and what it means for your
+                                    care.</span></div>
+                        </div>
+                        <div class="step">
+                            <div class="step-num">4</div>
+                            <div><strong>Plan</strong><span>If something needs attention, receive a treatment plan
+                                    tailored to your needs.</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <div class="cta-card reveal">
+                    <div class="section-kicker" style="color:#a9c4ba">Ready when you are</div>
+                    <h2>Make routine care part of your long-term smile.</h2>
+                    <p>Schedule your next appointment at ATX Family Dental in South Austin and take the guesswork out of
+                        preventive dental care.</p>
+                    <a class="button" href="https://flexbook.me/atxfd/website" target="_blank" rel="noopener">Book an
+                        Appointment</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <img class="footer-logo" src="images/Header-logo-3.png" alt="ATX Family Dental">
+                    <div class="footer-map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3447.186853165127!2d-97.76179792379358!3d30.231747609670983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b4eb0b01986f%3A0x6b241d4769ed491e!2sATX%20Family%20Dental!5e0!3m2!1sen!2sin!4v1739172637598!5m2!1sen!2sin"
+                            loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                            title="ATX Family Dental location"></iframe>
+                    </div>
+                </div>
+
+                <div>
+                    <h3>Contact us</h3>
+                    <ul class="footer-list">
+                        <li>1700 S. 1st Street<br>Austin, Texas 78704</li>
+                        <li><a href="tel:+15127173147">(512) 717-3147</a></li>
+                        <li><a href="mailto:info@atxfamilydental.com">info@atxfamilydental.com</a></li>
+                        <li><a href="https://flexbook.me/atxfd/website" target="_blank" rel="noopener">Book Online</a>
+                        </li>
+                        <li><a href="https://patient.moolah.cc/atxfamilydental" target="_blank" rel="noopener">Make
+                                Payment</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>Office hours</h3>
+                    <table class="hours">
+                        <tr>
+                            <td>Monday</td>
+                            <td>8am – 5pm</td>
+                        </tr>
+                        <tr>
+                            <td>Tuesday</td>
+                            <td>8am – 5pm</td>
+                        </tr>
+                        <tr>
+                            <td>Wednesday</td>
+                            <td>8am – 5pm</td>
+                        </tr>
+                        <tr>
+                            <td>Thursday</td>
+                            <td>8am – 5pm</td>
+                        </tr>
+                        <tr>
+                            <td>Friday</td>
+                            <td>8am – 4pm</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <span>© 2026 All Rights Reserved. <a href="privacy-policy.html">Privacy Policy | Terms and
+                        Conditions</a></span>
+                <a class="instagram" href="https://www.instagram.com/atxfamilydental/" target="_blank"
+                    rel="noopener">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const header = document.getElementById('siteHeader');
+
+        window.addEventListener('scroll', () => {
+            header.classList.toggle('scrolled', window.scrollY > 8);
+        }, { passive: true });
+
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: .12 });
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
+</body>
+
+</html>

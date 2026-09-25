@@ -1,0 +1,523 @@
+/*
+
+Theme Name: Atx
+
+Theme URI: https://www.sweans.com
+
+Author: Sweans
+
+Author URI: https://www.sweans.com
+
+Description: A WordPress theme frame work
+
+Requires at least: WordPress 5.0.0
+
+Version: 1.0.0
+
+License: GNU General Public License v3
+
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
+Text Domain: sweans
+
+Tags: blog, news, photography, two-columns, left-sidebar, right-sidebar, flexible-header, custom-colors, custom-menu, editor-style, featured-images, footer-widgets, rtl-language-support, threaded-comments
+
+
+
+This theme, like WordPress, is licensed under the GPL.
+
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+
+/*--------------------------------------------------------------
+
+>>> TABLE OF CONTENTS:
+
+----------------------------------------------------------------
+
+# Typography
+
+# Elements
+
+# Forms
+
+# Alignments
+
+# Sidebars
+
+# Widgets
+
+# Preloader
+
+# Header
+
+# Navigation
+
+	## Links
+
+	## Menus
+
+# Accessibility
+
+# Content
+
+    ## Posts and pages
+
+	## Asides
+
+	## Comments
+
+# Media
+
+	## Captions
+
+	## Galleries
+
+# Post Format
+
+# Pagination
+
+# Footer
+
+# Social Share
+
+# Load more
+
+# Responsive
+
+--------------------------------------------------------------*/
+
+a,
+
+abbr,
+
+acronym,
+
+address,
+
+applet,
+
+b,
+
+big,
+
+blockquote,
+
+body,
+
+caption,
+
+center,
+
+cite,
+
+code,
+
+dd,
+
+del,
+
+dfn,
+
+div,
+
+dl,
+
+dt,
+
+em,
+
+fieldset,
+
+font,
+
+form,
+
+h1,
+
+h2,
+
+h3,
+
+h4,
+
+h5,
+
+h6,
+
+html,
+
+i,
+
+iframe,
+
+img,
+
+ins,
+
+kbd,
+
+label,
+
+legend,
+
+li,
+
+object,
+
+ol,
+
+p,
+
+pre,
+
+q,
+
+s,
+
+samp,
+
+small,
+
+span,
+
+strike,
+
+strong,
+
+sub,
+
+sup,
+
+table,
+
+tbody,
+
+td,
+
+tfoot,
+
+th,
+
+thead,
+
+tr,
+
+tt,
+
+u,
+
+ul,
+
+var {
+
+  margin: 0;
+
+  padding: 0;
+
+  border: 0;
+
+  outline: 0;
+
+  font-size: 100%;
+
+  vertical-align: baseline;
+
+  background: 0 0;
+
+}
+
+* {
+
+  -webkit-box-sizing: border-box;
+
+  -moz-box-sizing: border-box;
+
+  box-sizing: border-box;
+
+}
+
+*,
+
+:after,
+
+:before {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+}
+
+.clear {
+
+  clear: both;
+
+}
+
+body,
+
+html {
+
+  font-size: 100%;
+
+  height: 100%;
+
+}
+
+body {
+
+  margin: 0;
+
+  transition: 0.5s;
+
+}
+
+body,
+
+input,
+
+td,
+
+textarea,
+
+th {
+
+  color: #000;
+
+  font-family: 'Averta Standard PE', sans-serif;
+
+   /* font-family: 'Serifa'; */
+
+  font-size: 12px;
+
+}
+
+#access li:hover > a,
+
+#access ul li.current-menu-ancestor > a,
+
+#access ul li.current-menu-item > a,
+
+#access ul li.current-menu-parent > a,
+
+#access ul li.current_page_item > a,
+
+#access ul ul :hover > a,
+
+#access2 li:hover > a,
+
+#access2 ul li.current-menu-ancestor > a,
+
+#access2 ul li.current-menu-item > a,
+
+#access2 ul li.current-menu-parent > a,
+
+#access2 ul li.current_page_item > a,
+
+#access2 ul ul :hover > a,
+
+* html #access ul li a:hover,
+
+* html #access ul li.current-menu-ancestor a,
+
+* html #access ul li.current-menu-item a,
+
+* html #access ul li.current-menu-parent a,
+
+* html #access ul li.current_page_item a,
+
+* html #access2 ul li a:hover,
+
+* html #access2 ul li.current-menu-ancestor a,
+
+* html #access2 ul li.current-menu-item a,
+
+* html #access2 ul li.current-menu-parent a,
+
+* html #access2 ul li.current_page_item a {
+
+  color: #008080;
+
+}
+
+#access ul li:hover > ul,
+
+#access2 ul li:hover > ul {
+
+  display: block;
+
+}
+
+.bottom-to-top-arrow:hover {
+
+  opacity: 0.8;
+
+  transition: 0.3s linear;
+
+}
+
+html[lang="ar"] * {
+
+  font-family: "GE SS Two Light";
+
+}
+
+html[lang="ar"] .fa {
+
+  font: 14px/1 FontAwesome;
+
+}
+
+.appointment{
+
+    display: flex !important;
+
+    gap:10px  !important;
+
+    flex-direction: column  !important;
+
+}
+
+@font-face {
+
+    font-family: 'Averta Standard PE';
+
+    src: url('../fonts/averta-standard-pe-thin.woff') format('woff');
+
+    font-weight: 100;
+
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+
+    font-family: 'Averta Standard PE';
+
+    src: url('../fonts/averta-standard-pe-light.woff') format('woff');
+
+    font-weight: 300;
+
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+
+    font-family: 'Averta Standard PE';
+
+    src: url('../fonts/averta-standard-pe-regular.woff') format('woff');
+
+    font-weight: 400;
+
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+
+    font-family: 'Averta Standard PE';
+
+    src: url('../fonts/averta-standard-pe-semibold.woff') format('woff');
+
+    font-weight: 600;
+
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+
+    font-family: 'Averta Standard PE';
+
+    src: url('../fonts/averta-standard-pe-bold.woff') format('woff');
+
+    font-weight: 700;
+
+    font-style: normal;
+
+}
+
+
+
+/* Serifa Font */
+
+@font-face {
+
+    font-family: 'Serifa';
+
+    src: url('../fonts/Serifa-Thi.ttf') format('truetype');
+
+    font-weight: 100;
+
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+
+    font-family: 'Serifa';
+
+    src: url('../fonts/Serifa-Lig.ttf') format('truetype');
+
+    font-weight: 300;
+
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+
+    font-family: 'Serifa';
+
+    src: url('../SerifaD-Reg.otf') format('opentype');
+
+    font-weight: 400;
+
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+
+    font-family: 'Serifa';
+
+    src: url('../Serifa-Med.otf') format('opentype');
+
+    font-weight: 500;
+
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+
+    font-family: 'Serifa';
+
+    src: url('../Serifa-Bol.otf') format('opentype');
+
+    font-weight: 700;
+
+    font-style: normal;
+
+}

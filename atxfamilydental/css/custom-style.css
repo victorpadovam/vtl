@@ -1,0 +1,3956 @@
+#home-page-banner{
+    height:auto !important;
+}
+#home-contact-form .from-heading{
+     font-family: 'Serifa' !important;
+}
+.finance-content-container p {
+    margin-block: 2rem;
+    line-height: 1.5;
+}
+.schedule-table {
+    border-collapse: collapse;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    line-height: 30px;
+}
+
+.schedule-table td {
+    padding: 0 15px 0 0;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: .2px;
+    line-height: 30px;
+     font-family: 'Averta Standard PE', sans-serif !important;
+}
+
+.schedule-table .day {
+    padding-right: 25px; /* Adds space between columns */
+}
+.footer-column-four .widget_text{
+    display:none;
+}
+
+.icon-image img{
+    width:300px;
+    max-width:100%;
+}
+.icon-image{
+        display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.bar .bottom{
+    box-shadow:none !important;
+}
+#access li:hover > a{
+    color: #008080 !important;
+}
+#access ul li.current_page_item > a{
+     color: #008080 !important;
+}
+#access2 li:hover > a{
+    color: #008080 !important;
+}
+#access2 ul li.current_page_item > a{
+     color: #008080 !important;
+}
+.bg-service-white{
+    background-color:white;
+    padding-top:15px;
+    padding-bottom: 96px;
+}
+.service-top-div-inner{
+        padding-bottom: 100px;
+}
+#home-page-services {
+    padding-bottom:0 !important;
+}
+
+
+/* custom font settings*/
+
+h1{
+    font-family: 'Serifa' !important;
+}
+h2{
+     font-family: 'Serifa' !important;
+}
+.introcontent p{
+    font-family: 'Serifa' !important;
+}
+#home-page-testimonials .item div.content p {
+    font-family: 'Averta Standard PE', sans-serif !important;
+}
+#home-page-testimonials .item div.name {
+    font-family: 'Averta Standard PE', sans-serif !important;
+}
+#meetus-page-testimonials .meetus-testimonials-container .content p{
+    font-family: 'Serifa' !important;
+}
+.header-buttons{
+   font-family: 'Serifa' !important;
+}
+#home-page-services .button-service{
+    font-family: 'Serifa' !important;
+}
+.services-items .button{
+     font-family: 'Serifa' !important;
+}
+.services-items .read-services{
+     padding: 10px 20px;
+     margin-top:15px;
+}
+.services-items .read-more-home{
+    padding: 10px 40px;
+    background: #ede294;
+    transition:0.5s ease-in-out;
+    border:2px solid #ede294;
+}
+.services-items .read-more-home:hover{
+    background:transparent;
+    border: 2px solid #000;
+}
+.light-font-hover{
+    font-weight:400 !important;
+}
+.light-font-hover h3{
+    font-weight:400 !important;
+}
+.light-font-hover:hover, 
+.light-font-hover:hover h3, 
+.light-font-hover h3:hover {
+    transition: 0.5s ease-in-out;
+    color: #008080 !important;
+}
+.light-font-hover:hover
+#home-contact-form .from-heading{
+    font-family: 'Serifa' !important;
+}
+#block-12 h5{
+     font-family: 'Serifa' !important;
+         text-decoration-thickness: 2px;
+}
+#block-13 h5{
+    font-family: 'Serifa' !important;
+        text-decoration-thickness: 2px;
+}
+.home-para p{
+      font-family: 'Averta Standard PE', sans-serif !important;
+  font-weight: 400 !important;
+}
+#home-page-services .item p{
+   font-family: 'Averta Standard PE', sans-serif !important;
+  font-weight: 400 !important;  
+}
+#meetus-page-welcome-section .meetus-welcome-container h1{
+     font-family: 'Serifa', serif;
+}
+#meetus-page-welcome-section .meetus-welcome-container p{
+     font-family: 'Averta Standard PE', sans-serif !important;
+  font-weight: 400 !important;  
+}
+.doctors-posts-content p{
+    font-family: 'Averta Standard PE', sans-serif !important;
+  font-weight: 400 !important;   
+}
+.single-services-posts-content p{
+  font-family: 'Averta Standard PE', sans-serif !important;
+  font-weight: 400 !important;   
+}
+.page-id-10 h3{
+    font-family: 'Serifa' !important;
+}
+#service-text-box p{
+    font-family: 'Averta Standard PE', sans-serif !important;
+}
+.service-page-items-content p{
+    font-family: 'Averta Standard PE', sans-serif !important;
+}
+.content-3d p{
+     font-family: 'Averta Standard PE', sans-serif !important;
+}
+.green-bold-text{
+    font-family: 'Averta Standard PE', sans-serif !important;
+}
+.page-id-448 .wp-block-list{
+    font-family: 'Averta Standard PE', sans-serif !important;
+}
+#finance-page-content p{
+    font-family: 'Averta Standard PE', sans-serif !important;
+}
+#kid-page-content p{
+    font-family: 'Averta Standard PE', sans-serif !important;
+}
+.kid-box p{
+     font-family: 'Averta Standard PE', sans-serif !important;
+}
+.title-and-exerpt p{
+    font-family: 'Averta Standard PE', sans-serif !important;
+}
+.doctor-content p{
+    font-family: 'Averta Standard PE', sans-serif !important;
+}
+.footer-column-three{
+    font-family: 'Averta Standard PE', sans-serif !important;
+}
+.footer-column-four{
+     font-family: 'Averta Standard PE', sans-serif !important;
+}
+#services-page-banner img,
+.site_logo img {
+  object-fit: cover
+}
+.mobile-book{
+        display:none;
+}
+input[type="date"] {
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: textfield !important;
+
+}
+.icon-service{
+    position:relative;
+}
+#single-services-posts-content .single-services-posts-content p a{
+    color:#6f907e;
+}
+.kid-underline strong{
+    text-decoration:underline;
+}
+.icon-service-image {
+    width: 149px;
+        height: 142px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    top: -20%;
+    left: 4%;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 26px -6px;
+    padding: 10px;
+}
+.green-bold-text li strong{
+    color:#6f907e;
+}
+.green-bold-text-kid strong{
+    color:#6f907e;
+}
+.green-bold-title {
+    color:#6f907e !important;
+}
+#home-page-services .fz-18{
+    font-size:20px;
+}
+#header{
+    margin-right: 20px;
+}
+.owl-carousel{
+    z-index:0 !important;
+}
+.service-page-items-content a{
+    color:#6f907e !important;
+    text-decoration:underline !important;
+    text-decoration-thickness: 2px !important;
+    text-underline-offset:2px;
+
+}
+.service-page-items-content h3{
+    color:#6f907e !important;
+}
+.page-template-template-Finance .header-container{
+    background:#fff2df;
+}
+.meetus-page-doctors-container .doctors-posts-thumnails {
+    width: 37.3%;
+}
+.finance-box{
+        background: #fff;
+    box-shadow: 0 5.299649238586426px 29.1480712890625px 0 rgba(0, 0, 0, .12);
+    max-width: 1014px;
+    width: 96%;
+    margin:0 auto;
+    display:flex;
+    justify-content:center;
+        padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top:-50px;
+        z-index: 0;
+    position: relative;
+
+}
+.finance-content-container{
+    width:70%;
+    margin:0 auto;
+       margin-top: 80px;
+    margin-bottom: 80px;
+}
+.finance-content-container h2{
+font-size:35px;
+}
+.finance-content-container a{
+    color: #6f907e;
+}
+.finance-content-container p{
+    font-size:17px;
+	    color: #000000c7;
+}
+.finance-content-container ul {
+    list-style: disc;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.finance-content-container ul li {
+    padding-bottom: 10px;
+        line-height: 28px;
+
+}
+.finance-mob{
+        display:none;
+    }
+    .finance-mob img{
+      width: 100%;
+        max-width:100%;
+        object-fit:cover;
+        object-position:center;
+    }
+    .finance-desktop img{
+        width: 100%;
+        max-width:100%;
+        object-fit:cover;
+        object-position:center;
+    }
+#access .sub-menu {
+    display: none;
+    position: absolute;
+    background: white;
+    list-style: none;
+    padding: 10px;
+       width: 241px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+#access .sub-menu .menu-item{
+    padding:10px;
+}
+#access .sub-menu .menu-item a{
+    font-size: 16px !important;
+    line-height: 34px !important;
+    
+}
+#access .menu-item-has-children {
+    position: relative;
+}
+
+#access .menu-item-has-children > a::after {
+    content: "▼"; /* Add a dropdown indicator */
+    font-size: 12px;
+    margin-left:10px;
+}
+/* Hide submenus by default */
+#access2 .sub-menu {
+    display: none;
+    margin-left: 15px;
+    padding-left: 10px;
+}
+
+/* Style for menu items with children */
+#access2 .menu-item-has-children {
+    position: relative;
+}
+
+/* Add toggle icons */
+#access2 .menu-item-has-children::before {
+    content: "▼"; /* Closed state */
+    font-size: 14px;
+    float: right;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+#access2 .menu-item li:last-child {
+    border:none !important;
+}
+#finance-banner{
+  margin-top: 145px;
+}
+
+.mob-btn{
+    display:flex;
+}
+.book-footer a{
+    background:white !important;
+    color:#6f907e !important;
+    font-size:15px;
+    border-radius: 7px !important;
+    transition:0.5s ease-in-out;
+}
+.book-footer a:hover{
+    background:transparent !important;
+     color:#fff !important;
+     border:1px solid white;
+}
+#block-19 iframe{
+    width:100% !important;
+}
+#contact-page-form iframe{
+    margin-top:30px;
+    width:100%;
+    height:400px;
+}
+#footer,
+.container-1,
+.container-2,
+.introcontent {
+  margin-left: auto;
+  margin-right: auto
+}
+.test-template{
+    padding:30px;
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1), 
+                0 2px 4px rgba(0, 0, 0, 0.08);
+}
+.wpcf7-select{
+        width: 100%;
+    height: 78px;
+    border-radius: 10px;
+    border: 3px solid #f0f0f0;
+    outline: #6f907e;
+    font-size: 16px;
+    letter-spacing: .28px;
+    color: #434343;
+    padding-right: 20px;
+    padding-left: 42px;
+}
+.page-template-template-services .header-container{
+    background-color:white;
+}
+.page-template-template-services #page {
+    margin-top: 0px !important; 
+}
+#contact-page-banner .contact-page-desktop img{
+ 
+    padding-top: 150px;
+    background: #fff2de;
+     width:100%;
+}
+#contact-page-banner .contact-page-mobile img{
+     width:100%;
+}
+#contact-page-banner .contact-page-mobile{
+    display:none;
+}
+.schedule-appointment-page{
+    margin-top: 172px !important;
+}
+#footer,
+#home-page-into-content {
+  padding: 114px 0 54px;
+}
+.button-service{
+    color:#6f907e;
+    text-decoration:underline;
+    text-decoration-thickness: 3px;
+}
+.read-more-home{
+    font-size:20px !important;
+}
+.font-family-2,
+.introcontent p {
+  font-style: normal
+}
+.single-service .header-container{
+    background: white;
+}    
+.single-service #page{
+    margin-top:0 !important;
+}
+.postid-121 #single-services-post-time-section,.postid-119 #single-services-post-time-section,.postid-115 #single-services-post-time-section   {
+    margin:0px;
+}
+/* Hide the native calendar icon for both desktop and mobile */
+.wpcf7-date::-webkit-calendar-picker-indicator {
+    display: none !important;
+    pointer-events: none;
+}
+
+/* Prevent mobile browsers from opening the native date picker */
+input[type="date"].wpcf7-date {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.doctor-content p:last-child{
+    padding:0px !important;
+}
+.single-services-post-banner img{
+  width: 100%;
+  height: 900px;
+  object-fit: cover;
+  object-position: top;
+} 
+.page-template-template-contactpage #conact-page-details{
+
+    background-position: center;
+    background-size: 100% 100%;
+}
+.postid-121 .single-services-post-banner img {
+    object-position: 8% 28%;
+}
+
+.meetus-page-doctors-container .doctors-posts-thumnails img {
+  height: 100%
+}
+
+#contact-page-form,
+#meetus-page-testimonials {
+  margin-bottom: 90px
+}
+
+#footer,
+#footer a {
+  color: #fff
+}
+
+#header,
+#single-services-post-time-section .clock-container .clock-div,
+.position-relative {
+  position: relative
+}
+
+.alignright {
+  float: right
+}
+
+.alignleft {
+  float: left
+}
+
+.aligncenter,
+div.aligncenter,
+img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.mobile-banner-image,
+.mobile-header,
+.mobile-post-content,
+hr {
+  display: none
+}
+
+.introcontent {
+  max-width: 1114px;
+  width: 92%
+}
+
+.header-container {
+  padding: 16px 0;
+  background: 0 0;
+  z-index: 1;
+  position: relative
+}
+
+ul {
+  list-style: none
+}
+
+#home-page-banner {
+  /*height: 1080px;*/
+height:100%;
+  width: 100%
+}
+#services-page-banner{
+     height: 1000px;
+}
+    #meetus-page-banner{
+        margin-top:134px;
+    }
+
+#meetus-page-banner>div,
+#services-page-banner>div,
+.contact-li-div .contact-li-icon img {
+  width: 100%;
+  height: 100%
+}
+
+.display-inline,
+ul#menu-header-menu li {
+  display: inline-block
+}
+
+ul#menu-header-menu li a {
+  font-size: 18px;
+  line-height: 92px;
+  font-weight: 500
+}
+
+.appointment a {
+  background: #6f907e;
+  padding: 8px 25px;
+  color: #fff;
+  letter-spacing: 2px;
+  text-align:center;
+}
+
+
+a {
+  color: #000;
+  text-decoration: none
+}
+
+.header-buttons span.header-instagram {
+  margin-right: 43px
+}
+
+ul#menu-header-menu li:not(:last-child) {
+  margin-right: 34px
+}
+
+.header-buttons span.header-loaction {
+  margin-right: 23px
+}
+
+#footer {
+  font-size: 9px;
+  background: #6f907e
+}
+
+.txt-u {
+  text-transform: uppercase
+}
+
+.txt-c {
+  text-transform: capitalize
+}
+.postid-113 .clock-div .txt-c{
+    text-transform:none !important;
+}
+.fw-300 {
+  font-weight: 300
+}
+
+.font-family-3 {
+ font-family: 'Averta Standard PE', sans-serif;
+  font-style: normal
+}
+
+.fw-400 {
+  font-weight: 400
+}
+
+.fw-500 {
+  font-weight: 500
+}
+
+.fw-600 {
+  font-weight: 600
+}
+
+.fw-700 {
+  font-weight: 700
+}
+
+.fw-800 {
+  font-weight: 800
+}
+
+.fw-900 {
+  font-weight: 900
+}
+
+.container-1 {
+  max-width: 1520px;
+  width: 95%
+}
+
+.container-2 {
+  max-width: 1254px;
+  width: 96%
+}
+
+.container-3 {
+  max-width: 1320px;
+  width: 100%
+}
+
+.container-4 {
+  max-width: 1152px;
+  width: 96%
+}
+
+.container-teeth-3d {
+  max-width: 1298px;
+  width: 94%
+}
+
+.contact-li-div a,
+.display-block {
+  display: block
+}
+
+.center {
+  text-align: center
+}
+
+.right {
+  text-align: end
+}
+
+.left {
+  text-align: start
+}
+
+.center-content,
+.img-div {
+  display: grid;
+  place-content: center
+}
+
+.flex,
+.flex-w {
+  display: flex
+}
+
+img.alignright {
+  padding: 4px;
+  margin: 0 0 2px 7px;
+  display: inline
+}
+
+img.alignleft {
+  padding: 4px;
+  margin: 0 7px 2px 0;
+  display: inline
+}
+
+.hr-line {
+  height: 1px;
+  background: #7fa094;
+  width: 100%
+}
+
+.flex-w {
+  flex-wrap: wrap
+}
+
+.flex-sb {
+  justify-content: space-between
+}
+
+.flex-se {
+  justify-content: space-evenly
+}
+
+.flex-c {
+  justify-content: center
+}
+
+.flex-s {
+  justify-content: start
+}
+
+.flex-end {
+  justify-content: end
+}
+
+.flex-ac {
+  align-items: center
+}
+
+.flex-ab {
+  align-content: space-between
+}
+
+.flex-as {
+  align-items: start
+}
+
+.flex-ae {
+  align-items: end
+}
+
+.site_logo img {
+  max-width: 430px;
+  height: auto
+}
+
+.fz-14 {
+  font-size: 14px
+}
+
+.fz-16 {
+  font-size: 16px
+}
+
+#footer .footer-inner .menu-item a,
+.fz-18 {
+  font-size: 18px
+}
+
+.fz-20 {
+  font-size: 20px
+}
+
+.fz-22 {
+  font-size: 22px
+}
+
+.fz-24 {
+  font-size: 24px
+}
+
+.fz-26 {
+  font-size: 26px
+}
+
+.fz-28 {
+  font-size: 28px
+}
+
+.fz-30 {
+  font-size: 30px
+}
+
+.fz-32 {
+  font-size: 32px
+}
+
+.fz-34 {
+  font-size: 34px
+}
+
+.fz-36 {
+  font-size: 36px
+}
+
+.fz-38 {
+  font-size: 38px
+}
+
+.fz-40 {
+  font-size: 40px
+}
+
+.fz-42 {
+  font-size: 42px
+}
+
+.fz-44 {
+  font-size: 44px
+}
+
+.fz-46 {
+  font-size: 46px
+}
+
+.fz-48 {
+  font-size: 48px
+}
+
+.fz-50 {
+  font-size: 50px
+}
+
+.fz-52 {
+  font-size: 52px
+}
+
+.fz-54 {
+  font-size: 54px
+}
+
+.fz-56 {
+  font-size: 56px
+}
+
+.fz-58 {
+  font-size: 58px
+}
+
+.fz-60 {
+  font-size: 60px
+}
+
+.fz-62 {
+  font-size: 62px
+}
+
+.fz-64 {
+  font-size: 64px
+}
+
+.fz-66 {
+  font-size: 66px
+}
+
+.fz-68 {
+  font-size: 68px
+}
+
+.fz-70 {
+  font-size: 70px
+}
+#service-text-box .service-container h1 {
+    margin-bottom: 20px;
+    text-align:center;
+}
+#service-text-box .service-container{
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    padding: 65px 30px;
+    position: relative;
+    z-index: 0;
+    margin-top: -169px;
+    box-shadow: 0 5.299649238586426px 29.1480712890625px 0 rgba(0, 0, 0, .12);
+}
+#service-text-box .service-container p{
+        color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: 1px;
+}
+#home-page-banner {
+  /*padding-top: 150px;*/
+      margin-top: 145px;
+  background: #fff2de
+}
+
+#home-page-banner div img {
+  width: 100%;
+  object-fit: cover;
+ object-position: center;
+}
+
+#page {
+  margin-top: -150px
+}
+
+.introcontent p {
+  font-size: 42px;
+  line-height: 60px;
+  color: #000;
+  padding-bottom: 68px;
+  position: relative
+}
+
+.introcontent p::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 3px;
+  width: 100px;
+  background: #cac070
+}
+
+img.full-size {
+  height: 100%;
+  width: 100%
+}
+#meetus-page-banner .full-size{
+    height:auto !important;
+}
+#home-page-section-services-image div,
+#home-page-section-testimonials-image div {
+  width: 100%;
+  height: 949px
+}
+
+#home-page-services .item {
+  width: 29.56%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between
+}
+
+#home-page-services .item .button {
+  color: #6f907e;
+  line-height: 36px;
+
+}
+#home-page-services .item h2 .button{
+      text-decoration:underline;
+          text-decoration-thickness: 2px;
+
+}
+.footer-column-three h5, .footer-column-four h5{
+    text-decoration:underline;
+}
+.postid-113 .single-services-posts-content h2{
+    color:#6f907e !important;
+}
+#home-page-services {
+  background: #fff8ee;
+  padding: 100px 0 120px
+}
+
+#home-page-services .container-2 h1 {
+  line-height: 60px;
+  margin-bottom: 15px
+}
+
+#home-page-services .container-2 p {
+  line-height: 30px;
+  letter-spacing: 20
+}
+
+#home-page-services .services-items {
+  margin-top: 40px
+}
+
+#home-page-services .item .icon-image {
+  margin-bottom: 37px;
+  max-width: 242px;
+  width: 100%;
+  height: 127px
+}
+
+#home-page-services .item h2 {
+  line-height: 30px;
+  margin-bottom: 32px
+}
+
+#home-page-services .view-all-button .button {
+  padding: 27px 42px;
+  background-color: #6f907e;
+  color: #fff;
+  letter-spacing: 100;
+  line-height: 36px
+}
+
+#home-page-services .view-all-button {
+  margin-top: 80px
+}
+
+#home-page-testimonials .item div.content p {
+  line-height: 54px;
+  letter-spacing: .2px
+}
+
+#home-page-testimonials {
+  background: #fff8ee;
+  position: relative
+}
+
+#home-page-testimonials .item div.name {
+  margin-top: 70px;
+  font-size: 21px;
+  letter-spacing: .2px
+}
+
+#home-page-testimonials .owl-theme .owl-nav.disabled+.owl-dots {
+  margin-top: 60px
+}
+
+#home-page-testimonials .owl-theme .owl-dots .owl-dot span {
+  background: #6f907e;
+  height: 6px;
+  width: 20px;
+  opacity: .5
+}
+
+#home-page-testimonials .owl-theme .owl-dots .owl-dot.active span {
+  width: 54px;
+  height: 6px;
+  opacity: 1
+}
+
+#home-page-testimonials .container-1 {
+  padding: 120px 0
+}
+#home-page-into-content{
+    position:relative;
+}
+#home-page-into-content:after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+      left: 8%;
+  
+  background: url("../images/vector-image.png") center no-repeat;
+  width: 85px;
+  height: 185px;
+  transform: translateY(50%)
+}
+#home-page-into-content:before{
+    content: "";
+    position: absolute;
+    top: -177px;
+right: 8%;
+    background: url("../images/vector-image.png") center no-repeat;
+    width: 85px;
+    height: 185px;
+    transform: translateY(50%);
+}
+
+#home-page-testimonials .container-1::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: url("../images/vector-image.png") center no-repeat;
+  width: 85px;
+  height: 185px;
+  transform: translateY(50%)
+}
+
+
+#home-contact-form {
+  padding: 105px 0 130px
+}
+
+#home-contact-form .from-heading {
+  line-height: 48px;
+  color: #131313
+}
+
+.intro {
+  font-size: 21px;
+  line-height: 30px;
+  letter-spacing: .2px;
+  margin-top: 20px;
+  margin-bottom: 30px
+}
+
+#contact-page-hero form>div>p,
+#home-contact-form form>div>p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 10px;
+  margin-bottom: 44px
+}
+
+#contact-page-hero form .wpcf7-form-control-wrap,
+#home-contact-form form .wpcf7-form-control-wrap {
+  width: 48%;
+  display: inline-block
+}
+
+#contact-page-hero form .wpcf7-form-control-wrap input,#contact-page-hero .wpcf7-select,
+#home-contact-form form .wpcf7-form-control-wrap input {
+  width: 100%;
+  height: 78px;
+  border-radius: 10px;
+  border: 3px solid #f0f0f0;
+  outline: #6f907e;
+  font-size: 16px;
+  letter-spacing: .28px;
+  color: #434343;
+  padding-right: 20px;
+  padding-left: 42px
+}
+
+#contact-page-hero form .comments span,
+#home-contact-form form .comments span,
+.meetus-page-doctors-container .doctors-posts-thumnails img {
+  width: 100%
+}
+
+#contact-page-hero form textarea,
+#home-contact-form form textarea {
+  width: 100%;
+  border: 3px solid #f0f0f0;
+  border-radius: 10px;
+  outline: #6f907e;
+  letter-spacing: .28px;
+  color: #434343;
+  font-size: 16px;
+  padding: 30px 20px 30px 42px;
+  height: 160px;
+  resize: vertical
+}
+
+#contact-page-hero form .wpcf7-form-control-wrap input:hover,
+#contact-page-hero form textarea:hover,
+#home-contact-form form .wpcf7-form-control-wrap input:focus,
+#home-contact-form form .wpcf7-form-control-wrap input:hover,
+#home-contact-form form textarea:focus,
+#home-contact-form form textarea:hover {
+  border: 3px solid #6f907e
+}
+
+#home-contact-form form .wpcf7-submit {
+  background: #6f907e;
+  border: none;
+  padding: 26px 76px;
+  margin-top: 38px;
+  font-size: 16px;
+  line-height: 36px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #fff;
+   font-family: 'Averta Standard PE', sans-serif !important;
+  text-transform: uppercase
+}
+
+#footer .footer-inner .footer-column-one .wp-block-image {
+  max-width: 462px;
+  height: auto
+}
+
+#footer .footer-inner .footer-column-one .wp-block-image img {
+  width: 78% !important;
+  height: 100% !important;
+  margin-bottom:20px;
+}
+
+#footer .footer-inner .footer-column-three .wp-block-media-text__media img {
+  width: 20px;
+  height: auto
+}
+
+#footer .footer-inner .footer-column-three .wp-block-media-text .wp-block-media-text__media {
+  align-self: start
+}
+
+#footer .footer-inner h5 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #fff;
+  margin-bottom: 30px;
+  text-transform: capitalize
+}
+
+#footer .footer-inner .menu-item:not(:last-child) {
+  margin-bottom: 22px
+}
+
+#footer .footer-inner .wp-block-media-text__content a,
+#footer .footer-inner .wp-block-media-text__content p {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: .2px;
+  line-height: 30px
+}
+
+#footer .wp-block-media-text .wp-block-media-text__content {
+  padding: 0
+}
+
+#footer .each-footer-columns.footer-column-three {
+  width: 24%
+}
+
+#footer .each-footer-columns.footer-column-three .contact-list {
+  margin-bottom: 17px
+}
+.footer-widget-area {
+ margin-bottom: 34px !important;
+}
+#block-9 .wp-block-media-text__media,
+#block-8 .wp-block-media-text__media{
+    align-self:center !important;
+}
+.footer-widget-area {
+  margin-bottom: 60px;
+  margin:0;
+}
+
+#footer .footer-instagram {
+  width: 28px;
+  height: 28px
+}
+
+#footer .footer-bottom {
+  margin-top: 52px
+}
+
+#footer .footer-copy {
+  line-height: 32px;
+  letter-spacing: .4px
+}
+
+#service-page-services h1,
+#services-page-3d-section .content-3d h2 {
+  color: #000
+}
+
+#contact-page-form,
+#service-page-services,
+#service-page-services .services-page-services-lists {
+  margin-top: 100px
+}
+
+#service-page-services .services-page-services-lists .service-page-items-content h3 {
+  color: #000;
+  font-size: 27px;
+  line-height: 88.5%;
+  margin-top: 24px
+}
+
+#service-page-services .services-page-services-lists .service-page-items-content {
+  margin-left: 5px
+}
+
+#service-page-services .services-page-services-lists .icon-img {
+  max-width: 123px;
+  width: 100%
+}
+
+#service-page-services .services-page-services-lists .service-page-items-content p {
+  color: #000;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 132%;
+  letter-spacing: .76px;
+  margin-bottom:10px;
+}
+.home-para p{
+    margin-bottom:10px;
+}
+.service-page-items-content p:first-of-type {
+    margin-top: 24px;
+}
+#service-page-services .services-page-services-lists .flex:not(:last-child) {
+  margin-bottom: 105px
+}
+
+#services-page-3d-section {
+  margin-top: 150px;
+  margin-bottom: 60px
+}
+
+#services-page-3d-section .teeth-image {
+  max-width: 534px;
+  width: 100%;
+  height: auto
+}
+#services-page-3d-section .teeth-image img{
+    width:100%;
+}
+#services-page-3d-section .content-3d {
+  max-width: 634px;
+  width: 100%;
+  margin-top: 40px
+}
+
+#services-page-3d-section .content-3d h3 {
+  color: #000;
+  line-height: 137%
+}
+
+#services-page-3d-section .content-3d p {
+  color: #000;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  margin-top: 23px
+}
+
+#meetus-page-welcome-section {
+  margin-top: 90px;
+  margin-bottom: 105px
+}
+
+#meetus-page-welcome-section .meetus-welcome-container {
+  max-width: 1130px;
+  width: 96%
+}
+
+#meetus-page-welcome-section .meetus-welcome-container h1 {
+  color: #000;
+  line-height: normal;
+  margin-bottom: 32px
+}
+
+#meetus-page-welcome-section .meetus-welcome-container p {
+  color: #000;
+  text-align: center;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.045px;
+  margin-bottom: 20px
+}
+
+#meetus-page-testimonials .meetus-testimonials-container {
+  max-width: 680px;
+  width: 96%
+}
+
+#meetus-page-testimonials .meetus-testimonials-container .name {
+  margin-top: 41px;
+  color: #000;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.1px
+}
+
+#meetus-page-testimonials .meetus-testimonials-container .content p {
+  color: #000;
+  font-style: normal;
+  line-height: normal
+}
+
+#meetus-page-testimonials .meetus-testimonials-container .owl-theme .owl-nav.disabled+.owl-dots {
+  margin-top: 41px
+}
+
+#meetus-page-testimonials .meetus-testimonials-container .owl-theme .owl-dots .owl-dot.active span {
+  background: #000;
+  width: 41px;
+  height: 5px
+}
+
+#meetus-page-testimonials .meetus-testimonials-container .owl-theme .owl-dots .owl-dot:hover span {
+  background: #000
+}
+
+.meetus-page-doctors-container h1 {
+  margin-bottom: 70px;
+  color: #000;
+  font-style: normal;
+  line-height: normal
+}
+
+#conact-page-details p,
+.contact-li-div a {
+  line-height: 132%;
+  letter-spacing: .76px;
+  margin-top: 24px;
+  text-align: center
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  width: 13px;
+  height: 5px;
+  background: #000;
+  margin: 0 5px 0 0
+}
+
+.meetus-page-doctors-container .flex-w:nth-child(odd) {
+  flex-direction: row-reverse
+}
+
+.meetus-page-doctors-container .flex-w:not(:last-child) {
+  margin-bottom: 129px
+}
+
+.meetus-page-doctors-container .doctors-posts-thumnails {
+      width: 36.3%;
+  height: auto
+}
+.meetus-doc-gap{
+    gap:80px;
+    align-items:center;
+}
+.meetus-page-doctors-container .doctors-posts-content {
+  width: 41.4%
+}
+
+.meetus-page-doctors-container .doctors-posts-content span {
+  color: #000;
+     font-size: 21px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 3.45px
+}
+
+.meetus-page-doctors-container .doctors-posts-content h2 {
+  margin-top: 5px;
+  color: #000;
+  font-size: 35px;
+  font-style: normal;
+  line-height: normal;
+  margin-bottom: 21px
+}
+
+.meetus-page-doctors-container .doctors-posts-content p {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.045px
+}
+
+.meetus-page-doctors-container .doctors-posts-content .doctors-learn-more-button {
+     margin-top: 35px;
+}
+
+.meetus-page-doctors-container .doctors-posts-content .doctors-learn-more-button a {
+  color: #fff;
+  font-size: 23.029px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.267px;
+  padding: 18px 26px;
+  background: #7d9b8a;
+  display: inline-block
+}
+
+#meetus-page-doctors {
+  margin-bottom: 84px
+}
+
+#meetus-page-doctors .meetus-page-doctors-container {
+  max-width: 1200px;
+  width: 96%
+}
+
+#single-services-post-banner {
+  width: 100%;
+  height: 900px
+}
+
+#services-banner-title-exerpt .container {
+  background: #fff;
+  box-shadow: 0 5.299649238586426px 29.1480712890625px 0 rgba(0, 0, 0, .12);
+  max-width: 1014px;
+  width: 96%
+}
+
+#services-banner-title-exerpt {
+  margin-top: -185px;
+  position: relative;
+  z-index: 1000
+}
+
+#services-banner-title-exerpt .title-and-exerpt h1 {
+  color: #000;
+  font-style: normal;
+  line-height: 103.051%;
+  margin-bottom: 34px
+}
+
+
+#services-banner-title-exerpt .title-and-exerpt {
+  max-width: 553px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 63px 0
+}
+
+#services-banner-title-exerpt .title-and-exerpt p {
+  color: #000;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: 1px
+}
+
+#single-services-post-time-section {
+  margin-top: 110px;
+  margin-bottom: 87px;
+}
+
+#single-services-post-time-section .clock-container {
+  max-width: 906px;
+  width: 55%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 68px
+}
+
+#single-services-post-time-section .clock-container .clock-div h2 {
+  margin-top: 13px;
+  color: #000;
+  font-style: normal;
+  line-height: normal;
+}
+
+#single-services-posts-content .single-services-posts-content {
+  max-width: 1162px;
+  width: 96%;
+  margin-right: auto;
+  margin-left: auto
+}
+
+#single-services-posts-content {
+  margin-bottom: 181px
+}
+
+#single-services-posts-content .single-services-posts-content h2 {
+  color: #000;
+  font-size: 35px;
+  font-style: normal;
+  line-height: 88.5%;
+  margin-bottom: 40px
+}
+
+#conact-page-details p,
+#single-services-posts-content .single-services-posts-content p,
+.contact-li-div a {
+  color: #000;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400
+}
+
+#single-services-posts-content .single-services-posts-content p {
+  line-height: 125%;
+  letter-spacing: .95px
+}
+
+#contact-page-hero form .wpcf7-submit {
+  background: #6f907e;
+  border: none;
+  padding: 26px 76px;
+  margin-top: 38px;
+  font-size: 16px;
+  line-height: 36px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #fff
+}
+
+#contact-page-hero {
+  margin-top: 83px
+}
+
+#conact-page-details h1 {
+  margin-bottom: 23px
+}
+
+.contact-li-div .contact-li-icon {
+  width: 30px;
+  height: 30px
+}
+
+.contactpage-contact-details {
+  margin-top: 50px
+}
+
+.contact-li-div {
+  min-width: 250px
+}
+
+.clock-container {
+  width: 96%
+}
+
+.vertical-line {
+  width: 1px;
+  background: #66c8cb
+}
+
+#services-page-banner img {
+  object-position: -20% -2%;
+}
+
+/* Single Doctor Template Styles */
+.single-doctor {
+    background-color: #f7f7f7;
+}
+
+.single-doctor .doctor-banner {
+    background-color: #6f907e;
+    padding: 20px;
+    text-align: center;
+    margin-top:134px;
+    
+}
+
+.single-doctor .doctor-banner .doctor-title {
+    color: #fff;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.single-doctor .doctor-content-container {
+display: flex;
+    justify-content: center;
+        align-items: center;
+    flex-wrap: wrap;
+    gap: 38px;
+        padding-top: 83px;
+    padding-bottom: 83px;
+}
+
+.single-doctor .doctor-image-container {
+    text-align: center;
+}
+.doctor-content p{
+    padding-bottom:10px;
+}
+.single-doctor .doctor-image {
+    max-width: 100%;
+    border: 5px solid #6f907e;
+    border-radius: 10px;
+    overflow: hidden;
+        height: 387px;
+}
+.single-doctor .doctor-image img {
+    width: 300px;
+    max-width: 100%;
+    object-fit: cover;
+    height: 387px;
+}
+.single-doctor .doctor-content {
+    flex: 2;
+     color: black;
+    font-size: 17px;
+    line-height: 20px;
+    max-width:500px;
+}
+.meetus-testimonials-container .owl-stage, #home-page-testimonials .owl-stage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.meetus-testimonials-container .content{
+            font-size: 32px;
+}
+#single-services-posts-content h3{
+        margin-bottom: 20px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+#single-services-posts-content ul{
+    list-style:disc;
+    font-size:18px;
+        padding-left:20px;
+}
+#single-services-posts-content ul li{
+    padding-bottom:10px;
+}
+.office-hours{
+        font-size: 18px;
+    font-weight: 500;
+    letter-spacing: .2px;
+    line-height: 30px;
+}
+.content-3d h2, .content-3d h3{
+    color:#6f907e !important;
+}
+/*Wellness page*/
+ .wellness-plan {
+     display:flex;
+     flex-direction:column;
+     justify-content:center;
+     align-items: center;
+     padding-top: 70px;
+ }
+ .wellness-sub-head{
+     text-align:center;
+ }
+ .wellness-plan .logo {
+            margin-bottom: 20px;
+         
+        }
+         .wellness-plan .logo img{
+                max-width:250px;
+            width:100%;
+         }
+        .wellness-heading{
+                padding-top: 20px;
+                padding-bottom: 20px;
+        }
+        .plans {
+            display: flex;
+            justify-content: space-around;
+            gap: 10px;
+            flex-wrap: wrap;
+            padding-bottom:20px;
+        }
+        .plan h3{
+                font-size: 20px;
+                text-align: center;
+                font-weight: 400;
+                padding-bottom: 10px;
+        }
+        .plan h4{
+            font-size: 20px;
+        }
+        .plan p{
+            font-size:15px;
+        }
+        .plan {
+            padding: 20px;
+            border-radius: 10px;
+            color: #fff;
+            text-align: center;
+            flex: 1;
+            min-width: 300px;
+        }
+        .plan:nth-child(1) { background-color: #D4A429; }
+        .plan:nth-child(2) { background-color: #E06C37; }
+        .plan:nth-child(3) { background-color: #3C5C54; }
+        .benefits {
+            margin-top: 20px;
+        }
+      
+        .benefit {
+            background: #D9E2B3;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 20px;
+            text-align:center;
+            font-size: 20px;
+            min-height: 100px;
+            text-align: center;
+            display: flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items: center;
+            max-width: 337px;
+        }
+        .benefit p{
+            font-size: 15px;
+}
+        .highlight {
+            background: #5DAEC3;
+            color: #fff;
+            padding: 15px;
+            margin-top: 10px;
+            border-radius: 20px;
+            text-align:center;
+            min-height: 132px;
+            display: flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items: center;
+            min-width: 231px;        }
+        .note {
+            background: #444;
+            color: #fff;
+            padding: 15px;
+            border-radius: 20px;
+            margin-top: 20px;
+            text-align:center;
+            max-width: 430px;
+        }
+        .note p{
+            font-size:15px;
+            line-height:20px;
+        }
+        .note h4{
+                font-size:17px;
+                margin-bottom: 6px;
+        }
+        .plan-details{
+            text-align:center;
+        }
+        /*kids page*/
+        
+        .kids-desktop img{
+            margin-top: 160px;
+            width:100%;
+            height: 80vh;
+            object-fit: cover;
+        }
+        #kid-page-head{
+            position:relative;
+        }
+        .kid-box{
+            max-width: 1014px;
+            width:95%;
+            text-align:center;
+            box-shadow: 0 5.299649238586426px 29.1480712890625px 0 rgba(0, 0, 0, .12);
+            background:white;
+            padding:40px;
+            margin:0 auto;
+            margin-top: -70px;
+        }
+        .kid-box p{
+            font-size:18px;
+            padding-top:20px;
+        }
+        #kid-page-content{
+            width:70%;
+            margin:0 auto;
+        }
+        .kid-content-container{
+                    padding-top: 120px;
+                margin-bottom: 66px;
+                
+        }
+        .kids-text-underline{
+            text-decoration:underline;
+        }
+        .kid-content-container h2{
+            font-size:35px;
+        }
+        .kid-content-container p{
+            font-size:18px;
+        }
+        .service-container p{
+            margin-bottom:10px;
+        }
+       .postid-117 #single-services-post-time-section .clock-container {
+    margin-top:45px;
+}
+.postid-117 #single-services-post-time-section {
+    margin-top: 45px !important;
+}
+#meetus-page-testimonials {
+        padding-bottom: 40px;
+        padding-top: 40px;
+            background-color: #e6a7864f;
+}
+@media only screen and (min-width: 1921px) and (max-width: 3800px) {
+    .desktop-banner img {
+        height: 1000px !important;
+        object-fit:contain !important;
+    }
+    #home-page-banner {
+            height: auto;
+    }
+}
+@media only screen and (max-width:1708px){
+    #services-page-banner img {
+        object-position: 0% 17%;
+}
+
+#services-page-banner{
+    height: 884px;
+}
+}
+@media only screen (min-width: 1681px) and (max-width: 1708px) {
+#services-banner-title-exerpt {
+    margin-top: -235px;
+}
+
+}
+
+@media only screen and (max-width:1680px) {
+.single-services-post-banner img{
+      height: 950px;
+}
+  #home-page-section-services-image div,
+  #home-page-section-testimonials-image div {
+    height: 820px
+  }
+
+  /*#home-page-banner,*/
+  #services-page-banner,#single-services-post-banner {
+    height: 918px
+  }
+}
+
+@media only screen and (max-width:1530px) {
+
+  /*#home-page-banner,*/
+  #services-page-banner {
+    height: 850px
+  }
+  #services-banner-title-exerpt {
+    margin-top: -146px;
+  }
+}
+
+@media only screen and (max-width:1440px) {
+    .finance-content-container h2 {
+    font-size: 30px;
+}
+.icon-service-image {
+    width: 106px;
+    height: 104px;
+}
+.icon-service-image img{
+        width: 80px;
+    height: 80px;
+}
+    .wpcf7-select{
+                height: 68px !important;
+    }
+  .site_logo img {
+    max-width: 327px
+  }
+      .single-services-post-banner img {
+        height: 800px;
+    }
+  #services-banner-title-exerpt {
+    margin-top: -100px;
+}
+  #contact-page-form .container-3 {
+    max-width: 986px;
+}
+#services-banner-title-exerpt .title-and-exerpt p {
+  font-size: 18px;
+}
+#services-banner-title-exerpt .title-and-exerpt h1 {
+  /* color: #000;
+  font-style: normal;
+  line-height: 103.051%; */
+  margin-bottom: 20px;
+}
+
+#services-banner-title-exerpt .container {
+  /* background: #fff;
+  box-shadow: 0 5.299649238586426px 29.1480712890625px 0 rgba(0, 0, 0, .12); */
+  max-width: 900px;
+}
+
+#services-banner-title-exerpt .title-and-exerpt {
+  /* max-width: 536px;
+  width: 100%;
+  margin: 0 auto; */
+  padding: 40px 0;
+}
+#services-banner-title-exerpt .title-and-exerpt {
+  max-width: 580px;
+}
+#single-services-post-time-section {
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+#single-services-posts-content .single-services-posts-content {
+  max-width: 900px;
+}
+#single-services-post-time-section .clock-container {
+  max-width: 770px
+
+}
+#single-services-post-time-section .clock-container .clock-div h2 {
+  margin-top: 20px;
+
+}
+#single-services-post-time-section .clock-container .clock-div h2.fz-30 {
+  font-size: 24px;
+}
+#single-services-posts-content {
+  margin-bottom: 161px;
+}
+#contact-page-form  form .wpcf7-submit {
+  padding: 10px 58px;
+  margin-top: 30px;
+  font-size: 15px;
+}
+#contact-page-form form>div>p {
+  margin-bottom: 32px;
+}
+#contact-page-hero form .wpcf7-form-control-wrap input, #home-contact-form form .wpcf7-form-control-wrap input {
+  /* width: 100%; */
+  height: 68px;
+}
+#contact-page-hero form textarea, #home-contact-form form textarea {
+  /* width: 100%;
+  border: 3px solid #f0f0f0;
+  border-radius: 10px;
+  outline: #6f907e;
+  letter-spacing: .28px;
+  color: #434343;
+  font-size: 16px;
+  padding: 30px 20px 30px 42px; */
+  height: 150px;
+}
+  .meetus-page-doctors-container .doctors-posts-content span {
+    color: #000;
+    font-size: 21px
+  }
+  #conact-page-details p, #single-services-posts-content .single-services-posts-content p, .contact-li-div a {
+    /* color: #000; */
+    font-size: 17px;
+    /* font-style: normal; */
+    /* font-weight: 400; */
+}
+  #service-page-services .services-page-services-lists .service-page-items-content p,
+  #services-page-3d-section .content-3d p,
+  .meetus-page-doctors-container .doctors-posts-content p {
+    font-size: 17px
+  }
+
+  .meetus-page-doctors-container .doctors-posts-content .doctors-learn-more-button a {
+    font-size: 21.029px;
+    letter-spacing: 1.2px;
+    padding: 16px 24px
+  }
+
+  .meetus-page-doctors-container .doctors-posts-content h2 {
+    font-size: 32px;
+    margin-bottom: 20px
+  }
+
+  .meetus-page-doctors-container .doctors-posts-content .doctors-learn-more-button {
+margin-top: 60px;
+  }
+
+  #meetus-page-welcome-section .meetus-welcome-container {
+    max-width: 830px
+  }
+
+  #meetus-page-welcome-section .meetus-welcome-container p {
+    font-size: 17px;
+    margin-bottom: 20px
+  }
+
+  .meetus-page-doctors-container .doctors-posts-content {
+    width: 46%
+  }
+
+  /*#home-page-banner,*/
+  #services-page-banner,#single-services-post-banner {
+    height: 810px
+  }
+
+  .fz-40 {
+    font-size: 36px
+  }
+
+  #meetus-page-welcome-section {
+    margin-top: 74px;
+    margin-bottom: 90px
+  }
+
+  #services-page-3d-section .teeth-image {
+    max-width: 40%
+  }
+
+  .fz-50 {
+    font-size: 45px
+  }
+
+  #services-page-3d-section .teeth-image img {
+    width: 100%
+  }
+
+  #service-page-services,
+  #service-page-services .services-page-services-lists {
+    margin-top: 80px
+  }
+
+  #service-page-services .services-page-services-lists .flex:not(:last-child) {
+    margin-bottom: 85px
+  }
+
+  #footer .container-3 {
+    max-width: 984px;
+    width: 92%
+  }
+
+  #footer .footer-inner .footer-column-one .wp-block-image {
+    max-width: 340px
+  }
+
+  #footer .each-footer-columns.footer-column-three {
+    width: 33%
+  }
+
+  #home-page-section-services-image div,
+  #home-page-section-testimonials-image div {
+    height: 700px
+  }
+
+  .footer-widget-area {
+    margin-bottom: 80px
+  }
+
+  #footer {
+    padding: 70px 0
+  }
+
+  #footer .footer-bottom {
+    margin-top: 40px
+  }
+
+  .container-1 {
+    max-width: 1142px
+  }
+
+  .header-buttons span.header-loaction,
+  ul#menu-header-menu li:not(:last-child) {
+    margin-right: 18px
+  }
+
+  .introcontent {
+    max-width: 876px
+  }
+
+  ul#menu-header-menu li a {
+    font-size: 15px;
+    line-height: 92px;
+    font-weight: 500
+  }
+
+  .appointment a {
+    padding: 8px 25px
+  }
+
+  .header-buttons span.header-instagram {
+    margin-right: 20px
+  }
+
+  .header-instagram img,
+  .header-loaction img {
+    height: 16px;
+  }
+
+  #home-page-into-content {
+    padding: 82px 0
+  }
+
+  .introcontent p {
+    font-size: 32px;
+    line-height: 47px;
+    padding-bottom: 40px
+  }
+
+  .container-2 {
+    max-width: 1000px
+  }
+
+  #home-page-services {
+    padding: 74px 0 108px
+  }
+
+  .fz-60 {
+    font-size: 50px
+  }
+
+  #home-page-services .container-2 h1 {
+    margin-bottom: 12px
+  }
+
+  .fz-18 {
+    font-size: 16px
+  }
+
+  #home-page-services .item .icon-image {
+    margin-bottom: 22px
+  }
+
+  #home-page-services .item h2 {
+    margin-bottom: 25px
+  }
+
+  .fz-26,
+  .fz-28 {
+    font-size: 24px
+  }
+
+  #home-page-services .view-all-button {
+    margin-top: 60px
+  }
+
+  #home-page-services .view-all-button .button {
+    padding: 18px 36px
+  }
+
+  .fz-16 {
+    font-size: 13px
+  }
+
+  #home-page-testimonials .container-1 {
+    padding: 80px 0 90px;
+    max-width: 1024px
+  }
+
+  .fz-36 {
+    font-size: 30px
+  }
+
+  #home-page-testimonials .item div.name {
+    margin-top: 50px
+  }
+
+  #home-page-testimonials .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 52px
+  }
+
+  #home-contact-form {
+    padding: 82px 0 100px
+  }
+
+  .fz-48 {
+    font-size: 44px
+  }
+
+  #meetus-page-testimonials .meetus-testimonials-container .name,
+  #meetus-page-testimonials .meetus-testimonials-container .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 31px
+  }
+
+  #meetus-page-doctors .meetus-page-doctors-container {
+    max-width: 918px
+  }
+
+  #contact-page-form,
+  #meetus-page-testimonials {
+    margin-bottom: 74px
+  }
+
+  .meetus-page-doctors-container h1 {
+    margin-bottom: 60px
+  }
+
+  .meetus-page-doctors-container .flex-w:not(:last-child) {
+    margin-bottom: 119px
+  }
+
+  .intro {
+    margin-top: 26px;
+    margin-bottom: 46px
+  }
+
+  #home-contact-form form>div>p {
+    margin-bottom: 32px
+  }
+
+  #home-contact-form .container-3 {
+    max-width: 986px
+  }
+
+  #home-contact-form form .wpcf7-submit {
+    padding: 10px 58px;
+    margin-top: 30px;
+    font-size: 15px
+  }
+
+  .container-teeth-3d {
+    max-width: 1060px
+  }
+
+  #services-page-3d-section .content-3d {
+    max-width: 54%
+  }
+
+  #home-page-testimonials .item div.content p {
+    line-height: 46px
+  }
+
+  #home-page-services .container-2,
+  .container-4 {
+    max-width: 984px
+  }
+
+  #services-page-3d-section {
+    margin-top: 130px
+  }
+}
+
+@media only screen and (max-width:1380px) {
+
+  /*#home-page-banner,*/
+  #services-page-banner,#single-services-post-banner {
+    height: 810px
+  }
+}
+
+@media only screen and (max-width:1280px) {
+
+  #home-page-section-services-image div,
+  #home-page-section-testimonials-image div {
+    height: 660px
+  }
+  .fz-68 {
+    font-size: 60px;
+}
+  /*#home-page-banner,*/
+  #services-page-banner,#single-services-post-banner {
+    height: 736px
+  }
+
+  .fz-26 {
+    font-size: 22px
+  }
+
+  .fz-50 {
+    font-size: 40px
+  }
+
+  #service-page-services .services-page-services-lists {
+    margin-top: 70px
+  }
+
+  #service-page-services .services-page-services-lists .flex:not(:last-child) {
+    margin-bottom: 70px
+  }
+  .single-services-post-banner img {
+        height: 704px;
+    }
+}
+@media only screen and (max-width:1145px) {
+        .site_logo img {
+        max-width: 250px;
+    }
+        ul#menu-header-menu li a {
+            font-size:14px;
+        }
+}
+@media only screen and (max-width:1024px) {
+  .fz-36 {
+    font-size: 27px
+  }
+  .fz-68 {
+    font-size: 56px;
+}
+.icon-service-image {
+    width: 70px;
+            height: 69px;
+}
+.icon-service-image img{
+    width: 50px;
+    height: 50px;
+}
+#single-services-post-time-section {
+  margin-top: 70px;
+  margin-bottom: 120px;
+}
+.single-services-post-banner img {
+        height: 600px;
+    }
+#services-banner-title-exerpt .container {
+  /* background: #fff;
+  box-shadow: 0 5.299649238586426px 29.1480712890625px 0 rgba(0, 0, 0, .12);
+  max-width: 1014px; */
+  width: fit-content;
+}
+#single-services-post-time-section .clock-container {
+  /* max-width: 906px; */
+  width: 94%;
+}
+#single-services-posts-content .single-services-posts-content {
+  /* max-width: 1162px; */
+  width: 94%;
+}
+#services-banner-title-exerpt .title-and-exerpt {
+  padding: 26px 26px;
+}
+#services-banner-title-exerpt .title-and-exerpt p {
+  font-size: 16px;
+}
+#services-banner-title-exerpt .title-and-exerpt h1 {
+  margin-bottom: 14px;
+}
+#single-services-posts-content {
+  margin-bottom: 130px;
+}
+  #contact-page-form, #service-page-services, #service-page-services .services-page-services-lists {
+    margin-top: 80px;
+}
+#single-services-posts-content .single-services-posts-content h2 {
+  /* color: #000; */
+  font-size: 32px;
+}
+#services-banner-title-exerpt {
+  margin-top: -80px;
+}
+  #services-page-3d-section {
+    margin-top: 80px
+  }
+
+  #service-page-services,
+  #service-page-services .services-page-services-lists {
+    margin-top: 60px
+  }
+
+  #service-page-services .services-page-services-lists .flex:not(:last-child) {
+    margin-bottom: 50px
+  }
+
+  #services-page-3d-section .content-3d p {
+    font-size: 16px
+  }
+
+  /*#home-page-banner,*/
+  #services-page-banner,#single-services-post-banner {
+    height: 620px
+  }
+
+  #home-page-testimonials .item div.content p {
+    line-height: 40px
+  }
+.single-services-post-banner{
+  height: 100%;
+  width: 100%;
+}
+  #home-page-testimonials .item div.name {
+    margin-top: 32px
+  }
+
+  #home-page-testimonials .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 40px
+  }
+
+  #home-page-section-services-image div,
+  #home-page-section-testimonials-image div {
+    height: 560px
+  }
+
+  #home-page-section-services-image div img,
+  #home-page-section-testimonials-image div img {
+    object-fit: cover
+  }
+  #home-page-testimonials .owl-theme .owl-dots .owl-dot.active span {
+    width: 40px;
+    height: 5px;
+    opacity: 1
+  }
+
+  #home-page-testimonials .owl-theme .owl-dots .owl-dot span {
+    background: #6f907e;
+    height: 5px;
+    width: 17px
+  }
+
+  #footer .each-footer-columns.footer-column-three {
+    width: 36%
+  }
+.footer-column-four{
+        margin-top: 20px;
+}
+
+  #footer .footer-inner .menu-item a,
+  #footer .footer-inner .wp-block-media-text__content a,
+  #footer .footer-inner .wp-block-media-text__content p {
+    font-size: 17px
+  }
+
+  #footer .each-footer-columns.footer-column-three .contact-list {
+    margin-bottom: 15px
+  }
+    
+}
+
+@media only screen and (max-width:992px) {
+   
+  .site_logo img {
+    max-width: 240px
+  }
+
+  #meetus-page-welcome-section .meetus-welcome-container p {
+    font-size: 16px;
+    margin-bottom: 16px
+  }
+
+  #meetus-page-welcome-section .meetus-welcome-container h1 {
+    margin-bottom: 24px
+  }
+
+  .fz-40 {
+    font-size: 34px
+  }
+
+  #meetus-page-welcome-section {
+    margin-top: 60px;
+    margin-bottom: 76px
+  }
+
+  #meetus-page-testimonials .meetus-testimonials-container .name {
+    margin-top: 24px
+  }
+
+  .meetus-page-doctors-container h1 {
+    margin-bottom: 54px
+  }
+
+  #contact-page-form,
+  #meetus-page-testimonials {
+    margin-bottom: 64px
+  }
+
+  #service-page-services .services-page-services-lists .service-page-items-content p,
+  .meetus-page-doctors-container .doctors-posts-content p {
+    font-size: 16px
+  }
+
+  #meetus-page-testimonials .meetus-testimonials-container .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 26px
+  }
+
+  #service-page-services .services-page-services-lists .service-page-items-content h3 {
+    font-size: 25px
+  }
+
+  #service-page-services {
+    margin-top: 60px
+  }
+
+  /*#home-page-banner,*/
+  #services-page-banner,#single-services-post-banner {
+    height: 605px
+  }
+
+  #home-page-into-content {
+    padding: 56px 0
+  }
+
+  #home-page-services {
+    padding: 50px 0 84px
+  }
+
+  #home-page-services .item .icon-image {
+    margin-bottom: 10px
+  }
+
+  #home-page-services .item h2 {
+    margin-bottom: 12px
+  }
+
+  #home-page-services .container-2 p {
+    line-height: 26px
+  }
+  #home-page-section-testimonials-image .mobile-banner-image img{
+    object-position: top left;
+  }
+  .fz-18 {
+    font-size: 15px
+  }
+  #home-page-services .fz-18 {
+    font-size: 18px;
+}
+
+  #home-page-testimonials .container-1 {
+    padding: 62px 0
+  }
+
+  #home-page-testimonials .item div.content p {
+    line-height: 36px
+  }
+
+  .fz-36 {
+    font-size: 26px
+  }
+
+  #home-contact-form {
+    padding: 66px 0 76px
+  }
+
+  #home-contact-form .from-heading {
+    line-height: 42px
+  }
+
+  .fz-48 {
+    font-size: 40px
+  }
+
+  .intro {
+    font-size: 18px;
+    margin-top: 18px;
+    margin-bottom: 32px
+  }
+
+  .container-3 {
+    width: 90%
+  }
+
+  .container-teeth-3d>.flex-w {
+    align-items: center
+  }
+  .single-doctor .doctor-content-container {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width:892px) {
+           .postid-117 #single-services-post-time-section .clock-container {
+    margin-top:0px;
+}
+.postid-117 #single-services-post-time-section {
+    margin-top: 0px !important;
+}
+    .kids-desktop img {
+        margin-top:0;
+}
+.kid-content-container {
+    padding-top: 90px;
+}
+        #finance-banner {
+         margin-top: 0px  !important; 
+}
+    #contact-page-hero.schedule-appointment-page {
+    margin-top: 65px !important;
+}
+            .mobile-book {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        background: #6f907e;
+        font-size: 15px;
+        color: white;
+                border: 1px solid white;
+    }
+      .single-services-post-banner img {
+        height: 484px;
+    }
+  #home-page-services .item {
+    width: 47%;
+    margin-bottom: 40px
+  }
+	#services-banner-title-exerpt{
+		position:relative;
+		z-index:0;
+	}
+  .fz-68 {
+    font-size: 50px;
+}
+  #contact-page-form, #service-page-services, #service-page-services .services-page-services-lists {
+    margin-top: 60px;
+}
+  #conact-page-details p, #single-services-posts-content .single-services-posts-content p, .contact-li-div a {
+    /* color: #000; */
+    font-size: 16px;
+  }
+ 
+  .meetus-page-doctors-container .doctors-posts-content {
+    width: 50%
+  }
+
+  .meetus-page-doctors-container .doctors-posts-content span {
+    font-size: 19px
+  }
+
+  .meetus-page-doctors-container .doctors-posts-content .doctors-learn-more-button a {
+    font-size: 18.029px;
+    letter-spacing: 1.2px;
+    padding: 10px 15px
+  }
+
+  .meetus-page-doctors-container .doctors-posts-content .doctors-learn-more-button {
+    margin-top: 60px
+  }
+
+  #service-page-services .services-page-services-lists .flex:not(:last-child) {
+    margin-bottom: 36px
+  }
+
+  #service-page-services .services-page-services-lists {
+    margin-top: 40px
+  }
+
+  #services-page-3d-section .content-3d p {
+    margin-top: 12px
+  }
+
+  #services-page-3d-section {
+    margin-top: 50px
+  }
+
+  .fz-50 {
+    font-size: 36px
+  }
+
+  .fz-26 {
+    font-size: 17px
+  }
+
+  /*#home-page-banner,*/
+  #services-page-banner,#single-services-post-banner {
+    height: 489px
+  }
+
+  #footer {
+    padding: 60px 0
+  }
+
+  .header-appointment img {
+    filter: invert(1)
+  }
+
+  .footer-widget-area {
+    margin-bottom: 70px
+  }
+
+  .mobile-header-items {
+    display: none;
+    position: absolute;
+    top: 99px;
+    right: 0;
+    background: #fff;
+    width: 100%
+  }
+
+  #home-page-banner {
+    /*padding-top: 80px*/
+        margin-top: 80px;
+  }
+
+  #header,
+  .header-buttons {
+    display: none
+  }
+
+  .bar,
+  .mobile-header {
+    display: block
+  }
+
+  #menu-header-menu-1 li {
+    padding: 10px 0;
+    margin-top: 20px;
+    border-bottom: 1px solid #6f907e
+  }
+
+  #menu-header-menu-1 li a {
+    color: #000;
+    font-size: 18px;
+    letter-spacing: .2px;
+    line-height: 120%
+  }
+
+  #mobile-header {
+    padding: 20px
+  }
+
+  #page {
+    margin-top: 0
+  }
+
+  .mobile-header-buttons {
+    background-color: #6f907e;
+    padding: 7px 20px 4px;
+    margin-top: 3%
+  }
+
+  input[type=checkbox] {
+    -webkit-appearance: none;
+    display: none;
+    visibility: hidden
+  }
+
+  .bar {
+    position: relative;
+    cursor: pointer;
+    width: 28px;
+    height: 20px
+  }
+
+  .bar span {
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background: #000;
+    border-radius: 100px;
+    display: inline-block;
+    transition: .3s;
+    left: 0
+  }
+
+  .bar span.top {
+    top: 0
+  }
+
+  .bar span.middle {
+    top: 8px
+  }
+
+  .bar span.bottom {
+    bottom: 0
+  }
+
+  input[type]:checked~span.top {
+    transform: rotate(45deg);
+    transform-origin: top left;
+    width: 27px;
+    left: 3px
+  }
+
+  input[type]:checked~span.bottom {
+    transform: rotate(-45deg);
+    transform-origin: top left;
+    width: 27px;
+    bottom: -2px;
+    box-shadow: 0 0 10px #495057
+  }
+
+  input[type]:checked~span.middle {
+    transform: translateX(-20px);
+    opacity: 0
+  }
+
+  .services-items {
+    justify-content: center
+  }
+
+  #home-page-section-services-image div,
+  #home-page-section-testimonials-image div {
+    height: 500px
+  }
+
+  #home-page-services .services-items {
+    column-gap: 3%
+  }
+
+  #home-page-services .view-all-button {
+    margin-top: 20px
+  }
+
+  .fz-36 {
+    font-size: 22px
+  }
+
+  #home-page-testimonials .item div.content p {
+    line-height: 34px
+  }
+
+  .introcontent p {
+    font-size: 28px;
+    line-height: 38px
+  }
+
+  form .wpcf7-spinner {
+    width: fit-content;
+    height: 0;
+    margin: 0
+  }
+
+  .container-teeth-3d>.flex-w {
+    flex-direction: column-reverse
+  }
+
+  #services-page-3d-section .content-3d {
+    max-width: 100%;
+    margin-bottom: 30px
+  }
+
+  #services-page-3d-section .teeth-image {
+    max-width: 100%
+  }
+  
+#meetus-page-banner{
+        margin-top: 0px !important;
+}
+#home-page-banner{
+       margin-top: 0px !important;
+}
+.single-doctor .doctor-banner {
+    margin-top:0px;
+}
+
+}
+
+@media only screen and (max-width:768px) {
+    .head-test {
+    margin-top: 84px !important;
+    margin-bottom: 100px;
+}
+
+  #home-page-testimonials .item div.content p,
+  .introcontent p {
+    line-height: 32px
+  }
+
+  .meetus-page-doctors-container .doctors-posts-content h2 {
+    font-size: 25px
+  }
+
+  .introcontent p {
+    font-size: 24px
+  }
+  #single-services-post-time-section .clock-container {
+    /* max-width: 906px; */
+    /* width: 96%;
+    margin-right: auto;
+    margin-left: auto; */
+    margin-top: 40px;
+    justify-content:center;
+}
+    .single-services-post-banner img {
+        height: 425px;
+    }
+
+.clock-container .clock-div:first-child {
+        margin-bottom: 40px;
+    }
+#single-services-post-time-section {
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+#services-banner-title-exerpt .title-and-exerpt h1 {
+  margin-bottom: 14px;
+}
+
+  .meetus-page-doctors-container .doctors-posts-content .doctors-learn-more-button {
+    margin-top: 70px
+  }
+
+  .fz-36 {
+    font-size: 19px
+  }
+
+  /*#home-page-banner,*/
+  #services-page-banner,#single-services-post-banner {
+    height: 433px
+  }
+
+  .each-footer-columns.footer-column-one {
+    width: 100%;
+    margin-bottom: 40px
+  }
+
+  #footer .footer-inner .footer-column-one .wp-block-image {
+    margin: 0 auto
+  }
+
+  #footer .each-footer-columns.footer-column-three {
+    width: 55%
+  }
+
+  .container-1 {
+    width: 92%
+  }
+
+  #home-page-testimonials .item div.name {
+    margin-top: 20px
+  }
+
+  #home-page-services {
+    background: #fff8ee;
+    padding: 36px 0 68px
+  }
+
+  #home-page-into-content {
+    padding: 44px 0
+  }
+
+  #home-page-testimonials .container-1 {
+    padding: 46px 0
+  }
+
+  #home-page-testimonials .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 30px
+  }
+
+  #home-contact-form {
+    padding: 46px 0 60px
+  }
+
+  #home-page-services .view-all-button {
+    margin-top: 0
+  }
+
+  .fz-40 {
+    font-size: 30px
+  }
+   .single-doctor .doctor-content-container {
+    flex-direction:column;
+    align-items:center;
+  }
+      #single-services-post-time-section .clock-container {
+        gap: 20px;
+      }
+}
+
+@media only screen and (max-width:660px) {
+    
+  .introcontent p {
+    font-size: 21px;
+    line-height: 30px;
+    padding-bottom: 22px
+  }
+
+  .meetus-page-doctors-container .doctors-posts-content .doctors-learn-more-button {
+    margin-top: 30px
+  }
+  .fz-68 {
+    font-size: 48px;
+}
+  /*#home-page-banner,*/
+  #services-page-banner,#single-services-post-banner {
+    height: 364px
+  }
+
+  #home-page-banner {
+    /*padding-top: 60px*/
+        margin-top: 60px;
+  }
+
+  #meetus-page-welcome-section {
+    margin-top: 55px;
+    margin-bottom: 65px
+  }
+
+  #home-page-section-services-image div,
+  #home-page-section-testimonials-image div {
+    height: 460px
+  }
+
+  #contact-page-form,
+  #meetus-page-testimonials {
+    margin-bottom: 55px
+  }
+
+  .fz-36 {
+    font-size: 21px
+  }
+
+  #home-contact-form form .wpcf7-form-control-wrap {
+    /* width: 100%; */
+    margin-bottom: 20px
+  }
+      .single-services-post-banner img {
+        height: 354px;
+    }
+
+  #home-contact-form form>div>p {
+    margin-bottom: 0
+  }
+
+  #home-contact-form form .wpcf7-submit {
+    margin-top:30px
+  }
+
+  #home-page-testimonials .container-1 {
+    width: 88%
+  }
+
+  .introcontent {
+    width: 75%
+  }
+
+  #home-page-services .item {
+    width: 82%
+  }
+
+  .meetus-page-doctors-container .doctors-posts-content .doctors-learn-more-button a {
+    font-size: 16.029px;
+    letter-spacing: .8px;
+    padding: 8px 12px
+  }
+}
+@media only screen and (max-width:633px) {
+    .vertical-line{
+        display:none;
+    }
+}
+@media only screen and (max-width:556px) {
+    .button-service {
+        text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
+    }
+    #home-page-into-content:before{
+    width: 63px;
+    height: 100px;
+    top: -100px;
+    right:50px;
+    background-size: contain;
+}
+
+#home-page-testimonials .container-1::after {
+  width: 63px;
+  height: 100px;
+  background-size: contain;
+}
+
+#home-page-into-content:after{
+  width: 63px;
+  height: 100px;
+  background-size: contain;
+}
+    .single-doctor .doctor-content {
+           
+            font-size: 18px;
+            line-height: 24px;
+    }
+    #contact-page-hero form .wpcf7-form-control-wrap,
+#home-contact-form form .wpcf7-form-control-wrap {
+  width: 100%;
+  display: inline-block
+}
+#service-text-box .service-container {
+    padding: 30px 14px;
+     margin-top: -88px;
+}
+#service-text-box .service-container p{
+    font-size: 17px;
+}
+    #services-page-banner img {
+        object-position: 46% 17%;
+    }
+        .meetus-page-doctors-container .flex-sb {
+        gap: 25px;
+    }
+    .footer-column-three{
+            margin-top: 30px;
+    margin-bottom: 30px;
+    }
+    #block-21 .wp-element-button{
+            margin-top: 20px;
+    }
+    #home-page-banner{
+        height:auto !important;
+    }
+    .read-more-home {
+    font-size: 17px !important;
+}
+    .finance-content-container {
+        width: 86%;
+    }
+        .finance-content-container h2 {
+        font-size: 25px;
+    }
+    #kid-page-content {
+    width: 86%;
+    }
+    .kids-desktop img {
+        height: 50vh;
+    }
+
+}
+@media only screen and (max-width:500px) {
+    .schedule-table td {
+        font-size:14px;
+    }
+    .doctors-posts-content p{
+  font-size:15px !important;  
+  letter-spacing: 0.45px !important;
+}
+.single-services-posts-content p{
+font-size:15px !important;   
+ letter-spacing: 0.45px !important;
+}
+    .home-para p{
+    font-size:15px !important;   
+    letter-spacing: 0.45px !important;
+}
+#home-page-services .item p{
+   font-size:15px !important;   
+   letter-spacing: 0.45px !important;
+}
+    #meetus-page-welcome-section .meetus-welcome-container p{
+     font-size:15px !important;  
+     letter-spacing: 0.45px !important;
+}
+    #service-text-box p{
+    font-size:15px !important;    
+    letter-spacing: 0.45px !important;
+}
+.service-page-items-content p{
+    font-size:15px !important;   
+    letter-spacing: 0.45px !important;
+}
+.content-3d p{
+    font-size:15px !important;   
+    letter-spacing: 0.45px !important;
+}
+.green-bold-text{
+   font-size:15px !important;    
+   letter-spacing: 0.45px !important;
+}
+.page-id-448 .wp-block-list{
+    font-size:15px !important;   
+    letter-spacing: 0.45px !important;
+}
+#finance-page-content p{
+    font-size:15px !important;    
+    letter-spacing: 0.45px !important;
+}
+#kid-page-content p{
+    font-size:15px !important;   
+    letter-spacing: 0.45px !important;
+}
+.kid-box p{
+     font-size:15px !important;   
+     letter-spacing: 0.45px !important;
+}
+.title-and-exerpt p{
+    font-size:15px !important;   
+    letter-spacing: 0.45px !important;
+}
+.mobile-post-content p{
+    font-size:15px !important;  
+    letter-spacing: 0.45px !important;
+    font-family: 'Averta Standard PE', sans-serif !important;
+}
+.mobile-header-items{
+     font-family: 'Serifa' !important;
+}
+.mob-btn a{
+    font-family: 'Serifa' !important;
+}
+.doctor-content p{
+    font-size:15px !important;  
+    letter-spacing: 0.45px !important;
+}
+#services-page-3d-section .content-3d{
+    line-height: 22px;
+}
+    #footer .footer-inner .menu-item a, #footer .footer-inner .wp-block-media-text__content a, #footer .footer-inner .wp-block-media-text__content p {
+font-size: 14px;
+    }
+        .kid-content-container {
+        padding-top: 60px;
+    }
+    #services-page-3d-section .content-3d p {
+        font-size: 17px;
+    }
+    .introcontent p {
+        font-size: 18px;
+    }
+         .introcontent{
+             width: 79%;
+         }
+    .postid-109 .green-bold-title{
+            max-width: 339px;
+    }
+    #service-text-box{
+            margin: 10px;
+    }
+    #meetus-page-banner .full-size {
+    height: 354px !important;
+    object-fit: cover;
+}
+        .finance-desktop{
+        display:none;
+    }
+    .finance-mob{
+        display:block;
+    }
+
+    .wpcf7-select{
+        height:50px !important;
+    }
+    .icon-service-image {
+    top: -21%;
+    left: -1%;
+    }
+    .kid-content-container h2{
+            font-size:25px;
+        }
+#contact-page-banner .contact-page-desktop{
+    display:none;
+}
+#contact-page-banner .contact-page-mobile{
+    display:block;
+}
+.page-template-template-contactpage .header-container{
+    background: #fff2de;
+}
+
+  #contact-page-form form .wpcf7-form-control-wrap input, #contact-page-form form textarea, .wpcf7-select {
+    width: 90% !important;
+    letter-spacing: .77px !important;
+}
+#contact-page-hero {
+    margin-top: 50px;
+}
+.page-template-template-contactpage #conact-page-details{
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#services-banner-title-exerpt .container {
+  /* width: fit-content; */
+  margin: 0 4%;
+}
+#single-services-post-time-section .clock-container {
+  /* max-width: 906px; */
+  margin-top: 20px;
+  justify-content: center;
+  flex-direction: column;
+}
+.clock-container .vertical-line{
+  display: none;
+}
+.single-post-clock-icon {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+}
+.single-post-clock-icon  img{
+  width: 100%;
+  height: 100%;
+}
+#single-services-post-time-section .clock-container .clock-div h2 {
+  margin-top: 10px;
+}
+#single-services-post-time-section .clock-container .clock-div h2.fz-30 {
+  font-size: 20px;
+}
+.clock-container .clock-div:first-child {
+  margin-bottom: 20px;
+}
+#conact-page-details p, #single-services-posts-content .single-services-posts-content p, .contact-li-div a {
+  /* color: #000; */
+  font-size: 15px;
+}
+#home-contact-form form .wpcf7-form-control-wrap input, #home-contact-form form textarea {
+  width: 90%;
+  letter-spacing: .77px;
+}
+#single-services-post-time-section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#single-services-posts-content {
+  margin-bottom: 100px;
+}
+#single-services-posts-content .single-services-posts-content h2 {
+  /* color: #000; */
+  font-size: 28px;
+  margin-bottom: 26px;
+}
+.postid-117 #single-services-posts-content .single-services-posts-content h2 {
+  font-size: 25px;  
+}
+#services-banner-title-exerpt .title-and-exerpt p {
+          font-size: 17px;
+        line-height: 25px;
+}
+#services-banner-title-exerpt .title-and-exerpt {
+  padding: 26px 10px;
+}
+  .meetus-page-doctors-container .doctors-posts-content h2 {
+    font-size: 22px;
+    margin-bottom: 0
+  }
+
+  .meetus-page-doctors-container .doctors-posts-content {
+    width: 100%;
+    text-align: center
+  }
+
+  .meetus-page-doctors-container .doctors-posts-content span {
+    font-size: 15px;
+    letter-spacing: 3.75px
+  }
+
+  #meetus-page-welcome-section .meetus-welcome-container h1 {
+    margin-bottom: 31px;
+    text-align: start
+  }
+
+  #meetus-page-testimonials .meetus-testimonials-container .content p {
+    font-size: 19px;
+    line-height: 25px
+  }
+
+  #meetus-page-testimonials .meetus-testimonials-container .name {
+    margin-top: 21px;
+    font-size: 14px;
+    letter-spacing: .77px
+  }
+
+  #meetus-page-testimonials .meetus-testimonials-container .owl-theme .owl-dots .owl-dot.active span {
+    width: 30px;
+    height: 3px
+  }
+
+  .meetus-page-doctors-container h1 {
+    margin-bottom: 23px
+  }
+
+  #meetus-page-doctors .meetus-page-doctors-container {
+    width: 90%
+  }
+
+  #footer .container-3,
+  #footer .each-footer-columns.footer-column-three {
+    width: 100%
+  }
+  .meetus-page-doctors-container .doctors-posts-thumnails {
+    width: 78%
+  }
+#service-page-services .services-page-services-lists {
+        margin-bottom: 33px !important;
+    
+}
+
+  .desktop-banner,
+  .footer-instagram,
+  .meetus-page-doctors-container .doctors-posts-content .doctors-learn-more-button,
+  .meetus-page-doctors-container .doctors-posts-content p,
+  .service-page-items-content p {
+    display: none
+  }
+
+  .meetus-page-doctors-container .flex-w:not(:last-child) {
+    margin-bottom: 62px
+  }
+
+  #meetus-page-doctors {
+    margin-bottom: 78px
+  }
+
+  #contact-page-form,
+  #meetus-page-testimonials {
+    margin-bottom: 70px
+  }
+
+  .owl-theme .owl-dots .owl-dot span {
+    width: 8px;
+    height: 3px
+  }
+
+  #home-page-testimonials .owl-theme .owl-nav.disabled+.owl-dots,
+  #meetus-page-testimonials .meetus-testimonials-container .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 12px
+  }
+
+  #meetus-page-welcome-section .meetus-welcome-container p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    line-height: 150%;
+    letter-spacing: .75px;
+    text-align: start
+  }
+
+  #meetus-page-welcome-section {
+    margin-top: 51px;
+    margin-bottom: 35px
+  }
+
+  #home-contact-form,
+  #home-page-into-content {
+    padding: 55px 0
+  }
+
+  .mobile-post-content {
+    display: block;
+    width: 100%;
+    margin-top: 13px
+  }
+
+  .service-page-items-content h2 {
+    width: fit-content
+  }
+
+  .mobile-post-content p {
+    color: #000;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: .75px;
+    margin-bottom: 10px;
+  }
+
+  .services-page-services-lists>.flex {
+    flex-wrap: wrap
+  }
+
+  #service-page-services .services-page-services-lists {
+    margin-bottom: 130px;
+    margin-top: 50px
+  }
+
+  #services-page-banner,#single-services-post-banner {
+    height: 428px
+  }
+
+  .fz-48,
+  .fz-50,
+  .fz-60 {
+    font-size: 30px
+  }
+
+  #service-page-services {
+    margin-top: 55px
+  }
+
+  #service-page-services .services-page-services-lists .flex:not(:last-child) {
+    margin-bottom: 60px
+  }
+
+  #service-page-services .services-page-services-lists .icon-img {
+    max-width: 55px
+  }
+
+  #service-page-services .services-page-services-lists .service-page-items-content h3 {
+    margin-top: 16px
+  }
+
+  #service-page-services .services-page-services-lists .service-page-items-content p {
+    font-size: 15px;
+    margin-top: 30px
+  }
+
+  .container-4 {
+    width: 92%
+  }
+
+  #service-page-services .services-page-services-lists .icon-img img {
+    width: 55px
+  }
+
+  .mobile-banner-image {
+    display: block;
+    margin-top:0;
+  }
+.finance-mob {
+    margin-top:-70px;
+}
+
+.page-id-470 .header-container {
+        background: #fef6e1;
+    }
+    .contact-page-mobile{
+        margin-top:-70px;
+    }
+
+  #home-page-banner {
+    padding-top: 0
+  }
+
+  #footer .footer-inner .footer-column-one .wp-block-image {
+    margin: 0;
+    max-width: 260px
+  }
+
+  .flex-w.flex-sb.footer-bottom,
+  .row.footer-widget-area.footer-columns.flex-w.flex-sb {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto
+  }
+#footer .flex-w{
+    width: 85%;
+}
+  .footer-copy,
+  .footer-copy a {
+    font-size: 11px;
+    line-height: 23.335px;
+    text-transform: capitalize
+  }
+
+  #footer .footer-bottom {
+    margin-top: 26px
+  }
+
+  #footer {
+    padding: 53px 0 21px
+  }
+
+  .footer-widget-area {
+    margin-bottom: 29px
+  }
+
+  .introcontent p {
+    padding-bottom: 43px
+  }
+
+  .each-footer-columns.footer-column-one {
+    margin-bottom: 24px
+  }
+
+  #footer .footer-inner h5 {
+    font-size: 22px;
+    line-height: normal;
+    margin-bottom: 9px
+  }
+
+  #footer .footer-inner .menu-item a {
+    font-size: 14px;
+    line-height: normal
+  }
+
+  #footer .footer-inner .menu-item:not(:last-child) {
+    margin-bottom: 8px
+  }
+
+  #footer .footer-inner .wp-block-media-text__content p {
+    font-size: 14px
+  }
+
+  .footer-column-three .contact-list {
+    display: flex;
+    column-gap: 11px
+  }
+
+  #footer .each-footer-columns.footer-column-three .contact-list {
+    margin-bottom: 8px
+  }
+
+  #footer .footer-inner .footer-column-three .wp-block-media-text .wp-block-media-text__media {
+    align-self: start;
+  }
+
+  .each-footer-columns.footer-column-two {
+    margin-bottom: 40px
+  }
+
+  #home-page-section-services-image div,
+  #home-page-section-testimonials-image div {
+    height: 300px
+  }
+  #home-page-section-testimonials-image .mobile-banner-image,#meetus-page-banner .mobile-banner-image img{
+    height: 500px;
+  }
+  #meetus-page-banner .mobile-banner-image img{
+    object-fit: cover;
+    width: 100%;
+  }
+  #home-contact-form .from-heading,
+  #home-page-services .container-2 h1 {
+    line-height: 120%
+  }
+
+  #home-page-services .container-2 p,
+  .intro {
+    line-height: 154%;
+    letter-spacing: .75px
+  }
+
+  #home-page-services {
+    padding: 55px 0 82px
+  }
+
+  #home-page-services .services-items {
+    margin-top: 71px
+  }
+
+  #home-page-services .item .icon-image {
+    margin-bottom: 26px;
+    height: auto
+  }
+
+  .fz-28 {
+    font-size: 25px
+  }
+
+  #home-page-services .item h2 {
+    margin-bottom: 17px
+  }
+
+  #home-page-services .item:not(:last-child) {
+    margin-bottom: 70px
+  }
+
+  #home-page-services .item:last-child {
+    margin-bottom: 0
+  }
+
+  #home-page-services .view-all-button {
+    margin-top: 61px
+  }
+
+  #home-page-testimonials .container-1 {
+    padding: 55px 0 62px
+  }
+
+  #home-page-testimonials .item div.name {
+    margin-top: 37px
+  }
+
+  .intro {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 34px
+  }
+
+  #home-contact-form form .wpcf7-form-control-wrap input {
+    height: 50px;
+    border: 1.5px solid #dbdbdb;
+    font-size: 14px;
+    padding-right: 20px;
+    padding-left: 20px;
+    outline-width: thin;
+  }
+  #contact-page-hero form .wpcf7-form-control-wrap input:hover, #contact-page-hero form textarea:hover, #home-contact-form form .wpcf7-form-control-wrap input:focus, #home-contact-form form .wpcf7-form-control-wrap input:hover, #home-contact-form form textarea:focus, #home-contact-form form textarea:hover {
+    border: 1.5px solid #6f907e;
+}
+  #home-contact-form form .wpcf7-form-control-wrap {
+    margin-bottom: 0;
+    width:100%;
+  }
+  #home-contact-form form>div>p {
+    margin-bottom: 15px;
+}
+#contact-page-form form .wpcf7-form-control-wrap {
+  margin-bottom: 0;
+  width:100%;
+}
+#contact-page-form form .wpcf7-form-control-wrap input,.wpcf7-select {
+  height: 50px;
+  border: 1.5px solid #dbdbdb !important;
+  font-size: 14px !important;
+  padding-right: 20px !important;
+  padding-left: 20px !important;
+}
+#contact-page-form form textarea {
+  border: 1.5px solid #dbdbdb;
+  font-size: 14px;
+  padding: 20px 17px 20px 20px;
+  height: 130px;
+}
+#contact-page-form form>div>p {
+  margin-bottom: 15px;
+}
+  #home-contact-form form textarea {
+    border-radius: 10px;
+    border: 1.5px solid #dbdbdb;
+    font-size: 14px;
+    padding: 20px 17px 20px 20px;
+    height: 130px;
+  }
+
+  #home-contact-form form .wpcf7-submit {
+    padding: 12px 62px
+  }
+
+  #home-page-testimonials .owl-theme .owl-dots .owl-dot.active span {
+    width: 18px;
+    height: 3px;
+    opacity: 1
+  }
+
+  #home-page-testimonials .owl-theme .owl-dots .owl-dot span {
+    background: #6f907e;
+    height: 3px;
+    width: 9px
+  }
+  .time-chart ul li {
+    display: flex;
+    flex-direction: column;
+  }
+#meetus-page-banner{
+        margin-top: -70px !important;
+}
+#home-page-banner{
+       margin-top: -70px !important;
+}
+.make-payment-head {
+    flex-direction:column; 
+}
+.timings-booking h2 {
+    padding-bottom: 15px !important;
+    font-size: 26px !important;
+}
+.make-payment-head button {
+        padding: 10px 31px !important;
+            margin-bottom: 20px;
+}
+ .single-services-post-banner img {
+     height:428px !important;
+ }
+ .footer-column-four #block-13 .wp-block-heading{
+     margin-top:20px;
+ }
+ #single-services-posts-content .single-services-posts-content p{
+     font-size:18px;
+     line-height:22px;
+ }
+}
+@media only screen and (max-width:380px) {
+  .introcontent {
+    width: 87%
+  }
+
+  #home-page-banner,
+  #services-page-banner {
+    height: 390px
+  }
+
+  #home-page-services .item {
+    width: 90%
+  }
+}
+
+@media only screen and (max-width:340px) {
+  .introcontent {
+    width: 91%
+  }
+
+  #home-page-testimonials .container-1 {
+    width: 97%
+  }
+
+  #service-page-services .services-page-services-lists .icon-img img {
+    width: 50px
+  }
+
+  #service-page-services .services-page-services-lists .icon-img {
+    max-width: 50px
+  }
+
+  #service-page-services .services-page-services-lists .service-page-items-content h3 {
+    margin-top: 12px;
+    font-size: 23px
+  }
+
+  .fz-36 {
+    font-size: 18px
+  }
+
+  .fz-50 {
+    font-size: 28px
+  }
+
+  #services-page-banner,#single-services-post-banner {
+    height: 330px
+  }
+
+  #contact-page-form,
+  #meetus-page-testimonials,
+  #meetus-page-welcome-section {
+    margin-bottom: 60px
+  }
+
+  .meetus-page-doctors-container .flex-w:not(:last-child) {
+    margin-bottom: 50px
+  }
+}
+.contentmain_404 img{
+    max-width:100%;
+}
+.timings-booking{
+        text-align: left;
+        padding-bottom:50px;
+}
+.timings-booking h2{
+    font-size: 30px;
+    padding-bottom:40px;
+    
+}
+.time-chart ul li {
+    font-size: 19px;
+    padding-bottom: 20px;
+}
+.make-payment-head{
+        display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+.make-payment-head button{
+        background: #6f907e;
+    color: white;
+       padding: 20px 30px;
+    font-size: 15px;
+    border: 1px solid #6f907e;
+    transition:0.7s ease-in-out;
+    cursor:pointer;
+}
+.make-payment-head button:hover{
+    color:#6f907e;
+    background:transparent;
+}
+.meetus-page-doctors-container .flex-sb {
+    justify-content: center !important;
+    gap:40px;
+}
+.left-side-head-pay{
+        display: flex;
+    align-items: start;
+    gap: 10px;
+}
+.make-payment-head svg {
+    width: 25px;
+        margin-top: 5px;
+}
+
+.timings-booking{
+        margin-top: 40px;
+    box-shadow: -3px 2px 26px -12px;
+    border-radius: 10px;
+    padding: 30px;
+}
+.time-chart ul{
+    width: 70%;
+}
+    .page-template-template-meetuspage .header-container,.page-template-template-homepage .header-container {
+    background: #fef6e1;
+}
+#meetus-page-banner{
+    height:auto !important;
+}
+.appointment{
+    display: flex !important;
+    gap:10px  !important;
+    flex-direction: column  !important;
+}
+.wpcf7-select{
+    background:none !important;
+}
+
+
